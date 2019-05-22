@@ -21,9 +21,6 @@ body {
     "Apple Color Emoji", 
     "Segoe UI Emoji", 
     "Segoe UI Symbol";
-
-    display: flex;
-    flex-flow: column nowrap;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -91,6 +88,11 @@ article pre, article code {
 }
 
 /* conforming to mobile-first dogma */
+body {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
 body > header,
 body > footer {
   width: 100%; /* no height, flex takes care of that */
@@ -110,7 +112,6 @@ body > footer > .container {
   align-items: center;
 
   /* lining up with main */
-  max-width: 800px; 
   margin: 0 auto;
   padding: 0 1em;
 }
@@ -152,4 +153,79 @@ body > main {
   overflow-y: auto;
 
   flex: 1 0 auto;
+}
+
+@media (min-width: 800px) {
+  body {
+    display: block; /* flex was too finicky */
+    max-width: 1000px;
+
+    margin: 0 auto;
+  }
+
+  body > header {
+    /* undoing mobile-first brainwashing */
+    width: 200px;
+    height: 100%;
+
+    padding: 2em 0;
+
+    box-shadow: none;
+
+    float: left; /* good ol' float to the rescue! */
+  }
+
+  body > header > .container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    /* lining up with main */
+    max-width: 200px; 
+    margin: 0;
+  }
+
+  body > header > .container * {
+    display: block; /* unsflattening */
+    
+    margin: 0; /* necessary or alignment goes out of whack */
+
+    text-decoration: none; /* no underlines here */
+  }
+
+  body > header figure, 
+  body > header figure img {
+    width: 100px;
+    height: 100px;
+
+    padding: 0;
+    border-radius: 20px;
+  }
+
+  body > header > .container > nav {
+    padding: 1em;
+  }
+
+  body > header li {
+    list-style: none;
+
+    padding: 0 0 0.5em 1em;
+    text-align: right;
+  }
+
+  body > footer {
+    box-shadow: 0 -5px 5px -5px gray;
+  }
+
+  body > main {
+    max-width: 800px;
+
+    margin-left: 200px; /* header width */
+
+    margin: 0;
+    padding: 0;
+
+    overflow-y: auto;
+  }
 }

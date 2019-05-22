@@ -146,7 +146,7 @@ body > footer li {
   list-style: none;
 }
 
-body > header > nav li {
+body > header li {
   padding-left: 1em;
 }
 
@@ -203,7 +203,7 @@ body > main {
   }
 
   body > header figure, 
-  body > header img.main {
+  body > header figure img.main {
     width: 100px;
     height: 100px;
 

@@ -13,32 +13,28 @@
     <meta property="og:url" content="https://sbrubbles.org">
 	</head>
   <body>
-    <header>
-      <figure>
-        <a href='/'>
-          <img src='assets/images/profile.jpg' alt='profile image'>
-        </a>
-      </figure>
-      <nav>
-        <ul>
-          <li>About</li>
-          <li>Posts</li>
-          <li>Feed</li>
-        </ul>
-      </nav>
-      <address>
-        <ul>
-          <li><a href='https://github.com/hanjos'>Github</a></li>
-          <li><a href='https://steamcommunity.com/id/topunchgarlic'>Steam</a></li>
-        </ul>
-      </address>
+    <header class='marginalia'>
+      <div class='container'>
+        <figure>
+          <a href='/'>
+            <img src='assets/images/profile.jpg' alt='profile image'>
+          </a>
+        </figure>
+        <nav>
+          <ul>
+            <li>About</li>
+            <li>Posts</li>
+            <li>Feed</li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <article>
         <header>
           <h1>Hello World!</h1>
-          <p class='subtitle'>Safety system test</p>
-          <p class='meta'><time datetime="2019-05-20T18:48:59">May 20, 2019</time></p>
+          <p class='article-subtitle'>Safety system test</p>
+          <p class='article-meta'><time datetime="2019-05-20T18:48:59">May 20, 2019</time></p>
         </header>
         <section>
             <p>This page is a work in progress. I haven't yet decided if I'm going Jekyll, Jekyll-like, rolling my own Jekyll-like, or using raw HTML/CSS/Javascript. All options involve studying up (to varying degrees). And I haven't yet decided what this site is actually <em>for</em>.</p>
@@ -69,6 +65,16 @@ Suco de cevadiss deixa as pessoas mais interessantis. In elementis mé pra quem 
         </section>
       </article>
     </main>
-    <footer><span>sbrubbles.org, 2019</span></footer>
+    <footer class='marginalia'>
+      <div class='container'>
+        <span>sbrubbles.org, 2019</span>
+        <address>
+          <ul>
+            <li><a href='https://github.com/hanjos'>Github</a></li>
+            <li><a href='https://steamcommunity.com/id/topunchgarlic'>Steam</a></li>
+          </ul>
+        </address>
+      </div>
+    </footer>
   </body>
 </html>

@@ -126,19 +126,27 @@ body > footer > .container * {
 }
 
 body > header figure, 
-body > header figure img, 
+body > header figure img.main, 
 body > footer figure, 
-body > footer figure img {
+body > footer figure img.main {
   width: 40px;
   height: 40px;
 
   border-radius: 20px;
 }
 
+body > header img.profile,
+body > footer img.profile {
+  width: 30px;
+  height: 30px;
+}
+
 body > header li,
 body > footer li {
   list-style: none;
+}
 
+body > header > nav li {
   padding-left: 1em;
 }
 
@@ -195,7 +203,7 @@ body > main {
   }
 
   body > header figure, 
-  body > header figure img {
+  body > header img.main {
     width: 100px;
     height: 100px;
 

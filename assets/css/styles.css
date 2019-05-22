@@ -49,9 +49,14 @@ pre, code {
     "Liberation Mono",
     "Courier New",
     monospace;
+  font-size: 0.8em;
 }
 
 /* article header adjustments */
+article > header {
+  padding: 0.5em 0;
+}
+
 article > header > h1 {
   margin-bottom: 0;
 }
@@ -68,6 +73,7 @@ article > header > p.article-subtitle {
 
 article > header > p.article-meta {
   color: gray;
+  font-size: 0.8em;
 }
 
 article aside {
@@ -85,7 +91,8 @@ article pre, article code {
 }
 
 /* conforming to mobile-first dogma */
-body > .marginalia {
+body > header,
+body > footer {
   width: 100%; /* no height, flex takes care of that */
 
   flex-shrink: 0; /* sticks the footer */
@@ -95,7 +102,8 @@ body > .marginalia {
   box-shadow: 0 1px 5px grey;
 }
 
-.container {
+body > header > .container,
+body > footer > .container {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -107,7 +115,8 @@ body > .marginalia {
   padding: 0 1em;
 }
 
-body > .marginalia > .container * {
+body > header > .container *,
+body > footer > .container * {
   display: inline-block; /* flattening */
   
   margin: 0; /* necessary or alignment goes out of whack */
@@ -115,15 +124,18 @@ body > .marginalia > .container * {
   text-decoration: none; /* no underlines here */
 }
 
-body > .marginalia figure, 
-body > .marginalia figure img {
+body > header figure, 
+body > header figure img, 
+body > footer figure, 
+body > footer figure img {
   width: 40px;
   height: 40px;
 
   border-radius: 20px;
 }
 
-body > .marginalia li {
+body > header li,
+body > footer li {
   list-style: none;
 
   padding-left: 1em;

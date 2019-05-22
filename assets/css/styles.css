@@ -1,0 +1,140 @@
+/* general adjustments */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+
+  /* sans-serif system fonts */
+  font-family: 
+    -apple-system, 
+    BlinkMacSystemFont, 
+    "Segoe UI", 
+    Roboto, 
+    Helvetica, 
+    Arial, 
+    sans-serif, 
+    "Apple Color Emoji", 
+    "Segoe UI Emoji", 
+    "Segoe UI Symbol";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  /* serif system fonts */
+  font-family: 
+    Cambria, 
+    Times, 
+    Times New Roman, 
+    serif;
+}
+
+h1 {
+  font-size: 2em; /* for some reason, h1 is smaller than h2 */
+}
+
+pre, code {
+  white-space: pre-wrap; /* pre doesn't wrap by default */
+  /* monospace system fonts */
+  font-family: 
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    "Liberation Mono",
+    "Courier New",
+    monospace;
+}
+
+/* article header adjustments */
+article > header > h1 {
+  margin-bottom: 0;
+}
+
+article > header > p.subtitle, 
+article > header > p.meta {
+  margin: 0.333em 0;
+}
+
+article > header > p.subtitle {
+  font-weight: bold;
+  font-style: italic;
+}
+
+article > header > p.meta {
+  color: gray;
+}
+
+article aside {
+  border-left: 5px solid goldenrod;
+  padding: 5px;
+
+  background-color: lightgoldenrodyellow;
+
+  font-size: 0.8em;
+}
+
+article pre, article code {
+  background-color: #f0f0f0;
+  padding: 0.8em;
+}
+
+/* conforming to mobile-first dogma */
+body > header {
+  width: 100%;
+  height: 60px;
+
+  padding: 0 1em;
+
+  box-shadow: 0 1px 5px gray;
+}
+
+body > header > *,
+body > footer > * {
+  display: inline-block;
+  
+  vertical-align: bottom; /* centers the image with the text */
+
+  margin: 0; /* necessary or alignment goes out of whack */
+}
+
+body > header a { 
+  text-decoration: none; /* no underlines here */
+}
+
+body > header > figure img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+body > header > nav {
+  right: 0;
+}
+
+body > header > nav li {
+  display: inline;
+  list-style: none;
+}
+
+body > header > address {
+  display: none;
+}
+
+body > main {
+  max-width: 800px;
+
+  margin: 0 auto; /* centering */
+  padding: 0 1em;
+
+  overflow-y: auto;
+}
+
+body > footer {
+  width: 100%;
+  height: 40px;
+
+  padding: 0 1em;
+
+  box-shadow: 0 -1px 5px gray;
+}

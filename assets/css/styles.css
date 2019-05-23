@@ -49,6 +49,10 @@ pre, code {
   font-size: 0.8em;
 }
 
+.article-meta a {
+  vertical-align: middle; /* centers images inside links */
+}
+
 /* article header adjustments */
 article > header {
   padding: 0.5em 0;
@@ -58,17 +62,17 @@ article > header > h1 {
   margin-bottom: 0;
 }
 
-article > header > p.article-subtitle, 
-article > header > p.article-meta {
+article > header > .article-subtitle, 
+article > header > .article-meta {
   margin: 0.333em 0;
 }
 
-article > header > p.article-subtitle {
+article > header > .article-subtitle {
   font-weight: bold;
   font-style: italic;
 }
 
-article > header > p.article-meta {
+article > header > .article-meta {
   color: gray;
   font-size: 0.8em;
 }
@@ -87,7 +91,7 @@ article pre, article code {
   padding: 0.8em;
 }
 
-.current {
+nav .current {
   font-weight: bold;
   color: #f3732a; /* same orange as in the profile image */
 }
@@ -119,6 +123,18 @@ body > footer > .container {
   /* lining up with main */
   margin: 0 auto;
   padding: 0 1em;
+}
+
+body > footer > .container > address {
+  font-style: normal;
+
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+body > footer > .container > address ul {
+  padding-left: 0.5em;
 }
 
 body > header > .container *,

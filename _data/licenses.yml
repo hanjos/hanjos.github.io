@@ -1,0 +1,10 @@
+- id: cc-by
+  name: Creative Commons Attribution 4.0 International
+  link: http://creativecommons.org/licenses/by/4.0/
+  image: https://i.creativecommons.org/l/by/4.0/88x31.png
+  image_small: https://i.creativecommons.org/l/by/4.0/80x15.png
+- id: cc-by-sa
+  name: Creative Commons Attribution-ShareAlike 4.0 International
+  link: https://creativecommons.org/licenses/by-sa/4.0/
+  image: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
+  image_small: https://i.creativecommons.org/l/by-sa/4.0/80x15.png

@@ -3,4 +3,4 @@
 - name: Posts
   link: /posts.html
 - name: Feed
-  link: /feed.html
+  link: /feed.xml

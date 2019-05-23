@@ -4,8 +4,24 @@ layout: default
 <article>
   <header>
     <h1>{{ page.title }}</h1>
-    {% if page.subtitle %}<p class='article-subtitle'>{{ page.subtitle }}</p>{% endif %}
-    {% include post_meta %}
+    {% if page.subtitle %}
+    	<p class='subtitle'>{{ page.subtitle }}</p>
+    {% endif %}
+    <div class='meta'>
+  		<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time>
+  		{% for license in site.data.licenses %}
+  	    {% if license.id == page.license %}
+  	      <span>&nbsp;&nbsp;&nbsp;</span>
+  	      <a rel="license" href="{{ license.link }}">
+  	        <img alt="{{ license.name }}" style="border-width:0" src="{{ license.image_small }}" />
+  	      </a>
+  	      {% break %}
+  	    {% endif %}
+  	  {% endfor %}
+  	  {% if page.tags.size > 0 %}
+  	    <span>&nbsp;&nbsp;&nbsp;{{ page.tags | array_to_sentence_string }}</span>
+  	  {% endif %}
+  	</div>
   </header>
 
   {{ content }}

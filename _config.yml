@@ -4,10 +4,12 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      license: "cc-by"
   - scope:
       path: ""
     values:
       layout: "default"
+      license: "cc-by"
 
 plugins:
   - jekyll-feed

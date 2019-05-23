@@ -1,14 +1,12 @@
 ---
 layout: default
 title: Latest posts
+license: cc-by
 ---
-<h1> Latest posts</h1>
+<h1>Latest posts</h1>
 
-<ul>
+<ul class='posts'>
 	{% for post in site.posts %}
-		<li>
-			<h2><a href='{{ post.url }}'>{{ post.title }}</a></h2>
-			<p>{{ post.excerpt }}</p>
-		</li>
+		<li><span class='meta'><time datetime='{{ post.date | date_to_xmlschema }}'>{{ post.date | date: "%d %b %Y" }}</time>: </span><a href='{{ post.url }}'>{{ post.title }}</a>{% if post.tags.size > 0 %}<span class='meta'> - {{ post.tags | array_to_sentence_string }}{% endif %}</li>
 	{% endfor %}
 </ul>

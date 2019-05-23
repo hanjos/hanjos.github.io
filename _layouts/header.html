@@ -1,0 +1,18 @@
+<header>
+  <div class='container'>
+    <figure>
+      <a href='/'>
+        <img src='assets/images/profile.jpg' alt='profile image' class='main'>
+      </a>
+    </figure>
+    <nav>
+      <ul>
+      {% for item in site.data.navigation %}
+        <li><a href='{{ item.link }}' {% if page.url == item.link %}class='current'{% endif %}>
+          {{ item.name }}
+        </a></li>
+      {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

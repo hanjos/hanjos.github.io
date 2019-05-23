@@ -87,6 +87,11 @@ article pre, article code {
   padding: 0.8em;
 }
 
+.current {
+  font-weight: bold;
+  color: #f3732a; /* same orange as in the profile image */
+}
+
 /* conforming to mobile-first dogma */
 body {
   display: flex;

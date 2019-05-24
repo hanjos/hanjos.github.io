@@ -281,7 +281,7 @@ body > main {
   }
 
   body > main {
-    max-width: 600px; /* body max-width - header max-width */
+    max-width: 750px; /* body max-width - header max-width */
     min-height: 300px; /* enough space for a floating header not to interfere with the footer */
 
     margin-left: 150px; /* header width */

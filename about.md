@@ -8,7 +8,7 @@ license: cc-by
 
 This site is written mostly in [Markdown](http://daringfireball.net/projects/markdown/), compiled by [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/). Here's [the source code](https://github.com/hanjos/hanjos.github.io) for this site. The icons were obtained at [Material Design Icons](https://materialdesignicons.com/), and I'm using system font stacks for sans serif, serif and monospace.
 
-My profile image is the [Spy](https://www.youtube.com/watch?v=OR4N5OhcY9s), from [Team Fortress 2](https://store.steampowered.com/app/440/Team_Fortress_2/), the greatest hat simulator ever (there's even an embedded FPS!). One can subscribe to new posts using the (conveniently generated) [Atom feed](/feed.xml), and follow some of my online activity using the links on the footer.
+My profile image is the [Spy](https://www.youtube.com/watch?v=OR4N5OhcY9s), from [Team Fortress 2](https://store.steampowered.com/app/440/Team_Fortress_2/), the greatest hat simulator ever (there's even an embedded FPS!). One can follow some of my online activity using the links in the footer, including new posts here using the [Atom feed](/feed.xml).
 
 # License
 

@@ -1,0 +1,62 @@
+article {
+  header {
+    padding: 0.5em 0;
+
+    h1 {
+      margin-bottom: 0;
+    }
+
+    a {
+      text-decoration: none;
+
+      img {
+        vertical-align: bottom; /* lines up images inside links with the surrounding text */
+      }
+    }
+  }
+
+  .subtitle, .meta {
+    margin: 0.333em 0;  
+  }
+
+  .subtitle {
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .meta {
+    color: gray;
+    font-size: 0.8em;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  aside {
+    border-left: 0.4em solid goldenrod;
+    padding: 0.4em;
+
+    background-color: lightgoldenrodyellow;
+
+    font-size: 0.8em;
+  }
+}
+
+ul.posts {
+  list-style-type: none;
+
+  padding: 0; /* removing the standard left padding */
+
+  .meta {
+    color: gray;
+  }
+
+  .excerpt p {
+    font-size: 0.8em;
+    
+    margin: 0;
+    padding: 0.4em 2em;
+  }
+}

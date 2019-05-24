@@ -25,4 +25,12 @@ layout: default
   </header>
 
   {{ content }}
+
+  <footer>
+    {% if page.categories.size > 0 %}
+    <div class='meta'>
+      <span>Categories: {{ page.categories | array_to_sentence_string }}</span>  
+    </div>
+    {% endif %}
+  </footer>
 </article>

@@ -1,0 +1,76 @@
+$sans-serif-font: 
+  -apple-system, 
+  BlinkMacSystemFont, 
+  "Segoe UI", 
+  Roboto, 
+  Helvetica, 
+  Arial, 
+  sans-serif, 
+  "Apple Color Emoji", 
+  "Segoe UI Emoji", 
+  "Segoe UI Symbol";
+
+$serif-font:
+  Cambria, 
+  Times, 
+  Times New Roman, 
+  serif;
+
+$monospace-font:
+  SFMono-Regular,
+  Menlo,
+  Monaco,
+  Consolas,
+  "Liberation Mono",
+  "Courier New",
+  monospace;
+
+$code-color: #f0f0f0;
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%; /* helps to stick the footer */
+}
+
+body {
+  margin: 0 auto;
+
+  font-family: $sans-serif-font;
+
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $serif-font;
+}
+
+h1 {
+  font-size: 2em; /* for some reason, standard h1 is smaller than h2 */
+}
+
+pre, code {
+  white-space: pre-wrap; /* pre doesn't wrap by default */
+  
+  font-family: $monospace-font;
+    
+  font-size: 0.9em;
+
+  background-color: $code-color;
+}
+
+pre {
+  padding: 0.8em;
+}
+
+blockquote {
+  margin: 1em;
+  padding: 0.2em 0.4em;
+
+  border-left: 0.4em solid gray;
+  background-color: lightgray;
+
+  font-size: 0.8em;
+}

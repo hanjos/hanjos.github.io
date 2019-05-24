@@ -1,150 +1,103 @@
-/* general adjustments */
 * {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 html, body {
-  height: 100%; /* helps to stick the footer */
-}
+  height: 100%;
+  /* helps to stick the footer */ }
 
 body {
   margin: 0 auto;
-
-  font-family: /* sans-serif system fonts */
-    -apple-system, 
-    BlinkMacSystemFont, 
-    "Segoe UI", 
-    Roboto, 
-    Helvetica, 
-    Arial, 
-    sans-serif, 
-    "Apple Color Emoji", 
-    "Segoe UI Emoji", 
-    "Segoe UI Symbol";
-
-  font-size: 14px;
-}
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: /* serif system fonts */
-    Cambria, 
-    Times, 
-    Times New Roman, 
-    serif;
-}
+  font-family: Cambria, Times, Times New Roman, serif; }
 
 h1 {
-  font-size: 2em; /* for some reason, standard h1 is smaller than h2 */
-}
+  font-size: 2em;
+  /* for some reason, standard h1 is smaller than h2 */ }
 
 pre, code {
-  white-space: pre-wrap; /* pre doesn't wrap by default */
-  
-  font-family: /* monospace system fonts */
-    SFMono-Regular,
-    Menlo,
-    Monaco,
-    Consolas,
-    "Liberation Mono",
-    "Courier New",
-    monospace;
+  white-space: pre-wrap;
+  /* pre doesn't wrap by default */
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 0.9em;
-
-  background-color: #f0f0f0;
-}
+  background-color: #f0f0f0; }
 
 pre {
-  padding: 0.8em;
-}
+  padding: 0.8em; }
 
 blockquote {
   margin: 1em;
   padding: 0.2em 0.4em;
-
   border-left: 0.4em solid gray;
   background-color: lightgray;
+  font-size: 0.8em; }
 
-  font-size: 0.8em;
-}
-
-/* article header adjustments */
-article > header {
-  padding: 0.5em 0;
-}
-
-article > header > h1 {
-  margin-bottom: 0;
-}
-
-article .subtitle, 
-article .meta {
-  margin: 0.333em 0;
-}
-
+article header {
+  padding: 0.5em 0; }
+  article header h1 {
+    margin-bottom: 0; }
+  article header a {
+    text-decoration: none; }
+    article header a img {
+      vertical-align: bottom;
+      /* lines up images inside links with the surrounding text */ }
+article .subtitle, article .meta {
+  margin: 0.333em 0; }
 article .subtitle {
   font-weight: bold;
-  font-style: italic;
-}
-
+  font-style: italic; }
 article .meta {
   color: gray;
   font-size: 0.8em;
-}
-
-article .meta a {
-  vertical-align: middle; /* centers images inside links */
-  text-decoration: none;
-}
-
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center; }
 article aside {
   border-left: 0.4em solid goldenrod;
   padding: 0.4em;
-
   background-color: lightgoldenrodyellow;
-
-  font-size: 0.8em;
-}
-
-body > header nav {
-  font-size: 1.2em;
-}
-
-nav .current {
-  font-weight: bold;
-  color: #f3732a; /* same orange as in the profile image */
-}
+  font-size: 0.8em; }
 
 ul.posts {
   list-style-type: none;
-}
+  padding: 0;
+  /* removing the standard left padding */ }
+  ul.posts .meta {
+    color: gray; }
+  ul.posts .excerpt p {
+    font-size: 0.8em;
+    margin: 0;
+    padding: 0.4em 2em; }
 
-ul.posts .meta {
-  color: gray;
-}
-
-ul.posts .excerpt p {
-  font-size: 0.8em;
-  
-  margin: 0;
-  padding: 0.4em 2em;
-}
+body > header nav {
+  font-size: 1.2em; }
+  body > header nav .current {
+    font-weight: bold;
+    color: #f3732a;
+    /* same orange as in the profile image */ }
 
 /* conforming to mobile-first dogma */
+.only-sm {
+  display: initial; }
+
+.only-md {
+  display: none; }
+
 body {
   display: flex;
-  flex-flow: column nowrap;
-}
+  flex-flow: column nowrap; }
 
 body > header,
 body > footer {
-  width: 100%; /* no height, flex takes care of that */
-
-  flex-shrink: 0; /* sticks the footer */
-
+  width: 100%;
+  /* no height, flex takes care of that */
+  flex-shrink: 0;
+  /* sticks the footer */
   padding: 0.5em 0;
-
-  box-shadow: 0 1px 5px grey;
-}
+  box-shadow: 0 1px 5px grey; }
 
 body > header > .container,
 body > footer > .container {
@@ -152,141 +105,122 @@ body > footer > .container {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-
   /* lining up with main */
   margin: 0 auto;
-  padding: 0 1em;
-}
+  padding: 0 1em; }
 
 body > footer > .container > address {
   font-style: normal;
-
   display: flex;
   flex-flow: row nowrap;
-  align-items: center;
-}
+  align-items: center; }
 
 body > footer > .container > address ul {
-  padding-left: 0.5em;
-}
+  padding-left: 0.5em; }
 
 body > header > .container *,
 body > footer > .container * {
-  display: inline-block; /* flattening */
-  
-  margin: 0; /* necessary or alignment goes out of whack */
+  display: inline-block;
+  /* flattening */
+  margin: 0;
+  /* necessary or alignment goes out of whack */
+  text-decoration: none;
+  /* no underlines here */ }
 
-  text-decoration: none; /* no underlines here */
-}
-
-body > header figure, 
-body > header figure img.main, 
-body > footer figure, 
+body > header figure,
+body > header figure img.main,
+body > footer figure,
 body > footer figure img.main {
   width: 40px;
   height: 40px;
-
-  border-radius: 20px;
-}
+  border-radius: 20px; }
 
 body > header img.profile,
 body > footer img.profile {
   width: 30px;
-  height: 30px;
-}
+  height: 30px; }
 
 body > header li,
 body > footer li {
-  list-style: none;
-}
+  list-style: none; }
 
 body > header li {
-  padding-left: 1em;
-}
+  padding-left: 1em; }
 
 body > main {
   max-width: 600px;
-
-  margin: 0 auto; /* centering */
+  margin: 0 auto;
+  /* centering */
   padding: 0 2em 2em 2em;
-  
   text-align: justify;
-
   overflow-y: auto;
-
   flex: 1 0 auto;
-  align-self: center; /* needed for IE11 to center with flex */
-}
+  align-self: center;
+  /* needed for IE11 to center with flex */ }
 
 @media (min-width: 750px) {
-  body {
-    display: block; /* flex was too finicky */
-    max-width: 900px;
+  .only-sm {
+    display: none; }
 
-    margin: 0 auto;
-  }
+  .only-md {
+    display: initial; }
+
+  body {
+    display: block;
+    /* flex was too finicky */
+    max-width: 900px;
+    margin: 0 auto; }
 
   body > header {
     /* undoing mobile-first brainwashing */
     width: 150px;
-
     padding: 2em 0;
-
     box-shadow: none;
-
-    float: left; /* good ol' float to the rescue! */
-  }
+    float: left;
+    /* good ol' float to the rescue! */ }
 
   body > header > .container {
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center;
-
     /* lining up with main */
-    max-width: 150px; 
-    margin: 0;
-  }
+    max-width: 150px;
+    margin: 0; }
 
   body > header > .container * {
-    display: block; /* unsflattening */
-    
-    margin: 0; /* necessary or alignment goes out of whack */
+    display: block;
+    /* unsflattening */
+    margin: 0;
+    /* necessary or alignment goes out of whack */
+    text-decoration: none;
+    /* no underlines here */ }
 
-    text-decoration: none; /* no underlines here */
-  }
-
-  body > header figure, 
+  body > header figure,
   body > header figure img.main {
     width: 100px;
     height: 100px;
-
     padding: 0;
-    border-radius: 20px;
-  }
+    border-radius: 20px; }
 
   body > header > .container > nav {
-    padding: 1em;
-  }
+    padding: 1em; }
 
   body > header li {
     list-style: none;
-
     padding: 0 0 0.5em 1em;
-    text-align: right;
-  }
+    text-align: right; }
 
   body > footer {
-    box-shadow: 0 -5px 5px -5px gray;
-  }
+    box-shadow: 0 -5px 5px -5px gray; }
 
   body > main {
-    max-width: 750px; /* body max-width - header max-width */
-    min-height: 300px; /* enough space for a floating header not to interfere with the footer */
-
-    margin-left: 150px; /* header width */
-    padding: 1em 2em 2em 1em; /* no need for this big a left padding */
-
-    overflow-y: auto;
-  }
-}
+    max-width: 750px;
+    /* body max-width - header max-width */
+    min-height: 300px;
+    /* enough space for a floating header not to interfere with the footer */
+    margin-left: 150px;
+    /* header width */
+    padding: 1em 2em 2em 1em;
+    /* no need for this big a left padding */
+    overflow-y: auto; } }

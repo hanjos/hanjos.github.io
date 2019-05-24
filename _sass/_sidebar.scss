@@ -1,0 +1,8 @@
+body > header nav {
+  font-size: 1.2em;
+  
+  .current {
+  	font-weight: bold;
+  	color: #f3732a; /* same orange as in the profile image */
+	}
+}

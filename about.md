@@ -1,7 +1,6 @@
 ---
 layout: default
 title: About
-license: cc-by
 ---
 
 # This

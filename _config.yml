@@ -1,3 +1,8 @@
+name: Sbrubbles
+description: My personal site.
+url: https://sbrubbles.org
+author: Humberto Anjos
+
 defaults:
   - scope:
       path: ""

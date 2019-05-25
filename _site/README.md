@@ -1,7 +1,7 @@
 This is a crack at building a personal site with Jekyll. We're still in the early days, so lots will be broken and/or weird-looking while I experiment with Jekyll, CSS and the like.
 
 ## License
-I'm still picking, but for now, the following directories and their contents are Copyright Humberto Anjos. You may not reuse anything therein without my permission:
+The following directories and their contents are Copyright Humberto Anjos. You may not reuse anything therein without my permission:
 
 * _posts/
 * assets/images/

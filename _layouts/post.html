@@ -8,10 +8,14 @@ layout: default
     	<p class='subtitle'>{{ page.subtitle }}</p>
     {% endif %}
     <div class='meta'>
-  		<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time>
+      {% if page.author %}
+        <span class='separator'>by&nbsp;</span><span>{{ page.author }}&nbsp;</span>
+      {% endif %}
+  		<span class='separator'>at&nbsp;</span><span><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time>
+      </span>
   		{% for license in site.data.licenses %}
   	    {% if license.id == page.license %}
-  	      <span>&nbsp;&nbsp;&nbsp;</span>
+  	      <span class='separator'>&nbsp;licensed as&nbsp;</span>
   	      <a rel="license" href="{{ license.link }}">
   	        <img alt="{{ license.name }}" style="border-width:0" src="{{ license.image_small }}" />
   	      </a>
@@ -19,7 +23,7 @@ layout: default
   	    {% endif %}
   	  {% endfor %}
   	  {% if page.tags.size > 0 %}
-  	    <span>&nbsp;&nbsp;&nbsp;{{ page.tags | array_to_sentence_string }}</span>
+  	    <span class='separator'>&nbsp;tagged as&nbsp;</span><span>{{ page.tags | array_to_sentence_string }}</span>
   	  {% endif %}
   	</div>
   </header>

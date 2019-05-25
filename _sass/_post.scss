@@ -25,13 +25,16 @@ article {
   }
 
   .meta {
-    color: gray;
     font-size: 0.8em;
 
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
+
+    .separator {
+      color: #c0c0c0;
+    }
   }
 
   aside {

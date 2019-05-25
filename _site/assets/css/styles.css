@@ -49,12 +49,13 @@ article .subtitle {
   font-weight: bold;
   font-style: italic; }
 article .meta {
-  color: gray;
   font-size: 0.8em;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
   align-items: center; }
+  article .meta .separator {
+    color: #c0c0c0; }
 article aside {
   border-left: 0.4em solid goldenrod;
   padding: 0.4em;

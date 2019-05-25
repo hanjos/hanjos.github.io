@@ -1,7 +1,7 @@
-name: Sbrubbles
-description: My personal site.
+name: "Sbrubbles"
+description: "My personal site."
 url: https://sbrubbles.org
-author: Humberto Anjos
+author: "Humberto Anjos"
 
 defaults:
   - scope:
@@ -9,11 +9,13 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      author: "Humberto Anjos"
       license: "cc-by"
   - scope:
       path: ""
     values:
       layout: "default"
+      author: "Humberto Anjos"
       license: "cc-by"
 
 plugins:

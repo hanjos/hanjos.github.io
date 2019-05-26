@@ -11,9 +11,6 @@ I'm using system font stacks for sans serif, serif and monospace.
 
 My profile image is the [Spy](https://www.youtube.com/watch?v=OR4N5OhcY9s) from [Team Fortress 2](https://store.steampowered.com/app/440/Team_Fortress_2/), the greatest hat simulator ever (there's even an embedded FPS!). The favicons were generated from the profile image using [RealFaviconGenerator](https://realfavicongenerator.net/); the other icons were obtained at [Material Design Icons](https://materialdesignicons.com/). 
 
-
-One can follow some of my online activity using the links in the footer, including new posts here using the [Atom feed](/feed.xml).
-
 # License
 
 Unless stated otherwise, the content on this site is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/), or CC BY 4.0. This information should be on the footer.

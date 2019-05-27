@@ -56,6 +56,17 @@ article .meta {
   align-items: center; }
   article .meta .separator {
     color: #A0A0A0; }
+article .thumbnail {
+  /* max dimensions to avoid big images */
+  width: 100%;
+  max-height: 400px;
+  /* centering the image */
+  display: flex;
+  justify-content: center;
+  /* some spacing from .meta */
+  margin-top: 1em;
+  /* to fill any empty spaces */
+  background-color: lightgray; }
 article aside {
   border-left: 0.4em solid goldenrod;
   padding: 0.4em;

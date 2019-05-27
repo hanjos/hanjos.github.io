@@ -17,6 +17,7 @@ defaults:
       layout: "default"
       author: "Humberto Anjos"
       license: "cc-by"
+      image: "assets/images/profile.jpg"
 
 plugins:
   - jekyll-feed

@@ -26,6 +26,11 @@ layout: default
   	    <span class='separator'>&nbsp;tagged as&nbsp;</span><span>{{ page.tags | array_to_sentence_string }}</span>
   	  {% endif %}
   	</div>
+    {% if page.image != site.data.globals.og_image %}
+    <div class="thumbnail">
+      <img src="{{site.url}}/{{page.image}}" alt="post thumbnail">
+    </div>
+    {% endif %}
   </header>
 
   {{ content }}

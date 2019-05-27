@@ -38,9 +38,9 @@ article {
   }
 
   .thumbnail {
-    /* max dimensions to avoid big images */
+    /* max dimensions */
     width: 100%;
-    max-height: 400px;
+    max-height: 300px;
 
     /* centering the image */
     display: flex;
@@ -51,6 +51,14 @@ article {
 
     /* to fill any empty spaces */
     background-color: lightgray;
+
+    img {
+      /* making sure the image rescales keeping the aspect ratio
+         and fitting inside .thumbnail */
+      width: 100%
+      height: auto;
+      object-fit: scale-down;
+    }
   }
 
   aside {

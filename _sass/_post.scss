@@ -55,7 +55,7 @@ article {
     img {
       /* making sure the image rescales keeping the aspect ratio
          and fitting inside .thumbnail */
-      width: 100%
+      width: 100%;
       height: auto;
       object-fit: scale-down;
     }

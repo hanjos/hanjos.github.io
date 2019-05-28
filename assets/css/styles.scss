@@ -102,7 +102,7 @@ body > main {
   align-self: center; /* needed for IE11 to center with flex */
 }
 
-@media (min-width: 750px) {
+@media (min-width: $mid-screen-width) {
   .only-sm {
     display: none;
   }
@@ -113,14 +113,14 @@ body > main {
 
   body {
     display: block; /* flex was too finicky */
-    max-width: 900px;
+    max-width: $mid-screen-width + $sidebar-width;
 
     margin: 0 auto;
   }
 
   body > header {
     /* undoing mobile-first brainwashing */
-    width: 150px;
+    width: $sidebar-width;
 
     padding: 2em 0;
 
@@ -136,12 +136,12 @@ body > main {
     align-items: center;
 
     /* lining up with main */
-    max-width: 150px; 
+    max-width: $sidebar-width;
     margin: 0;
   }
 
   body > header > .container * {
-    display: block; /* unsflattening */
+    display: block; /* unflattening */
     
     margin: 0; /* necessary or alignment goes out of whack */
 
@@ -173,10 +173,10 @@ body > main {
   }
 
   body > main {
-    max-width: 750px; /* body max-width - header max-width */
+    max-width: $mid-screen-width;
     min-height: 300px; /* enough space for a floating header not to interfere with the footer */
 
-    margin-left: 150px; /* header width */
+    margin-left: $sidebar-width; /* header width */
     padding: 1em 2em 2em 1em; /* no need for this big a left padding */
 
     overflow-y: auto;

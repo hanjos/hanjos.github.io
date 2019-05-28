@@ -37,7 +37,7 @@ blockquote {
 article header {
   padding: 0.5em 0; }
   article header h1 {
-    margin-bottom: 0; }
+    margin: 0; }
   article header a {
     text-decoration: none; }
     article header a img {
@@ -57,9 +57,9 @@ article .meta {
   article .meta .separator {
     color: #A0A0A0; }
 article .thumbnail {
-  /* max dimensions to avoid big images */
+  /* max dimensions */
   width: 100%;
-  max-height: 400px;
+  max-height: 300px;
   /* centering the image */
   display: flex;
   justify-content: center;
@@ -67,6 +67,12 @@ article .thumbnail {
   margin-top: 1em;
   /* to fill any empty spaces */
   background-color: lightgray; }
+  article .thumbnail img {
+    /* making sure the image rescales keeping the aspect ratio
+       and fitting inside .thumbnail */
+    width: 100%;
+    height: auto;
+    object-fit: scale-down; }
 article aside {
   border-left: 0.4em solid goldenrod;
   padding: 0.4em;
@@ -202,7 +208,7 @@ body > main {
 
   body > header > .container * {
     display: block;
-    /* unsflattening */
+    /* unflattening */
     margin: 0;
     /* necessary or alignment goes out of whack */
     text-decoration: none;
@@ -228,7 +234,6 @@ body > main {
 
   body > main {
     max-width: 750px;
-    /* body max-width - header max-width */
     min-height: 300px;
     /* enough space for a floating header not to interfere with the footer */
     margin-left: 150px;

@@ -17,89 +17,84 @@
 body {
   display: flex;
   flex-flow: column nowrap;
-}
 
-body > header,
-body > footer {
-  width: 100%; /* no height, flex takes care of that */
+  > header,
+  > footer {
+    width: 100%; /* no height, flex takes care of that */
 
-  flex-shrink: 0; /* sticks the footer */
+    flex-shrink: 0; /* sticks the footer */
 
-  padding: 0.5em 0;
+    padding: 0.5em 0;
 
-  box-shadow: 0 1px 5px grey;
-}
-
-body > header > .container,
-body > footer > .container {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
-
-  /* lining up with main */
-  margin: 0 auto;
-  padding: 0 1em;
-}
-
-body > footer > .container > address {
-  font-style: normal;
-
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-
-  .heading {
-    padding-right: 0.3em;
+    box-shadow: 0 1px 5px grey;
   }
-}
 
-body > header > .container *,
-body > footer > .container * {
-  display: flex; /* flattening and centering */
-  
-  margin: 0; /* necessary or alignment goes out of whack */
+  > header {
+    li {
+      padding-left: 1em;
+    }
+  }
 
-  text-decoration: none; /* no underlines here */
-}
+  .container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
 
-body > header figure, 
-body > header figure img.main, 
-body > footer figure, 
-body > footer figure img.main {
-  width: 40px;
-  height: 40px;
+    /* lining up with main */
+    margin: 0 auto;
+    padding: 0 1em;
 
-  border-radius: 20px;
-}
+    * {
+      display: flex; /* flattening and centering */
 
-body > header img.external_profile,
-body > footer img.external_profile {
-  width: 30px;
-  height: 30px;
-}
+      margin: 0; /* necessary or alignment goes out of whack */
 
-body > header li,
-body > footer li {
-  list-style: none;
-}
+      text-decoration: none; /* no underlines here */
+    }
 
-body > header li {
-  padding-left: 1em;
-}
+    address {
+      font-style: normal;
 
-body > main {
-  max-width: 600px;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
 
-  margin: 0 auto; /* centering */
-  padding: 0 2em 2em 2em;
-  
-  text-align: justify;
+      .heading {
+        padding-right: 0.3em;
+      }
+    }
 
-  overflow-y: auto;
+    img.main {
+      width: 40px;
+      height: 40px;
 
-  flex: 1 0 auto;
-  align-self: center; /* needed for IE11 to center with flex */
+      border-radius: 20px;
+    }
+
+    img.external_profile {
+      width: 30px;
+      height: 30px;
+    }
+
+    li {
+      list-style: none;
+    }
+  }
+
+  > main {
+    max-width: 600px;
+
+    margin: 0 auto; /* centering */
+    padding: 0 2em 2em 2em;
+
+    text-align: justify;
+
+    overflow-y: auto;
+
+    flex: 1 0 auto;
+    align-self: center; /* needed for IE11 to center with flex */
+  }
 }
 
 @media (min-width: $mid-screen-width) {
@@ -116,69 +111,69 @@ body > main {
     max-width: $mid-screen-width + $sidebar-width;
 
     margin: 0 auto;
-  }
 
-  body > header {
-    /* undoing mobile-first brainwashing */
-    width: $sidebar-width;
+    > header {
+      /* undoing mobile-first brainwashing */
+      width: $sidebar-width;
 
-    padding: 2em 0;
+      padding: 2em 0;
 
-    box-shadow: none;
+      box-shadow: none;
 
-    float: left; /* good ol' float to the rescue! */
-  }
+      float: left; /* good ol' float to the rescue! */
 
-  body > header > .container {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-start;
-    align-items: center;
+      > .container {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: center;
 
-    /* lining up with main */
-    max-width: $sidebar-width;
-    margin: 0;
-  }
+        /* lining up with main */
+        max-width: $sidebar-width;
+        margin: 0;
 
-  body > header > .container * {
-    display: block; /* unflattening */
-    
-    margin: 0; /* necessary or alignment goes out of whack */
+        * {
+          display: block; /* unflattening */
 
-    text-decoration: none; /* no underlines here */
-  }
+          margin: 0; /* necessary or alignment goes out of whack */
 
-  body > header figure, 
-  body > header figure img.main {
-    width: 100px;
-    height: 100px;
+          text-decoration: none; /* no underlines here */
+        }
 
-    padding: 0;
-    border-radius: 20px;
-  }
+        figure,
+        figure img.main {
+          width: 100px;
+          height: 100px;
 
-  body > header > .container > nav {
-    padding: 1em;
-  }
+          padding: 0;
+          border-radius: 20px;
+        }
 
-  body > header li {
-    list-style: none;
+        nav {
+          padding: 1em;
+        }
 
-    padding: 0 0 0.5em 1em;
-    text-align: right;
-  }
+        li {
+          list-style: none;
 
-  body > footer {
-    box-shadow: 0 -5px 5px -5px gray;
-  }
+          padding: 0 0 0.5em 1em;
+          text-align: right;
+        }
+      }
+    }
 
-  body > main {
-    max-width: $mid-screen-width;
-    min-height: 300px; /* enough space for a floating header not to interfere with the footer */
+    > footer {
+      box-shadow: 0 -5px 5px -5px gray;
+    }
 
-    margin-left: $sidebar-width; /* header width */
-    padding: 1em 2em 2em 1em; /* no need for this big a left padding */
+    > main {
+      max-width: $mid-screen-width;
+      min-height: 300px; /* enough space for a floating header not to interfere with the footer */
 
-    overflow-y: auto;
+      margin-left: $sidebar-width; /* header width */
+      padding: 1em 2em 2em 1em; /* no need for this big a left padding */
+
+      overflow-y: auto;
+    }
   }
 }

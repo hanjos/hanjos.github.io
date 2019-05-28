@@ -48,15 +48,15 @@ body > footer > .container > address {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-}
 
-body > footer > .container > address ul {
-  padding-left: 0.5em;
+  .heading {
+    padding-right: 0.3em;
+  }
 }
 
 body > header > .container *,
 body > footer > .container * {
-  display: inline-block; /* flattening */
+  display: flex; /* flattening and centering */
   
   margin: 0; /* necessary or alignment goes out of whack */
 
@@ -73,8 +73,8 @@ body > footer figure img.main {
   border-radius: 20px;
 }
 
-body > header img.profile,
-body > footer img.profile {
+body > header img.external_profile,
+body > footer img.external_profile {
   width: 30px;
   height: 30px;
 }

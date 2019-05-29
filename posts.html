@@ -4,15 +4,19 @@ title: Latest posts
 ---
 <h1>Latest</h1>
 
-<ul class='posts'>
+<div class='posts'>
+  <ul>
   {% for post in site.posts %}
     <li>
     	<div>
-        <span class='meta'><time datetime='{{ post.date | date_to_xmlschema }}'>{{ post.date | date: "%d %b %Y" }}</time>: </span><a href='{{ post.url }}'>{{ post.title }}</a>{% if post.tags.size > 0 %}<span class='meta'> - {{ post.tags | array_to_sentence_string }}</span>{% endif %}
+        <small class='meta'><time datetime='{{ post.date | date_to_xmlschema }}'>{{ post.date | date: "%d %b %Y" }}</time>: </small>
+        <a href='{{ post.url }}'>{{ post.title }}</a>
+        {% if post.tags.size > 0 %}<small class='meta'> - {{ post.tags | array_to_sentence_string }}</small>{% endif %}
       </div>
       <div class='excerpt'>
         {{ post.excerpt }}
       </div>
     </li>
   {% endfor %}
-</ul>
+  </ul>
+</div>

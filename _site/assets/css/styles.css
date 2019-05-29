@@ -79,16 +79,16 @@ article aside {
   background-color: lightgoldenrodyellow;
   font-size: 0.8em; }
 
-ul.posts {
+.posts ul {
   list-style-type: none;
   padding: 0;
   /* removing the standard left padding */ }
-  ul.posts .meta {
-    color: gray; }
-  ul.posts .excerpt p {
-    font-size: 0.8em;
-    margin: 0;
-    padding: 0.4em 2em; }
+.posts .meta {
+  color: gray; }
+.posts .excerpt p {
+  font-size: 0.8em;
+  margin: 0;
+  padding: 0.4em 2em; }
 
 body > header nav {
   font-size: 1.2em; }
@@ -193,8 +193,7 @@ body {
           /* necessary or alignment goes out of whack */
           text-decoration: none;
           /* no underlines here */ }
-        body > header > .container figure,
-        body > header > .container figure img.main {
+        body > header > .container img.main {
           width: 100px;
           height: 100px;
           padding: 0;

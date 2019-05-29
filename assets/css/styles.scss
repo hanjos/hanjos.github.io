@@ -2,7 +2,7 @@
 ---
 
 @import 'general';
-@import 'post';
+@import 'posts';
 @import 'sidebar';
 
 /* conforming to mobile-first dogma */
@@ -140,8 +140,7 @@ body {
           text-decoration: none; /* no underlines here */
         }
 
-        figure,
-        figure img.main {
+        img.main {
           width: 100px;
           height: 100px;
 

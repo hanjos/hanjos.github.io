@@ -7,3 +7,7 @@
 *.iml
 out
 gen
+
+# Jekyll project files
+.sass-cache
+_site

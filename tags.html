@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Pages by tags
 ---
 
 <h1>Tags</h1>
@@ -18,7 +19,7 @@ layout: default
 <div class='posts'>
 {% if site.tags.size > 0 %}
   {% for tag in site.tags %}
-  <h2 id='tag-{{ tag[0] }}'>{{ tag[0] }}</h2>
+  <h2 id='tag-{{ tag[0] }}' name='tag-{{ tag[0] }}'>{{ tag[0] }}</h2>
 
   <ul>
     <li>

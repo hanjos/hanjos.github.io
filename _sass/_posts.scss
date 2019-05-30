@@ -89,11 +89,10 @@ article {
   }
 }
 
+.tags {
+  text-align: left; /* undoing the standard justify for this case */
+}
+
 .tag {
-  border: 1px solid gray;
-  border-radius: 5px;
-
-  background-color: lightgray;
-
-  padding: 0.2em;
+  color: $sidebar-link-color;
 }

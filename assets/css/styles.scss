@@ -97,6 +97,12 @@ body {
   }
 }
 
+img.banner {
+  display: block;
+  margin: auto;
+  height: auto;
+}
+
 @media (min-width: $mid-screen-width) {
   .only-sm {
     display: none;

@@ -95,4 +95,5 @@ article {
 
 .tag {
   color: $sidebar-link-color;
+  display: flex; /* helps align the text */
 }

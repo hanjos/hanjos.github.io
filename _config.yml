@@ -2,6 +2,7 @@ name: "Sbrubbles"
 description: "My personal site."
 url: https://sbrubbles.org
 author: "Humberto Anjos"
+profile_image: assets/images/profile.jpg
 
 defaults:
   - scope:

@@ -1,0 +1,9 @@
+{% for license in site.data.licenses %}
+{% if license.id == include.license %}
+<a rel="license" href="{{ license.link }}">
+  <img alt="{{ license.name }}"
+       src="{% if include.size == 'small' %}{{ license.image_small }}{% else %}{{ license.image }}{% endif %}" />
+</a>
+{% break %}
+{% endif %}
+{% endfor %}

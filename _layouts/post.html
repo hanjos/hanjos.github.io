@@ -13,15 +13,9 @@ layout: default
       {% endif %}
   		<small class='separator'>at&nbsp;</small><small><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time>
       </small>
-  		{% for license in site.data.licenses %}
-  	    {% if license.id == page.license %}
-  	      <small class='separator'>&nbsp;licensed as&nbsp;</small>
-  	      <a rel="license" href="{{ license.link }}">
-  	        <img alt="{{ license.name }}" style="border-width:0" src="{{ license.image_small }}" />
-  	      </a>
-  	      {% break %}
-  	    {% endif %}
-  	  {% endfor %}
+      <small class='separator'>&nbsp;licensed as&nbsp;</small>
+      {% capture page_license %}{{ page.license }}{% endcapture %}
+  		{% include license.html license=page_license size="small" %}
   	</div>
     {% if page.image != site.profile_image %}
     <div class="thumbnail">
@@ -30,7 +24,9 @@ layout: default
     {% endif %}
   </header>
 
+  <div class='content'>
   {{ content }}
+  </div>
 
   <footer>
     {% if page.tags.size > 0 %}

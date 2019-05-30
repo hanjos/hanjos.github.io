@@ -34,10 +34,12 @@ layout: default
 
   <footer>
     {% if page.tags.size > 0 %}
+    <div class='meta'>
       <small class='separator'>tagged as</small>
       {% for tag in page.tags %}
-      &nbsp;<a href='/tags.html#tag-{{ tag }}' class='tag'><small>{{ tag }}</small></a>
+      <a href='/tags.html#tag-{{ tag }}' class='tag'><small>{{ tag }}</small></a>
       {% endfor %}
+    </div>
     {% endif %}
   </footer>
 </article>

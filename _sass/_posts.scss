@@ -7,6 +7,7 @@ article {
     }
 
     a {
+      display: flex; /* centers the image */
       text-decoration: none;
 
       img {
@@ -28,7 +29,7 @@ article {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-end; /* centers the image better */
 
     .separator {
       color: #A0A0A0;

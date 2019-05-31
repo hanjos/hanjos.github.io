@@ -11,7 +11,7 @@ Here are all my blog posts, tagged, excerpted and ordered chronologically for yo
 
 <div class='posts'>
   <ul>
-  {% for post in site.posts reversed %}
+  {% for post in site.posts %}
     <li>
       {% include post-entry.html post=post show_tags=true show_excerpt=true %}
     </li>

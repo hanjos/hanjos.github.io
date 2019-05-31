@@ -2,11 +2,16 @@
 layout: default
 title: Latest posts
 ---
-<h1>Latest</h1>
+
+<blockquote>This is my blog. There are many like it, but this one is mine.</blockquote>
+
+Here are all my blog posts, tagged, excerpted and ordered chronologically for your appreciation. I can't promise any frequency, correctness, usefulness or even sanity, but, well, go nuts :P
+
+<h1>Latest posts</h1>
 
 <div class='posts'>
   <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts reversed %}
     <li>
       {% include post-entry.html post=post show_tags=true show_excerpt=true %}
     </li>

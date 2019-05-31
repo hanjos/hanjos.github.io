@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Hi!
-tags: main
 ---
 
 My name is **Humberto Anjos**. I've been using `org.sbrubbles` as my Java package root for years, so it's neat to finally own the domain :) 

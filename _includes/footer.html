@@ -2,23 +2,16 @@
   <div class='container'>
     {% capture page_license %}{{ page.license }}{% endcapture %}
     {% include license.html license=page_license size="big" %}
+
     <address>
-      <span class='heading'>Find me at</span>
-      <a href='https://sbrubbles.org/feed.xml'>
-        <img src='/assets/images/rss.svg' alt="This site's feed" class='external_profile'>
-      </a>
-      <a href='https://github.com/hanjos'>
-        <img src='/assets/images/github-circle.svg' alt='Github' class='external_profile'>
-      </a>
-      <a href='https://steamcommunity.com/id/topunchgarlic'>
-        <img src='/assets/images/steam.svg' alt='Steam' class='external_profile'>
-      </a>
-      <a href='https://patosdoinferno.wordpress.com/author/humanjos/'>
-        <img src='/assets/images/wordpress.svg' alt='My posts in a multi-author blog in Portuguese' class='external_profile'>
-      </a>
-      <a href='https://www.instagram.com/anjos.humberto/'>
-        <img src='/assets/images/instagram.svg' alt='Instagram' class='external_profile'>
-      </a>
+      <ul>
+        <li><span class='heading'>Find me at</span></li>
+        {% for profile in site.data.social %}
+        <li><a href='{{ profile.url }}'>
+          <img src='{{ profile.icon }}' alt="{{ profile.alt }}" class='external_profile'>
+        </a></li>
+        {% endfor %}
+      </ul>
     </address>
   </div>
 </footer>

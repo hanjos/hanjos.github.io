@@ -1,0 +1,25 @@
+- network: sbrubbles.org
+  profile: sbrubbles.org
+  url: https://sbrubbles.org/feed.xml
+  icon: /assets/images/rss.svg
+  alt: This site's feed
+- network: Github
+  profile: hanjos
+  url: https://github.com/hanjos
+  icon: /assets/images/github-circle.svg
+  alt: Github
+- network: Steam
+  profile: To Punch Garlic
+  url: https://steamcommunity.com/id/topunchgarlic
+  icon: /assets/images/steam.svg
+  alt: Steam
+- network: Wordpress
+  profile: humanjos
+  url: https://patosdoinferno.wordpress.com/author/humanjos/
+  icon: /assets/images/wordpress.svg
+  alt: My posts in a multi-author blog in Portuguese
+- network: Instagram
+  profile: anjos.humberto
+  url: https://www.instagram.com/anjos.humberto/
+  icon: /assets/images/instagram.svg
+  alt: Instagram

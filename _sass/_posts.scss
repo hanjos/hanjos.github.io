@@ -25,17 +25,6 @@ article {
     font-style: italic;
   }
 
-  .meta {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    align-items: flex-end; /* centers the image better */
-
-    .separator {
-      color: #A0A0A0;
-    }
-  }
-
   .thumbnail {
     /* max dimensions */
     width: 100%;
@@ -81,16 +70,45 @@ article {
     padding: 0; /* removing the standard left padding */
   }
 
-  .meta {
-    color: gray;
-    display: inline-block;
-  }
-
   .excerpt p {
     font-size: 0.8em;
     
     margin: 0;
     padding: 0.4em 2em;
+  }
+}
+
+.post-entry {
+  margin: 0.333em 0;
+
+  .heading {
+    display: inline-flex;
+    align-items: baseline;
+
+    > * {
+      padding: 0 0.5em;
+    }
+
+    .date {
+      color: gray;
+    }
+
+    .tags {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: baseline;
+    }
+  }
+}
+
+.meta {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-end; /* centers the image better */
+
+  .separator {
+    color: #A0A0A0;
   }
 }
 
@@ -102,3 +120,4 @@ article {
   color: $sidebar-link-color;
   display: flex; /* helps align the text */
 }
+

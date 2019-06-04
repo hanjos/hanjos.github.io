@@ -1,7 +1,7 @@
 ---
 layout: post
 title: For old times' sake
-tags: english, "get off my lawn"
+tags: english get-off-my-lawn
 ---
 
 I have rediscovered my old [Google Bookmarks](https://www.google.com/bookmarks/). 

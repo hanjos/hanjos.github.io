@@ -1,30 +1,26 @@
 ---
 layout: post
-title: For old times' sake
+title: To remember is to live
 tags: english get-off-my-lawn
 ---
 
-I have rediscovered my old [Google Bookmarks](https://www.google.com/bookmarks/). 
+Somehow, I have stumbled upon my old [Google Bookmarks](https://www.google.com/bookmarks/). 
 
-I'm surprised the service still exists. That being said, it looks like something they forgot is still live, which is what happened to Google Reader...
+I'm surprised the service still exists. But it does look like something Google forgot is still live. And I've seen that before with [Google Reader](https://www.cnet.com/news/google-closes-the-book-on-reader-announces-july-1-sunset/)...
 
-[picture of pouring one out for Google Reader]
-[Google Reader feelings :(](https://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html)
+<figure class='center-block'>
+  <img alt='Pouring one out for Google Reader' src='/assets/images/pouring-one-out.png' width='400' title='Photo from freundevonfreunden.com'>
+  <figcaption>Google Reader R.I.P.</figcaption>
+</figure>
 
-It's a fascinating trip through an incomplete and not-that-recent history (the oldest entry is from 11 years ago!) of stuff that once interested me.
+It has been a fascinating trip through a varied, incomplete and not-that-recent history (the oldest entry is from 11 years ago!) of stuff that once interested me. Even though a lot has linkrotted, and some of the stuff is now obsolete or no longer needed, there are several gems worth revisiting, and even discovering:
 
-Even though a lot has linkrotted, and some of the blogs have stopped publishing... 
+* Programming and CS coolnesses (dunno if the word even exists, but it should :P)
+* Random blogs
+* Miscellaneous forums about random subjects
+* Starred places in Google Maps which I _just couldn't_ unstar within Google Maps, no matter how much I tried (so here's where they were...)
 
-Work-related stuff which is now obsolete or no longer needed...
+Given Google's history with apparently abandoned projects, Google Bookmarks doesn't look long for this world. So it's time for alternatives. [Pocket](https://getpocket.com/) seems nice, and it can read Bookmarks' export file. And even though Pocket sells itself as [a reading list](https://www.makeuseof.com/tag/pros-cons-pocket/), not a bookmarking service, it's close enough for my purposes. 
 
-Programming and CS curios... 
+But why not just hack something right here? I could whip something up in a jiffy with Jekyll, Git provides easy backups for the data, and I own the domain. Of course, some of the most "advanced" features would be missing (Pocket's [apps and integrations](https://getpocket.com/apps/) are nice, and saving snapshots of the articles is cool). But I wouldn't depend on a third party service for a relatively simple task. Hm... 
 
-Various forums about various subjects...
-
-Starred places in Google Maps which I _just couldn't_ unstar within Google Maps, no matter how much I tried (so here's where they were...)... 
-
-I cleaned my Google Bookmarks up some. Deleted linkrotten or no-longer-relevant links, updated others...
-
-I could use a social bookmarking service. That hasn't been a _thing_ for some time, but some decent services out there... Pocket seems like an option. It's [not quite a bookmarking service](https://www.makeuseof.com/tag/pros-cons-pocket/), but that shouldn't be a problem...
-
-Why not put it here? I could whip something up in a jiffy...

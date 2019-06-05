@@ -78,3 +78,18 @@ blockquote {
 
   font-style: italic;
 }
+
+figure {
+  padding: 1em 0;
+
+  figcaption {
+    font-size: 0.8em;
+    color: gray;
+  }
+}
+
+.center-block {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}

@@ -174,7 +174,7 @@ img.banner {
 
     > main {
       max-width: $mid-screen-width;
-      min-height: 300px; /* enough space for a floating header not to interfere with the footer */
+      min-height: 350px; /* enough space for a floating header not to interfere with the footer */
 
       margin-left: $sidebar-width; /* header width */
       padding: 1em 2em 2em 1em; /* no need for this big a left padding */

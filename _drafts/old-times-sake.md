@@ -13,14 +13,10 @@ I'm surprised the service still exists. But it does look like something Google f
   <figcaption>R.I.P.</figcaption>
 </figure>
 
-It has been a fascinating trip through a varied, incomplete and not-that-recent history (the oldest entry is from 11 years ago!) of stuff that once interested me. Even though a lot has linkrotted, and some of the stuff is now obsolete or no longer needed, there are several gems worth revisiting, and even (re)discovering:
+It has been a fascinating trip through a varied, incomplete and not-that-recent history (the oldest entry is from 11 years ago!) of stuff that once interested me. Even though a lot has linkrotted, and some of the stuff is now obsolete or no longer needed, there are several gems worth revisiting. They'll probably end up here, after a sifting through.
 
-* Programming and CS coolnesses (dunno if the word even exists, but it should :P)
-* Random blogs
-* Miscellaneous forums about random subjects
-* Starred places in Google Maps which I _just couldn't_ unstar within Google Maps, no matter how much I tried (so here's where they were...)
+Given Google's [history](https://killedbygoogle.com/), Bookmarks doesn't look long for this world; so it's time for alternatives. [Pocket](https://getpocket.com/) seems nice, it can read Bookmarks' export file, and even though it sells itself as [a reading list](https://www.makeuseof.com/tag/pros-cons-pocket/), not a bookmarking service, it's close enough for my purposes. And I could retrieve some data from Pocket to show stuff right here on the site. As far as I understand, I could make [the RSS feeds](https://help.getpocket.com/article/1074-can-i-subscribe-to-my-list-via-rss?utm_source=zapier.com&utm_medium=referral&utm_campaign=zapier)  publically available, so that some JavaScript would extract the data and build the page.
 
-Given Google's history with apparently abandoned projects, Google Bookmarks doesn't look long for this world. So it's time for alternatives. [Pocket](https://getpocket.com/) seems nice, and it can read Bookmarks' export file. And even though Pocket sells itself as [a reading list](https://www.makeuseof.com/tag/pros-cons-pocket/), not a bookmarking service, it's close enough for my purposes. 
+Alternatively, why not just hack something right here? I could whip something up in a jiffy with Jekyll, Git provides easy backups for the data, and I own the domain. Of course, some of the most "advanced" features would be missing (Pocket's [apps and integrations](https://getpocket.com/apps/) are nice, and saving snapshots of the articles is cool). But I wouldn't depend on a third party service for a relatively simple task. 
 
-But why not just hack something right here? I could whip something up in a jiffy with Jekyll, Git provides easy backups for the data, and I own the domain. Of course, some of the most "advanced" features would be missing (Pocket's [apps and integrations](https://getpocket.com/apps/) are nice, and saving snapshots of the articles is cool). But I wouldn't depend on a third party service for a relatively simple task. Hm... 
-
+Hm... 

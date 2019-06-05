@@ -10,7 +10,7 @@ I'm surprised the service still exists. But it does look like something Google f
 
 <figure class='center-block'>
   <img alt='Pouring one out for Google Reader' src='/assets/images/pouring-one-out.png' width='400' title='Photo from freundevonfreunden.com'>
-  <figcaption>Google Reader R.I.P.</figcaption>
+  <figcaption>R.I.P.</figcaption>
 </figure>
 
 It has been a fascinating trip through a varied, incomplete and not-that-recent history (the oldest entry is from 11 years ago!) of stuff that once interested me. Even though a lot has linkrotted, and some of the stuff is now obsolete or no longer needed, there are several gems worth revisiting, and even discovering:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: To remember is to live
-tags: english get-off-my-lawn
+tags: english to-do-or-not-to-do
 ---
 
 Somehow, I have stumbled upon my old [Google Bookmarks](https://www.google.com/bookmarks/). 
@@ -13,7 +13,7 @@ I'm surprised the service still exists. But it does look like something Google f
   <figcaption>R.I.P.</figcaption>
 </figure>
 
-It has been a fascinating trip through a varied, incomplete and not-that-recent history (the oldest entry is from 11 years ago!) of stuff that once interested me. Even though a lot has linkrotted, and some of the stuff is now obsolete or no longer needed, there are several gems worth revisiting, and even discovering:
+It has been a fascinating trip through a varied, incomplete and not-that-recent history (the oldest entry is from 11 years ago!) of stuff that once interested me. Even though a lot has linkrotted, and some of the stuff is now obsolete or no longer needed, there are several gems worth revisiting, and even (re)discovering:
 
 * Programming and CS coolnesses (dunno if the word even exists, but it should :P)
 * Random blogs

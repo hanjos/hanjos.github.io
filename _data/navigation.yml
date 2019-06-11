@@ -1,5 +1,7 @@
 - name: About
   link: /about.html
+- name: Bookmarks
+  link: /bookmarks.html
 - name: Posts
   link: /posts.html
 - name: Tags

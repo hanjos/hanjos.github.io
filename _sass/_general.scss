@@ -93,3 +93,23 @@ figure {
   flex-flow: column nowrap;
   align-items: center;
 }
+
+dl {
+  margin-left: 1em;
+
+  dt {
+    a {
+      font-weight: bold;
+    }
+
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  dd {
+    font-size: 0.8em;
+
+    margin-top: -0.5em; /* to cancel dt's bottom margin */
+    margin-bottom: 0.5em;
+  }
+}

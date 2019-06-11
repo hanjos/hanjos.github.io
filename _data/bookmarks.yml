@@ -1,0 +1,28 @@
+- url: https://www.chris-granger.com/2012/12/11/anatomy-of-a-knockout/
+  title: Anatomy of a knockout
+  author: Chris Granger
+  description: A brief description of the Component-Entity-System (CES) architecture, common in games and simulations.
+- url: https://www.chris-granger.com/2013/01/24/the-ide-as-data/
+  title: The IDE as a value
+  author: Chris Granger
+  description: A description of Chris' BOT architecture, derived from CES to fit event-driven applications.
+- url: https://www.joelonsoftware.com/2002/06/12/strategy-letter-v/
+  title: Strategy Letter V
+  author: Joel Spolsky
+  description: How a little microeconomics can help explain tech companies' strategies.
+- url: http://cowboyprogramming.com/2007/01/05/evolve-your-heirachy/
+  title: Evolve Your Hierarchy
+  author: Mick West
+  description: One of the earliest and most popular descriptions of CES.
+  tags: CES programming games
+- url: http://groups.csail.mit.edu/mac/classes/6.001/abelson-sussman-lectures/
+  title: "Structure and Interpretation of Computer Programs: Video Lectures by Hal Abelson and Gerald Jay Sussman"
+  description: The complete collection of video lectures of MIT's famous introductory computer science course, given in 1986.
+- url: https://smorgasborg.artlung.com/C_R_Y_P_T_O_N_O_M_I_C_O_N.shtml
+  title: In the Beginning was the Command Line
+  author: Neal Stephenson
+  description: An essay about the history and evolution of OSes and user interfaces, written in 1999.
+- url: http://steve-yegge.blogspot.com/2008/10/universal-design-pattern.html
+  title: The Universal Design Pattern
+  author: Steve Yegge
+  description: A long essay about the power and flexibility of the Properties Pattern.

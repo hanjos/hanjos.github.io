@@ -1,0 +1,17 @@
+---
+layout: default
+title: Bookmarks
+---
+
+<p>As <a href='/2019/06/11/to-remember-is-to-live.html'>promised</a>, here's a quick and easy implementation of bookmarks.</p>
+
+{% if site.data.bookmarks.size > 0 %}
+<dl>
+{% for bookmark in site.data.bookmarks %}
+  {% if bookmark.url %}
+  <dt><a href='{{ bookmark.url }}'>{{ bookmark.title }}</a>{% if bookmark.author %}, <small>by {{ bookmark.author }}</small>{% endif %}</dt>
+  {% if bookmark.description %}<dd>{{ bookmark.description }}</dd>{% endif %}
+  {% endif %}
+{% endfor %}
+</dl>
+{% endif %}

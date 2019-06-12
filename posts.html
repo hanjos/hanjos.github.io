@@ -9,12 +9,8 @@ Here are all my blog posts, tagged, excerpted and ordered chronologically for yo
 
 <h1>Latest posts</h1>
 
-<div class='posts'>
-  <ul>
-  {% for post in site.posts %}
-    <li>
-      {% include post-entry.html post=post show_tags=true show_excerpt=true %}
-    </li>
-  {% endfor %}
-  </ul>
-</div>
+<dl>
+{% for post in site.posts %}
+  {% include post-entry.html post=post show_tags=true show_excerpt=true %}
+{% endfor %}
+</dl>

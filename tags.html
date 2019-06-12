@@ -9,7 +9,7 @@ title: Pages by tags
 <div class='tags'>
 {% if site.tags.size > 0 %}
   {% for tag in site.tags %}
-  <small><a href='#tag-{{ tag[0] }}' class='tag'>{{ tag[0] }} ({{ tag[1].size }})</a></small>
+  <a href='#tag-{{ tag[0] }}' class='tag'>{{ tag[0] }} ({{ tag[1].size }})</a>
   {% endfor %}
 {% else %}
   <small>No tags defined.</small>
@@ -18,20 +18,16 @@ title: Pages by tags
 
 <h1>Posts</h1>
 
-<div class='posts'>
 {% if site.tags.size > 0 %}
-  {% for tag in site.tags %}
-  <h2 id='tag-{{ tag[0] }}' name='tag-{{ tag[0] }}' class='tag'>{{ tag[0] }}</h2>
+{% for tag in site.tags %}
+<h2 id='tag-{{ tag[0] }}' name='tag-{{ tag[0] }}' class='tag'>{{ tag[0] }}</h2>
 
-  <ul>
-    <li>
-      {% for post in tag[1] %}
-        {% include post-entry.html post=post show_tags=false show_excerpt=true %}
-      {% endfor %}
-    </li>
-  </ul>
+<dl>
+  {% for post in tag[1] %}
+    {% include post-entry.html post=post show_tags=false show_excerpt=true %}
   {% endfor %}
+</dl>
+{% endfor %}
 {% else %}
 <small>No tags defined.</small>
 {% endif %}
-</div>

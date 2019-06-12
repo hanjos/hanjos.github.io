@@ -1,18 +1,17 @@
-<div class='post-entry'>
-  <div class='heading'>
-    <small class='date'><time datetime='{{ include.post.date | date_to_xmlschema }}'>{{ include.post.date | date: "%d %b %Y" }}</time> </small>
-    <a href='{{ include.post.url }}' class='title'>{{ include.post.title }}</a>
-    {% if include.show_tags and include.post.tags.size > 0 %}
-    <div class='tags'>
-      {% for tag in include.post.tags %}
-      <a href='/tags.html#tag-{{ tag }}' class='tag'><small>{{ tag }}</small></a>&nbsp;
-      {% endfor %}
-    </div>
-    {% endif %}
-  </div>
-  {% if include.show_excerpt %}
-  <div class='excerpt'>
-    {{ post.excerpt }}
-  </div>
+<dt class='heading'>
+  <small class='date'><time datetime='{{ include.post.date | date_to_xmlschema }}'>{{ include.post.date | date: "%d %b %Y" }}</time></small>&nbsp;&nbsp;
+  <a href='{{ include.post.url }}' class='title'>{{ include.post.title }}</a>
+  {% if include.show_tags and include.post.tags.size > 0 %}
+  &nbsp;
+  <span class='tags'>
+    {% for tag in include.post.tags %}
+    <a href='/tags.html#tag-{{ tag }}' class='tag'><small>{{ tag }}</small></a>&nbsp;
+    {% endfor %}
+  </span>
   {% endif %}
-</div>
+</dt>
+{% if include.show_excerpt %}
+<dd class='excerpt'>
+  {{ include.post.excerpt }}
+</dd>
+{% endif %}

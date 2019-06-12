@@ -63,40 +63,18 @@ article {
   }
 }
 
-.posts {
-  ul {
-    list-style-type: none;
-
-    padding: 0; /* removing the standard left padding */
+.heading {
+  .date {
+    color: gray;
   }
 
-  .excerpt p {
-    font-size: 0.8em;
-    
-    margin: 0;
-    padding: 0.4em 2em;
-  }
-}
-
-.post-entry {
-  margin: 0.333em 0;
-
-  .heading {
+  .tags {
     display: inline-flex;
+    flex-flow: row wrap;
     align-items: baseline;
 
-    > * {
-      padding: 0 0.5em;
-    }
-
-    .date {
-      color: gray;
-    }
-
-    .tags {
-      display: flex;
-      flex-flow: row wrap;
-      align-items: baseline;
+    .tag {
+      font-weight: normal;
     }
   }
 }
@@ -110,6 +88,10 @@ article {
   .separator {
     color: #A0A0A0;
   }
+}
+
+.excerpt p {
+  margin: 0;
 }
 
 .tags {

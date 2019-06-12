@@ -144,9 +144,11 @@ img.banner {
         margin: 0;
 
         * {
-          display: block; /* unflattening */
+          display: flex; /* unflattening */
+          flex-flow: column;
 
           margin: 0; /* necessary or alignment goes out of whack */
+          padding: 0;
 
           text-decoration: none; /* no underlines here */
         }
@@ -160,7 +162,7 @@ img.banner {
         }
 
         nav {
-          padding: 1em;
+          padding: 1em 0;
         }
 
         li {

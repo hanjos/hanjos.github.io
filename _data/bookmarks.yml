@@ -6,6 +6,10 @@
   title: The IDE as a value
   author: Chris Granger
   description: A description of Chris' BOT architecture, derived from CES to fit event-driven applications.
+- url: https://www.joelonsoftware.com/2004/12/15/camels-and-rubber-duckies/
+  title: Camels and Rubber Duckies
+  author: Joel Spolsky
+  description: How to price your software.
 - url: https://www.joelonsoftware.com/2002/06/12/strategy-letter-v/
   title: Strategy Letter V
   author: Joel Spolsky
@@ -26,3 +30,14 @@
   title: The Universal Design Pattern
   author: Steve Yegge
   description: A long essay about the power and flexibility of the Properties Pattern.
+- url: http://www.squidi.net/three/index.php
+  title: Three Hundred Mechanics
+  author: squidi
+  description: (Eventually) 300 different gameplay mechanics and concepts, created by the author and released to the public domain.
+- url: http://mu.ranter.net/design-theory
+  title: Mu’s Unbelievably Long and Disjointed Ramblings About RPG Design
+  description: Several links and ramblings about game design in general, and many times fantasy MMORPG in particular.
+- url: http://gameprogrammingpatterns.com/
+  title: Game Programming Patterns
+  author: Robert Nystrom
+  description: A collection of design patterns found in games.

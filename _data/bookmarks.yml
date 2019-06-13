@@ -91,7 +91,7 @@
   title: Architectural Styles and the Design of Network-based Software Architectures
   authors: Roy Fielding
   description: The author's PhD dissertation describing the REST architectural style.
-- url: https://www.jwz.org/doc/worse-is-better.html
+- url: http://dreamsongs.com/RiseOfWorseIsBetter.html
   title: 'The Rise of "Worse is Better"'
   authors: Richard Gabriel
-  description: A classic essay about how "low quality" (New Jersey-style) software might be more successful in the long run than "high quality" (MIT-style) ones. 
+  description: Excerpted from "Lisp: Good News, Bad News, How to Win Big", this classic essay talks about how simple-first, "New Jersey-style" software has better survival characteristics than quality-first, "MIT-style" approaches. 

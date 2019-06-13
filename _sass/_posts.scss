@@ -64,10 +64,6 @@ article {
 }
 
 .heading {
-  .date {
-    color: gray;
-  }
-
   .tags {
     display: inline-flex;
     flex-flow: row wrap;
@@ -92,6 +88,10 @@ article {
 
 .excerpt p {
   margin: 0;
+}
+
+.info {
+  color: gray;
 }
 
 .tags {

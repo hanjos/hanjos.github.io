@@ -1,43 +1,93 @@
 - url: https://www.chris-granger.com/2012/12/11/anatomy-of-a-knockout/
   title: Anatomy of a knockout
-  author: Chris Granger
-  description: A brief description of the Component-Entity-System (CES) architecture, common in games and simulations.
+  authors: Chris Granger
+  description: A brief description of the Entity-Component-System (ECS) architecture pattern, common in games and simulations.
 - url: https://www.chris-granger.com/2013/01/24/the-ide-as-data/
   title: The IDE as a value
-  author: Chris Granger
-  description: A description of Chris' BOT architecture, derived from CES to fit event-driven applications.
+  authors: Chris Granger
+  description: A description of Chris' BOT architecture, derived from ECS to fit event-driven applications.
 - url: https://www.joelonsoftware.com/2004/12/15/camels-and-rubber-duckies/
   title: Camels and Rubber Duckies
-  author: Joel Spolsky
+  authors: Joel Spolsky
   description: How to price your software.
 - url: https://www.joelonsoftware.com/2002/06/12/strategy-letter-v/
   title: Strategy Letter V
-  author: Joel Spolsky
+  authors: Joel Spolsky
   description: How a little microeconomics can help explain tech companies' strategies.
 - url: http://cowboyprogramming.com/2007/01/05/evolve-your-heirachy/
   title: Evolve Your Hierarchy
-  author: Mick West
-  description: One of the earliest and most popular descriptions of CES.
-  tags: CES programming games
+  authors: Mick West
+  description: One of the earliest and most popular descriptions of ECS.
 - url: http://groups.csail.mit.edu/mac/classes/6.001/abelson-sussman-lectures/
   title: "Structure and Interpretation of Computer Programs: Video Lectures by Hal Abelson and Gerald Jay Sussman"
   description: The complete collection of video lectures of MIT's famous introductory computer science course, given in 1986.
 - url: https://smorgasborg.artlung.com/C_R_Y_P_T_O_N_O_M_I_C_O_N.shtml
   title: In the Beginning was the Command Line
-  author: Neal Stephenson
+  authors: Neal Stephenson
   description: An essay about the history and evolution of OSes and user interfaces, written in 1999.
 - url: http://steve-yegge.blogspot.com/2008/10/universal-design-pattern.html
   title: The Universal Design Pattern
-  author: Steve Yegge
+  authors: Steve Yegge
   description: A long essay about the power and flexibility of the Properties Pattern.
 - url: http://www.squidi.net/three/index.php
   title: Three Hundred Mechanics
-  author: squidi
+  authors: squidi
   description: (Eventually) 300 different gameplay mechanics and concepts, created by the author and released to the public domain.
 - url: http://mu.ranter.net/design-theory
   title: Mu’s Unbelievably Long and Disjointed Ramblings About RPG Design
   description: Several links and ramblings about game design in general, and many times fantasy MMORPG in particular.
 - url: http://gameprogrammingpatterns.com/
   title: Game Programming Patterns
-  author: Robert Nystrom
+  authors: Robert Nystrom
   description: A collection of design patterns found in games.
+- url: http://entity-systems.wikidot.com/
+  title: Entity Systems Wiki
+  description: A site collecting information about the Entity-Component-System architecture pattern, with several approaches, tutorials and links.
+- url: http://www.shirky.com/writings/group_enemy.html
+  title: A Group Is Its Own Worst Enemy
+  authors: Clay Shirky
+  description: A keynote about a common pattern in social software in supports large in long-lived groups.
+- url: http://www.designingsocialinterfaces.com/
+  title: Designing Social Interfaces
+  authors: [Christian Crumlish, Erin Malone]
+  description: A collection of social user experience design patterns.
+- url: http://8325.org/haiku/
+  title: NetPositive error messages
+  description: A collection of humorous haiku error messages, originally from NetPositive, a web browser for BeOS. I'll probably steal some of these...
+- url: https://www.gnu.org/fun/jokes/pasta.code.html
+  title: Spaghetti Code
+  description: A quick introduction to the complete Pasta Theory of software.
+- url: https://groups.google.com/d/msg/alt.sci.math.probability/NCBxwC2o-9w/amg_NnF6500J
+  title: "Re: Theory of Everything (TOE)"
+  authors: Tom Davidson
+  description: An argument for the most fundamental of all logical statements that can be made about a system, even when nothing is known about the contents or processes that may be found
+    therein.
+- url: https://queue.acm.org/detail.cfm?id=1983083
+  title: Passing a Language through the Eye of a Needle
+  authors: [Roberto Ierusalimschy, Luiz Henrique de Figueiredo, Waldemar Celes]
+  description: How the embeddability of Lua impacted its design.
+- url: http://www.darkshire.net/jhkim/rpg/magic/antiscience.html
+  title: Breaking Out of Scientific Magic Systems
+  authors: John H. Kim
+  description: Some interesting RPG mechanics to give magic a distinct flavor.
+- url: https://www.cs.purdue.edu/homes/dec/essay.dissertation.html
+  title: How To Write A Dissertation, or Bedtime Reading For People Who Do Not Have Time To Sleep
+  description: Tips and directions on how to write a formal scientific document.
+- url: https://www.reddit.com/r/programming/comments/1kth0/test_driven_design_vs_thought_driven_design/
+  title: Test Driven Design vs Thought Driven Design
+  description: A Reddit discussion about Ron Jeffries' (XP guy) and Peter Norvig's (um... scientist?) Sudoku solver.
+- url: https://www.freecodecamp.org/news/fundamental-design-principles-for-non-designers-ad34c30caa7/
+  title: Fundamental design principles for non-designers
+  authors: Anna Mészáros
+  description: Some basic tips for non-designers to make a simple web design that doesn't utterly suck.
+- url: https://people.well.com/user/abs/curriculum.html
+  title: A Curriculum for Cybernetics and Systems Theory
+  authors: Alan B. Scrivener
+  description: A list with reviews of suggested books, periodicals, television shows and computer programs for a classroom curriculum or individual study in cybernetics and systems theory.
+- url: https://en.wikipedia.org/wiki/Energy_Systems_Language
+  title: Energy Systems Language
+  description: A graphic language developed by Howard Odum used to compose energy flow diagrams in the field of systems ecology.
+- url: https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm
+  title: Architectural Styles and the Design of Network-based Software Architectures
+  authors: Roy Fielding
+  description: The author's PhD dissertation describing the REST architectural style.

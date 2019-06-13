@@ -3,9 +3,9 @@ layout: default
 title: Pages by tags
 ---
 
-<blockquote>These are my tags. I could repeat the Full Metal Jacket bit, but that would be awfully derivative. I probably should look for another quote to paraphrase...</blockquote>
+> These are my tags. I could repeat the Full Metal Jacket bit, but that would be awfully derivative. I probably should look for another quote to paraphrase...
 
-<h1>Tags</h1>
+# Tags
 <div class='tags'>
 {% if site.tags.size > 0 %}
   {% for tag in site.tags %}
@@ -16,7 +16,7 @@ title: Pages by tags
 {% endif %}
 </div>
 
-<h1>Posts</h1>
+# Posts
 
 {% if site.tags.size > 0 %}
 {% for tag in site.tags %}

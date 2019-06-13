@@ -3,11 +3,11 @@ layout: default
 title: Latest posts
 ---
 
-<blockquote>This is my blog. There are many like it, but this one is mine.</blockquote>
+> This is my blog. There are many like it, but this one is mine.
 
 Here are all my blog posts, tagged, excerpted and ordered chronologically for your appreciation. I can't promise frequency, correctness, usefulness or even sanity, but, well, go nuts :P
 
-<h1>Latest posts</h1>
+# Latest posts
 
 <dl>
 {% for post in site.posts %}

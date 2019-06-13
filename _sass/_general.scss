@@ -77,6 +77,10 @@ blockquote {
   background-color: $code-color;
 
   font-style: italic;
+
+  p {
+    margin: 0;
+  }
 }
 
 figure {
@@ -86,12 +90,6 @@ figure {
     font-size: 0.8em;
     color: gray;
   }
-}
-
-.center-block {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
 }
 
 dl {
@@ -110,4 +108,18 @@ dl {
   dd + dt {
     padding-top: 1em; /* spacing between definitions */
   }
+}
+
+.center-block {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.side-comment {
+  color: gray;
+}
+
+.tag {
+  color: $sidebar-link-color;
 }

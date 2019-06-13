@@ -1,5 +1,5 @@
 <dt class='heading'>
-  <small class='info'><time datetime='{{ include.post.date | date_to_xmlschema }}'>{{ include.post.date | date: "%d %b %Y" }}</time></small>&nbsp;&nbsp;
+  <small class='side-comment'><time datetime='{{ include.post.date | date_to_xmlschema }}'>{{ include.post.date | date: "%d %b %Y" }}</time></small>&nbsp;&nbsp;
   <a href='{{ include.post.url }}' class='title'>{{ include.post.title }}</a>
   {% if include.show_tags and include.post.tags.size > 0 %}
   &nbsp;

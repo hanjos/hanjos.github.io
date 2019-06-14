@@ -123,3 +123,7 @@ dl {
 .tag {
   color: $sidebar-link-color;
 }
+
+.hidden { /* useful to filter out elements in a list */
+  display: none;
+}

@@ -26,7 +26,7 @@
 - url: http://groups.csail.mit.edu/mac/classes/6.001/abelson-sussman-lectures/
   title: "Structure and Interpretation of Computer Programs: Video Lectures by Hal Abelson and Gerald Jay Sussman"
   description: The complete collection of video lectures of MIT's famous introductory computer science course, given in 1986.
-  tags: ['computing', 'history', 'lecture']
+  tags: ['computing', 'history', 'lecture', 'programming']
 - url: https://smorgasborg.artlung.com/C_R_Y_P_T_O_N_O_M_I_C_O_N.shtml
   title: In the Beginning was the Command Line
   authors: Neal Stephenson
@@ -36,7 +36,7 @@
   title: The Universal Design Pattern
   authors: Steve Yegge
   description: A long essay about the power and flexibility of the Properties Pattern.
-  tags: ['computing', 'design pattern']
+  tags: ['computing', 'design pattern', 'programming']
 - url: http://www.squidi.net/three/index.php
   title: Three Hundred Mechanics
   authors: squidi
@@ -54,7 +54,7 @@
 - url: http://entity-systems.wikidot.com/
   title: Entity Systems Wiki
   description: A site collecting information about the Entity-Component-System architecture pattern, with several approaches, tutorials and links.
-  tags: ['architecture', 'computing', 'ECS']
+  tags: ['architecture', 'computing', 'ECS', 'programming']
 - url: http://www.shirky.com/writings/group_enemy.html
   title: A Group Is Its Own Worst Enemy
   authors: Clay Shirky
@@ -96,7 +96,7 @@
 - url: https://www.reddit.com/r/programming/comments/1kth0/test_driven_design_vs_thought_driven_design/
   title: Test Driven Design vs Thought Driven Design
   description: A Reddit discussion about Ron Jeffries' (XP guy) vs Peter Norvig's approaches for a Sudoku solver.
-  tags: ['computing', 'TDD']
+  tags: ['computing', 'programming', 'TDD']
 - url: https://www.freecodecamp.org/news/fundamental-design-principles-for-non-designers-ad34c30caa7/
   title: Fundamental design principles for non-designers
   authors: Anna Mészáros
@@ -120,7 +120,7 @@
   title: 'The Rise of "Worse is Better"'
   authors: Richard Gabriel
   description: 'Excerpted from "Lisp: Good News, Bad News, How to Win Big", this essay is about how simple-first, "New Jersey-style" software has better survival characteristics than quality-first, "MIT-style" approaches.'
-  tags: ['architecture', 'computing', 'history']
+  tags: ['architecture', 'computing', 'history', 'programming']
 - url: https://gist.github.com/hanjos/2764ed8c5d8af859320911eb5c11aead
   title: Stevey's Google Platforms Rant
   authors: Steve Yegge
@@ -159,7 +159,7 @@
 - url: https://www.archive.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf
   title: Reflections on Trusting Trust
   authors: Ken Thompson
-  description: Classic paper on to what extent should one trust a statement that a program is free of Trojan horses? Perhaps it is more important to trust the people who wrote the software.
+  description: Classic paper on to what extent should one trust the software we run.
   tags: ['computing', 'history', 'paper', 'security']
 - url: https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying
   title: "The Log: What every software engineer should know about real-time data's unifying abstraction"
@@ -175,7 +175,7 @@
   title: The Cathedral and the Bazaar
   authors: Eric S. Raymond
   description: A classic book which helped popularize the open source movement.
-  tags: ['book', 'computing', 'history']
+  tags: ['book', 'computing', 'history', 'programming']
 - url: https://hackernoon.com/we-already-know-blockchains-killer-apps-f2d443eba35
   title: We already know blockchain’s killer apps
   authors: Haseeb Qureshi
@@ -190,3 +190,17 @@
   authors: Peter Norvig
   description: The title is pretty self-explaining.
   tags: ['computing', 'design pattern', 'dynamic', 'programming']
+- url: http://c9x.me/compile/bib/
+  title: Resources for Amateur Compiler Writers
+  authors: Quentin Carbonneaux
+  description: A collection of relevant and practical (as deemed by the author) papers and books about compilers.
+  tags: ['compiler', 'computing', 'programming', 'programming language']
+- url: https://blog.redelastic.com/a-journey-into-reactive-streams-5ee2a9cd7e29
+  title: A Journey into Reactive Streams
+  authors: Kevin Webber
+  description: An introduction to Reactive Systems and associated concepts.
+  tags: ['computing', 'programming', 'reactive']
+- url: https://www.core-econ.org/
+  title: CORE Economics
+  description: A complete introduction to economics and the economy that has been successfully taught both to economics undergraduates and in masters courses in public policy.
+  tags: ['book', 'economics']

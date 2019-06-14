@@ -2,12 +2,12 @@
   title: Anatomy of a knockout
   authors: Chris Granger
   description: A brief description of the Entity-Component-System (ECS) architecture pattern, common in games and simulations.
-  tags: ['architecture', 'ecs', 'computing']
+  tags: ['architecture', 'computing', 'ECS']
 - url: https://www.chris-granger.com/2013/01/24/the-ide-as-data/
   title: The IDE as a value
   authors: Chris Granger
   description: A description of Chris' BOT architecture, derived from ECS to fit event-driven applications.
-  tags: ['architecture', 'ecs', 'computing']
+  tags: ['architecture', 'computing', 'ECS']
 - url: https://www.joelonsoftware.com/2004/12/15/camels-and-rubber-duckies/
   title: Camels and Rubber Duckies
   authors: Joel Spolsky
@@ -22,16 +22,16 @@
   title: Evolve Your Hierarchy
   authors: Mick West
   description: One of the earliest and most popular descriptions of ECS.
-  tags: ['architecture', 'ecs', 'computing']
+  tags: ['architecture', 'computing', 'ECS']
 - url: http://groups.csail.mit.edu/mac/classes/6.001/abelson-sussman-lectures/
   title: "Structure and Interpretation of Computer Programs: Video Lectures by Hal Abelson and Gerald Jay Sussman"
   description: The complete collection of video lectures of MIT's famous introductory computer science course, given in 1986.
-  tags: ['computing', 'lecture', 'functional']
+  tags: ['computing', 'history', 'lecture']
 - url: https://smorgasborg.artlung.com/C_R_Y_P_T_O_N_O_M_I_C_O_N.shtml
   title: In the Beginning was the Command Line
   authors: Neal Stephenson
   description: An essay about the history and evolution of OSes and user interfaces, written in 1999.
-  tags: ['history', 'computing']
+  tags: ['computing', 'history']
 - url: http://steve-yegge.blogspot.com/2008/10/universal-design-pattern.html
   title: The Universal Design Pattern
   authors: Steve Yegge
@@ -41,20 +41,20 @@
   title: Three Hundred Mechanics
   authors: squidi
   description: (Eventually) 300 different gameplay mechanics and concepts, created by the author and released to the public domain.
-  tags: ['game', 'design']
+  tags: ['design', 'game']
 - url: http://mu.ranter.net/design-theory
   title: Mu’s Unbelievably Long and Disjointed Ramblings About RPG Design
   description: Several links and ramblings about game design in general, and many times fantasy MMORPG in particular.
-  tags: ['game', 'RPG', 'design']
+  tags: ['design', 'game', 'RPG']
 - url: http://gameprogrammingpatterns.com/
   title: Game Programming Patterns
   authors: Robert Nystrom
   description: A collection of design patterns found in games.
-  tags: ['game', 'design pattern', 'computing']
+  tags: ['book', 'computing', 'design pattern', 'game']
 - url: http://entity-systems.wikidot.com/
   title: Entity Systems Wiki
   description: A site collecting information about the Entity-Component-System architecture pattern, with several approaches, tutorials and links.
-  tags: ['architecture', 'ecs', 'computing']
+  tags: ['architecture', 'computing', 'ECS']
 - url: http://www.shirky.com/writings/group_enemy.html
   title: A Group Is Its Own Worst Enemy
   authors: Clay Shirky
@@ -64,7 +64,7 @@
   title: Designing Social Interfaces
   authors: [Christian Crumlish, Erin Malone]
   description: A collection of social user experience design patterns.
-  tags: ['computing', 'social', 'ux', 'design pattern']
+  tags: ['computing', 'design pattern', 'social', 'ux']
 - url: http://8325.org/haiku/
   title: NetPositive error messages
   description: A collection of humorous haiku error messages, originally from NetPositive, a web browser for BeOS. I'll probably steal some of these...
@@ -83,12 +83,12 @@
   title: Passing a Language through the Eye of a Needle
   authors: [Roberto Ierusalimschy, Luiz Henrique de Figueiredo, Waldemar Celes]
   description: How the embeddability of Lua impacted its design.
-  tags: ['computing', 'architecture']
+  tags: ['architecture', 'computing', 'paper']
 - url: http://www.darkshire.net/jhkim/rpg/magic/antiscience.html
   title: Breaking Out of Scientific Magic Systems
   authors: John H. Kim
   description: Some interesting RPG mechanics to give magic a distinct flavor.
-  tags: ['game', 'RPG', 'design', 'magic']
+  tags: ['design', 'game', 'magic', 'RPG']
 - url: https://www.cs.purdue.edu/homes/dec/essay.dissertation.html
   title: How To Write A Dissertation, or Bedtime Reading For People Who Do Not Have Time To Sleep
   description: Tips and directions on how to write a formal scientific document.
@@ -96,7 +96,7 @@
 - url: https://www.reddit.com/r/programming/comments/1kth0/test_driven_design_vs_thought_driven_design/
   title: Test Driven Design vs Thought Driven Design
   description: A Reddit discussion about Ron Jeffries' (XP guy) vs Peter Norvig's approaches for a Sudoku solver.
-  tags: ['computing', 'tdd']
+  tags: ['computing', 'TDD']
 - url: https://www.freecodecamp.org/news/fundamental-design-principles-for-non-designers-ad34c30caa7/
   title: Fundamental design principles for non-designers
   authors: Anna Mészáros
@@ -106,7 +106,7 @@
   title: A Curriculum for Cybernetics and Systems Theory
   authors: Alan B. Scrivener
   description: A list with reviews of suggested books, periodicals, television shows and computer programs for a classroom curriculum or individual study in cybernetics and systems theory.
-  tags: ['science', 'systems', 'cybernetics']
+  tags: ['cybernetics', 'science', 'systems']
 - url: https://en.wikipedia.org/wiki/Energy_Systems_Language
   title: Energy Systems Language
   description: A graphic language developed by Howard Odum used to compose energy flow diagrams in the field of systems ecology.
@@ -115,17 +115,17 @@
   title: Architectural Styles and the Design of Network-based Software Architectures
   authors: Roy Fielding
   description: The author's PhD dissertation describing the REST architectural style.
-  tags: ['computing', 'science', 'architecture', 'rest']
+  tags: ['architecture', 'computing', 'paper', 'REST', 'science']
 - url: http://dreamsongs.com/RiseOfWorseIsBetter.html
   title: 'The Rise of "Worse is Better"'
   authors: Richard Gabriel
   description: 'Excerpted from "Lisp: Good News, Bad News, How to Win Big", this essay is about how simple-first, "New Jersey-style" software has better survival characteristics than quality-first, "MIT-style" approaches.'
-  tags: ['computing', 'history', 'architecture']
+  tags: ['architecture', 'computing', 'history']
 - url: https://gist.github.com/hanjos/2764ed8c5d8af859320911eb5c11aead
   title: Stevey's Google Platforms Rant
   authors: Steve Yegge
   description: Why Amazon does everything wrong and Google everything right, yet Amazon offers a better platform. Saved as a Gist for posterity, since Google+ no longer is a thing.
-  tags: ['computing', 'platform', 'business']
+  tags: ['business', 'computing', 'platform']
 - url: https://medium.com/s/story/jeff-bezos-jack-ma-and-the-quest-to-kill-ebay-bb4992dc5020
   title: Jeff Bezos, Jack Ma, and the Quest to Kill eBay
   authors: Steve Yegge
@@ -156,3 +156,37 @@
   authors: Eric S. Raymond
   description: How and why write good documentation for your code.
   tags: ['computing', 'writing']
+- url: https://www.archive.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf
+  title: Reflections on Trusting Trust
+  authors: Ken Thompson
+  description: Classic paper on to what extent should one trust a statement that a program is free of Trojan horses? Perhaps it is more important to trust the people who wrote the software.
+  tags: ['computing', 'history', 'paper', 'security']
+- url: https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying
+  title: "The Log: What every software engineer should know about real-time data's unifying abstraction"
+  authors: Jay Kreps
+  description: Everything one needs to know about logs, including what is log and how to use logs for data integration, real time processing, and system building.
+  tags: ['computing', 'distributed', 'real-time']
+- url: https://www.gwern.net/Complement
+  title: 'Laws of Tech: Commoditize Your Complement'
+  authors: Gwern Branwen
+  description: Expanding on Joel Spolsky's 'Strategy Letter V'.
+  tags: ['business', 'computing']
+- url: http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/
+  title: The Cathedral and the Bazaar
+  authors: Eric S. Raymond
+  description: A classic book which helped popularize the open source movement.
+  tags: ['book', 'computing', 'history']
+- url: https://hackernoon.com/we-already-know-blockchains-killer-apps-f2d443eba35
+  title: We already know blockchain’s killer apps
+  authors: Haseeb Qureshi
+  description: There are many exciting ideas floating around blockchains, but its killer app may already be known.
+  tags: ['blockchain', 'computing', 'DLT']
+- url: https://forum.rpg.net/index.php?threads/time-traveling-dimension-hopping-kung-fu-killaz.176094/
+  title: Time-traveling dimension hopping kung-fu killaz
+  description: One of the most out there RPG world concepts I've seen.
+  tags: ['concept', 'game', 'RPG']
+- url: https://norvig.com/design-patterns/design-patterns.pdf
+  title: Design Patterns in Dynamic Programming
+  authors: Peter Norvig
+  description: The title is pretty self-explaining.
+  tags: ['computing', 'design pattern', 'dynamic']

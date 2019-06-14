@@ -2,96 +2,157 @@
   title: Anatomy of a knockout
   authors: Chris Granger
   description: A brief description of the Entity-Component-System (ECS) architecture pattern, common in games and simulations.
+  tags: ['architecture', 'ecs', 'computing']
 - url: https://www.chris-granger.com/2013/01/24/the-ide-as-data/
   title: The IDE as a value
   authors: Chris Granger
   description: A description of Chris' BOT architecture, derived from ECS to fit event-driven applications.
+  tags: ['architecture', 'ecs', 'computing']
 - url: https://www.joelonsoftware.com/2004/12/15/camels-and-rubber-duckies/
   title: Camels and Rubber Duckies
   authors: Joel Spolsky
   description: How to price your software.
+  tags: ['business', 'computing']
 - url: https://www.joelonsoftware.com/2002/06/12/strategy-letter-v/
   title: Strategy Letter V
   authors: Joel Spolsky
   description: How a little microeconomics can help explain tech companies' strategies.
+  tags: ['business', 'computing']
 - url: http://cowboyprogramming.com/2007/01/05/evolve-your-heirachy/
   title: Evolve Your Hierarchy
   authors: Mick West
   description: One of the earliest and most popular descriptions of ECS.
+  tags: ['architecture', 'ecs', 'computing']
 - url: http://groups.csail.mit.edu/mac/classes/6.001/abelson-sussman-lectures/
   title: "Structure and Interpretation of Computer Programs: Video Lectures by Hal Abelson and Gerald Jay Sussman"
   description: The complete collection of video lectures of MIT's famous introductory computer science course, given in 1986.
+  tags: ['computing', 'lecture', 'functional']
 - url: https://smorgasborg.artlung.com/C_R_Y_P_T_O_N_O_M_I_C_O_N.shtml
   title: In the Beginning was the Command Line
   authors: Neal Stephenson
   description: An essay about the history and evolution of OSes and user interfaces, written in 1999.
+  tags: ['history', 'computing']
 - url: http://steve-yegge.blogspot.com/2008/10/universal-design-pattern.html
   title: The Universal Design Pattern
   authors: Steve Yegge
   description: A long essay about the power and flexibility of the Properties Pattern.
+  tags: ['computing', 'design pattern']
 - url: http://www.squidi.net/three/index.php
   title: Three Hundred Mechanics
   authors: squidi
   description: (Eventually) 300 different gameplay mechanics and concepts, created by the author and released to the public domain.
+  tags: ['game', 'design']
 - url: http://mu.ranter.net/design-theory
   title: Mu’s Unbelievably Long and Disjointed Ramblings About RPG Design
   description: Several links and ramblings about game design in general, and many times fantasy MMORPG in particular.
+  tags: ['game', 'RPG', 'design']
 - url: http://gameprogrammingpatterns.com/
   title: Game Programming Patterns
   authors: Robert Nystrom
   description: A collection of design patterns found in games.
+  tags: ['game', 'design pattern', 'computing']
 - url: http://entity-systems.wikidot.com/
   title: Entity Systems Wiki
   description: A site collecting information about the Entity-Component-System architecture pattern, with several approaches, tutorials and links.
+  tags: ['architecture', 'ecs', 'computing']
 - url: http://www.shirky.com/writings/group_enemy.html
   title: A Group Is Its Own Worst Enemy
   authors: Clay Shirky
   description: A keynote about a common pattern in social software which supports large, long-lived groups.
+  tags: ['computing', 'social']
 - url: http://www.designingsocialinterfaces.com/
   title: Designing Social Interfaces
   authors: [Christian Crumlish, Erin Malone]
   description: A collection of social user experience design patterns.
+  tags: ['computing', 'social', 'ux', 'design pattern']
 - url: http://8325.org/haiku/
   title: NetPositive error messages
   description: A collection of humorous haiku error messages, originally from NetPositive, a web browser for BeOS. I'll probably steal some of these...
+  tags: ['computing', 'humor']
 - url: https://www.gnu.org/fun/jokes/pasta.code.html
   title: Spaghetti Code
   description: A quick introduction to the complete Pasta Theory of software.
+  tags: ['computing', 'humor']
 - url: https://groups.google.com/d/msg/alt.sci.math.probability/NCBxwC2o-9w/amg_NnF6500J
   title: "Re: Theory of Everything (TOE)"
   authors: Tom Davidson
   description: An argument for the most fundamental of all logical statements that can be made about a system, even when nothing is known about the contents or processes that may be found
     therein.
+  tags: ['humor']
 - url: https://queue.acm.org/detail.cfm?id=1983083
   title: Passing a Language through the Eye of a Needle
   authors: [Roberto Ierusalimschy, Luiz Henrique de Figueiredo, Waldemar Celes]
   description: How the embeddability of Lua impacted its design.
+  tags: ['computing', 'architecture']
 - url: http://www.darkshire.net/jhkim/rpg/magic/antiscience.html
   title: Breaking Out of Scientific Magic Systems
   authors: John H. Kim
   description: Some interesting RPG mechanics to give magic a distinct flavor.
+  tags: ['game', 'RPG', 'design', 'magic']
 - url: https://www.cs.purdue.edu/homes/dec/essay.dissertation.html
   title: How To Write A Dissertation, or Bedtime Reading For People Who Do Not Have Time To Sleep
   description: Tips and directions on how to write a formal scientific document.
+  tags: ['science', 'writing']
 - url: https://www.reddit.com/r/programming/comments/1kth0/test_driven_design_vs_thought_driven_design/
   title: Test Driven Design vs Thought Driven Design
-  description: A Reddit discussion about Ron Jeffries' (XP guy) and Peter Norvig's (um... scientist?) Sudoku solver.
+  description: A Reddit discussion about Ron Jeffries' (XP guy) vs Peter Norvig's approaches for a Sudoku solver.
+  tags: ['computing', 'tdd']
 - url: https://www.freecodecamp.org/news/fundamental-design-principles-for-non-designers-ad34c30caa7/
   title: Fundamental design principles for non-designers
   authors: Anna Mészáros
   description: Some basic tips for non-designers to make a simple web design that doesn't utterly suck.
+  tags: ['computing', 'design', 'ux']
 - url: https://people.well.com/user/abs/curriculum.html
   title: A Curriculum for Cybernetics and Systems Theory
   authors: Alan B. Scrivener
   description: A list with reviews of suggested books, periodicals, television shows and computer programs for a classroom curriculum or individual study in cybernetics and systems theory.
+  tags: ['science', 'systems', 'cybernetics']
 - url: https://en.wikipedia.org/wiki/Energy_Systems_Language
   title: Energy Systems Language
   description: A graphic language developed by Howard Odum used to compose energy flow diagrams in the field of systems ecology.
+  tags: ['science', 'systems']
 - url: https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm
   title: Architectural Styles and the Design of Network-based Software Architectures
   authors: Roy Fielding
   description: The author's PhD dissertation describing the REST architectural style.
+  tags: ['computing', 'science', 'architecture', 'rest']
 - url: http://dreamsongs.com/RiseOfWorseIsBetter.html
   title: 'The Rise of "Worse is Better"'
   authors: Richard Gabriel
-  description: 'Excerpted from "Lisp: Good News, Bad News, How to Win Big", this classic essay talks about how simple-first, "New Jersey-style" software has better survival characteristics than quality-first, "MIT-style" approaches.'
+  description: 'Excerpted from "Lisp: Good News, Bad News, How to Win Big", this essay is about how simple-first, "New Jersey-style" software has better survival characteristics than quality-first, "MIT-style" approaches.'
+  tags: ['computing', 'history', 'architecture']
+- url: https://gist.github.com/hanjos/2764ed8c5d8af859320911eb5c11aead
+  title: Stevey's Google Platforms Rant
+  authors: Steve Yegge
+  description: Why Amazon does everything wrong and Google everything right, yet Amazon offers a better platform. Saved as a Gist for posterity, since Google+ no longer is a thing.
+  tags: ['computing', 'platform', 'business']
+- url: https://medium.com/s/story/jeff-bezos-jack-ma-and-the-quest-to-kill-ebay-bb4992dc5020
+  title: Jeff Bezos, Jack Ma, and the Quest to Kill eBay
+  authors: Steve Yegge
+  description: The right - and wrong - way to compete with a locked market.
+  tags: ['business']
+- url: https://www.eugenewei.com/blog/2019/2/19/status-as-a-service
+  title: Status as a Service (StaaS)
+  authors: Eugene Wei
+  description: An analysis of social networks on the dimension of status or social capital.
+  tags: ['computing', 'social']
+- url: http://esr.ibiblio.org/?p=8254
+  title: How not to design a wire protocol
+  authors: Eric S. Raymond
+  description: How poor intuition for costs makes people optimize for the wrong things.
+  tags: ['computing', 'design']
+- url: https://www.eugenewei.com/blog/2017/11/13/remove-the-legend
+  title: Remove the legend to become one
+  authors: Eugene Wei
+  description: Some basic principles on how to best present data for ease of consumption.
+  tags: ['data', 'ux']
+- url: https://www.eugenewei.com/blog/2018/5/21/invisible-asymptotes
+  title: Invisible asymptotes
+  authors: Eugene Wei
+  description: Strategic planning and growth at large scale technology companies.
+  tags: ['business', 'computing']
+- url: http://esr.ibiblio.org/?p=8175
+  title: How to write narrative documentation
+  authors: Eric S. Raymond
+  description: How and why write good documentation for your code.
+  tags: ['computing', 'writing']

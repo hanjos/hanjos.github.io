@@ -1,5 +1,5 @@
 {%- if include.bookmark.url -%}
-<!-- {{ include.bookmark.tags | join: ',' | prepend: ',' | replace: ',', '$tag-' | replace_first: '$', '' | split: '$' | slugify | inspect }} -->
+<!-- {{ include.bookmark.tags | join: ',' | prepend: ',' | replace: ',', '$tag-' | replace_first: '$', '' | split: '$' }} -->
 <dt><a href='{{ include.bookmark.url }}'>{{ include.bookmark.title }}</a>
   {%- if include.bookmark.authors -%}, <small class='side-comment'>by {{ include.bookmark.authors | join: ", " }}</small>{%- endif -%}</dt>
 {%- if include.bookmark.tags.size > 0 -%}

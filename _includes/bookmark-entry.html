@@ -1,13 +1,13 @@
 {%- if include.bookmark.url -%}
-<!-- {{ include.bookmark.tags | join: ',' | prepend: ',' | replace: ',', '$tag-' | replace: ' ', '-' | replace_first: '$', '' | split: '$' | join: '/' }} -->
-<dt><a href='{{ include.bookmark.url }}'>{{ include.bookmark.title }}</a>
+{{ assign tag_classes = include.bookmark.tags | join: ',' | prepend: ',' | replace: ',', '$tag-' | replace: ' ', '-' | replace_first: '$', '' | split: '$' | join: ' ' }}
+<dt class='{{ tag_classes }}'><a href='{{ include.bookmark.url }}'>{{ include.bookmark.title }}</a>
   {%- if include.bookmark.authors -%}, <small class='side-comment'>by {{ include.bookmark.authors | join: ", " }}</small>{%- endif -%}</dt>
 {%- if include.bookmark.tags.size > 0 -%}
-<dd>
+<dd class='{{ tag_classes }}'>
 {%- for tag in include.bookmark.tags -%}
 <small class='tag'>{{ tag }}</small>{% if forloop.last == false %}, {% endif %}
 {%- endfor -%}
 </dd>
 {%- endif -%}
-{%- if include.bookmark.description -%}<dd>{{ include.bookmark.description }}</dd>{%- endif -%}
+{%- if include.bookmark.description -%}<dd class='{{ tag_classes }}'>{{ include.bookmark.description }}</dd>{%- endif -%}
 {%- endif -%}

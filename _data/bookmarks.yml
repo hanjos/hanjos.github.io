@@ -2,12 +2,12 @@
   title: Anatomy of a knockout
   authors: Chris Granger
   description: A brief description of the Entity-Component-System (ECS) architecture pattern, common in games and simulations.
-  tags: ['architecture', 'computing', 'ECS']
+  tags: ['architecture', 'computing', 'ECS', 'programming']
 - url: https://www.chris-granger.com/2013/01/24/the-ide-as-data/
   title: The IDE as a value
   authors: Chris Granger
   description: A description of Chris' BOT architecture, derived from ECS to fit event-driven applications.
-  tags: ['architecture', 'computing', 'ECS']
+  tags: ['architecture', 'computing', 'ECS', 'programming']
 - url: https://www.joelonsoftware.com/2004/12/15/camels-and-rubber-duckies/
   title: Camels and Rubber Duckies
   authors: Joel Spolsky
@@ -22,7 +22,7 @@
   title: Evolve Your Hierarchy
   authors: Mick West
   description: One of the earliest and most popular descriptions of ECS.
-  tags: ['architecture', 'computing', 'ECS']
+  tags: ['architecture', 'computing', 'ECS', 'programming']
 - url: http://groups.csail.mit.edu/mac/classes/6.001/abelson-sussman-lectures/
   title: "Structure and Interpretation of Computer Programs: Video Lectures by Hal Abelson and Gerald Jay Sussman"
   description: The complete collection of video lectures of MIT's famous introductory computer science course, given in 1986.
@@ -50,7 +50,7 @@
   title: Game Programming Patterns
   authors: Robert Nystrom
   description: A collection of design patterns found in games.
-  tags: ['book', 'computing', 'design pattern', 'game']
+  tags: ['book', 'computing', 'design pattern', 'game', 'programming']
 - url: http://entity-systems.wikidot.com/
   title: Entity Systems Wiki
   description: A site collecting information about the Entity-Component-System architecture pattern, with several approaches, tutorials and links.
@@ -83,7 +83,7 @@
   title: Passing a Language through the Eye of a Needle
   authors: [Roberto Ierusalimschy, Luiz Henrique de Figueiredo, Waldemar Celes]
   description: How the embeddability of Lua impacted its design.
-  tags: ['architecture', 'computing', 'paper']
+  tags: ['architecture', 'computing', 'paper', 'programming']
 - url: http://www.darkshire.net/jhkim/rpg/magic/antiscience.html
   title: Breaking Out of Scientific Magic Systems
   authors: John H. Kim
@@ -155,7 +155,7 @@
   title: How to write narrative documentation
   authors: Eric S. Raymond
   description: How and why write good documentation for your code.
-  tags: ['computing', 'writing']
+  tags: ['computing', 'programming', 'writing']
 - url: https://www.archive.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf
   title: Reflections on Trusting Trust
   authors: Ken Thompson
@@ -189,4 +189,4 @@
   title: Design Patterns in Dynamic Programming
   authors: Peter Norvig
   description: The title is pretty self-explaining.
-  tags: ['computing', 'design pattern', 'dynamic']
+  tags: ['computing', 'design pattern', 'dynamic', 'programming']

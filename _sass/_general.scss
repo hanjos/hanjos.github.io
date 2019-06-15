@@ -93,21 +93,25 @@ figure {
 }
 
 dl {
+  margin: 0;
+
   dt {
+    margin: 0;
+    padding-top: 1em; /* spacing between definitions */
+
     a {
       font-weight: bold;
     }
-
-    margin: 0;
   }
 
   dd {
     font-size: 0.9em;
   }
+}
 
-  dd + dt {
-    padding-top: 1em; /* spacing between definitions */
-  }
+button { /* centering any content within */
+  display: flex;
+  align-items: center;
 }
 
 .center-block {

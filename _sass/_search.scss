@@ -1,0 +1,13 @@
+.search-widget {
+  display: flex;
+  flex-flow: column nowrap;
+
+  .search-bar {
+    display: flex;
+    flex-flow: row nowrap;
+
+    input {
+      width: 100%;
+    }
+  }
+}

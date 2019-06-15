@@ -36,7 +36,7 @@
   title: The Universal Design Pattern
   authors: Steve Yegge
   description: A long essay about the power and flexibility of the Properties Pattern.
-  tags: ['computing', 'design pattern', 'programming']
+  tags: ['computing', 'design', 'pattern', 'programming']
 - url: http://www.squidi.net/three/index.php
   title: Three Hundred Mechanics
   authors: squidi
@@ -50,7 +50,7 @@
   title: Game Programming Patterns
   authors: Robert Nystrom
   description: A collection of design patterns found in games.
-  tags: ['book', 'computing', 'design pattern', 'game', 'programming']
+  tags: ['book', 'computing', 'design', 'game', 'pattern', 'programming']
 - url: http://entity-systems.wikidot.com/
   title: Entity Systems Wiki
   description: A site collecting information about the Entity-Component-System architecture pattern, with several approaches, tutorials and links.
@@ -64,7 +64,7 @@
   title: Designing Social Interfaces
   authors: [Christian Crumlish, Erin Malone]
   description: A collection of social user experience design patterns.
-  tags: ['computing', 'design pattern', 'social', 'ux']
+  tags: ['computing', 'design', 'pattern', 'social', 'ux']
 - url: http://8325.org/haiku/
   title: NetPositive error messages
   description: A collection of humorous haiku error messages, originally from NetPositive, a web browser for BeOS. I'll probably steal some of these...
@@ -189,7 +189,7 @@
   title: Design Patterns in Dynamic Programming
   authors: Peter Norvig
   description: The title is pretty self-explaining.
-  tags: ['computing', 'design pattern', 'dynamic', 'programming']
+  tags: ['computing', 'design', 'dynamic', 'pattern', 'programming']
 - url: http://c9x.me/compile/bib/
   title: Resources for Amateur Compiler Writers
   authors: Quentin Carbonneaux

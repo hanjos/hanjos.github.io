@@ -83,7 +83,7 @@
   title: Passing a Language through the Eye of a Needle
   authors: [Roberto Ierusalimschy, Luiz Henrique de Figueiredo, Waldemar Celes]
   description: How the embeddability of Lua impacted its design.
-  tags: ['architecture', 'computing', 'paper', 'programming']
+  tags: ['computing', 'language', 'paper', 'programming']
 - url: http://www.darkshire.net/jhkim/rpg/magic/antiscience.html
   title: Breaking Out of Scientific Magic Systems
   authors: John H. Kim
@@ -110,7 +110,7 @@
 - url: https://en.wikipedia.org/wiki/Energy_Systems_Language
   title: Energy Systems Language
   description: A graphic language developed by Howard Odum used to compose energy flow diagrams in the field of systems ecology.
-  tags: ['science', 'systems']
+  tags: ['language', 'science', 'systems']
 - url: https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm
   title: Architectural Styles and the Design of Network-based Software Architectures
   authors: Roy Fielding
@@ -189,12 +189,12 @@
   title: Design Patterns in Dynamic Programming
   authors: Peter Norvig
   description: The title is pretty self-explaining.
-  tags: ['computing', 'design', 'dynamic', 'pattern', 'programming']
+  tags: ['computing', 'design', 'dynamic', 'language', 'pattern', 'programming']
 - url: http://c9x.me/compile/bib/
   title: Resources for Amateur Compiler Writers
   authors: Quentin Carbonneaux
   description: A collection of relevant and practical (as deemed by the author) papers and books about compilers.
-  tags: ['compiler', 'computing', 'programming', 'programming language']
+  tags: ['compiler', 'computing', 'language', 'programming']
 - url: https://blog.redelastic.com/a-journey-into-reactive-streams-5ee2a9cd7e29
   title: A Journey into Reactive Streams
   authors: Kevin Webber

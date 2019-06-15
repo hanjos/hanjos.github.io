@@ -4,7 +4,8 @@
   {%- if include.bookmark.authors -%}, <small class='side-comment'>by {{ include.bookmark.authors | join: ", " }}</small>{%- endif -%}</dt>
 {%- if include.bookmark.tags.size > 0 -%}
 <dd class='{{ tag_classes }}'>
-{%- for tag in include.bookmark.tags -%}
+{%- assign sorted_tags = include.bookmark.tags | sort -%}
+{%- for tag in sorted_tags -%}
 <small class='tag'>{{ tag }}</small>{% if forloop.last == false %}, {% endif %}
 {%- endfor -%}
 </dd>

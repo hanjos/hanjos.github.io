@@ -1,6 +1,6 @@
 $(function () { // load only after the document is ready
   function search() {
-    var text = $('#search-input').val();
+    var text = $('#search-input').val().trim();
 
     if(!/\S/.test(text)) { // no text, show everything
       console.log('showing everything');

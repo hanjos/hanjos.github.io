@@ -8,7 +8,7 @@ $(function () { // load only after the document is ready
       console.log('showing everything');
 
       $('.hidden').removeClass('hidden');
-      $('#search-count').text($('.bookmark').length + ' bookmarks');
+      $('#search-count').text($('.list-item').length + ' bookmarks');
     } else { // show only the tags given
       console.log('showing only %o', text);
 
@@ -22,8 +22,8 @@ $(function () { // load only after the document is ready
       });
 
       $(selectors.join(', ')).addClass('hidden');
-      $('#search-count').text('Showing ' + $('.bookmark:not(.hidden)').length +
-          ' (out of ' + $('.bookmark').length + ')');
+      $('#search-count').text('Showing ' + $('.list-item:not(.hidden)').length +
+          ' (out of ' + $('.list-item').length + ')');
     }
   }
 

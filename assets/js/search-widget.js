@@ -13,13 +13,15 @@ $(function () { // load only after the document is ready
       var tags = text.toLowerCase().split(/\s+/).map(function (v) { return '.tag-' + v; });
 
       console.log('filtering by %o', tags);
+      // unhiding everything
       $('.hidden').removeClass('hidden');
 
-      var selectors = tags.map(function (v) {
+      // selecting who to hide now
+      var itemsToHide = tags.map(function (v) {
         return 'dl > :not(' + v + ')';
       });
 
-      $(selectors.join(', ')).addClass('hidden');
+      $(itemsToHide.join(', ')).addClass('hidden');
       $('#search-count').text('Showing ' + $('.list-item:not(.hidden)').length +
           ' (out of ' + $('.list-item').length + ')');
     }

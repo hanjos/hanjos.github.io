@@ -1,6 +1,4 @@
 $(function () { // load only after the document is ready
-  console.log('ready!');
-
   function search() {
     var text = $('#search-input').val();
 
@@ -8,7 +6,7 @@ $(function () { // load only after the document is ready
       console.log('showing everything');
 
       $('.hidden').removeClass('hidden');
-      $('#search-count').text($('.list-item').length + ' bookmarks');
+      $('#search-count').text($('.list-item').length + ' entries');
     } else { // show only the tags given
       console.log('showing only %o', text);
 

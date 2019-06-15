@@ -1,17 +1,17 @@
-<dt class='heading'>
+{% assign tag_classes = include.post.tags | join: ',' | downcase | prepend: ',' | replace: ',', '$tag-' | replace: ' ', '-' | replace_first: '$', '' | split: '$' | join: ' ' %}
+<dt class='list-item heading {{ tag_classes }}'>
   <small class='side-comment'><time datetime='{{ include.post.date | date_to_xmlschema }}'>{{ include.post.date | date: "%d %b %Y" }}</time></small>&nbsp;&nbsp;
   <a href='{{ include.post.url }}' class='title'>{{ include.post.title }}</a>
-  {% if include.show_tags and include.post.tags.size > 0 %}
-  &nbsp;
-  <span class='tags'>
-    {% for tag in include.post.tags %}
-    <a href='/tags.html#tag-{{ tag }}' class='tag'><small>{{ tag }}</small></a>&nbsp;
-    {% endfor %}
-  </span>
-  {% endif %}
 </dt>
+{% if include.show_tags and include.post.tags.size > 0 %}
+<dd class='{{ tag_classes }}'>
+  {%- for tag in include.post.tags -%}
+  <small class='tag'>{{ tag }}</small>{% if forloop.last == false %}, {% endif %}
+  {%- endfor -%}
+</dd>
+{% endif %}
 {% if include.show_excerpt %}
-<dd class='excerpt'>
+<dd class='excerpt {{ tag_classes }}'>
   {{ include.post.excerpt }}
 </dd>
 {% endif %}

@@ -9,6 +9,9 @@ Here are all my blog posts, tagged, excerpted and ordered chronologically for yo
 
 # Latest posts
 
+{% assign count = site.posts.size %}
+{% include search-widget.html count=count %}
+
 <dl>
 {% for post in site.posts %}
   {% include post-entry.html post=post show_tags=true show_excerpt=true %}

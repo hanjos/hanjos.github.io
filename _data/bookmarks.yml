@@ -204,3 +204,13 @@
   title: CORE Economics
   description: A complete introduction to economics and the economy that has been successfully taught both to economics undergraduates and in masters courses in public policy.
   tags: ['book', 'economics']
+- url: http://catb.org/jargon/html/
+  title: The Jargon File
+  authors: Eric S. Raymond
+  description: A comprehensive compendium of hacker slang illuminating many aspects of hackish tradition, folklore, and humor.
+  tags: ['book', 'computing', 'history', 'humor']
+- url: https://web.mit.edu/alexmv/6.037/sicp.pdf
+  title: Structure and Interpretation of Computer Programs, 2nd edition
+  authors: [Harold Abelson, Gerald Jay Sussman, Julie Sussman]
+  description: The second edition of MIT's classic introductory programming course, when they still used Scheme instead of Python.
+  tags: ['book', 'computing', 'programming']

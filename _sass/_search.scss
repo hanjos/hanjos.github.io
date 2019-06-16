@@ -1,3 +1,5 @@
+$search-input-padding: 0.5em;
+
 .search-widget {
   display: flex;
   flex-flow: column nowrap;
@@ -8,7 +10,11 @@
 
     input {
       width: 100%;
-      padding: 0 0.5em;
+      padding: 0 $search-input-padding;
     }
+  }
+
+  #search-count {
+    padding-left: $search-input-padding;
   }
 }

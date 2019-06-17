@@ -1,4 +1,5 @@
 $(function () { // load only after the document is ready
+  // helper functions
   function search() {
     var text = $('#search-input').val().trim();
 
@@ -27,13 +28,35 @@ $(function () { // load only after the document is ready
     }
   }
 
-  // search input and button
+  function getUrlParameters() {
+    var pageUrl = window.location.search.substring(1),
+        parameterList = pageUrl.split('&'),
+        variables = {};
+
+    for (var i = 0; i < parameterList.length; i++) {
+      var parameter = parameterList[i].split('=');
+
+      variables[parameter[0]] = parameter[1];
+    }
+
+    return variables;
+  }
+
+  // connecting the functions to the HTML elements
   $('#search-input').keypress(function (event) {
     var keycode = (event.keyCode ? event.keyCode : event.which);
-    if(keycode == '13'){
-      search();
+    if(keycode == '13'){ // <enter> key
+      search($('#search-input').val());
     }
     event.stopPropagation();
   });
   $('#search-button').click(search);
+  $('#clear-button').click(function () { $('#search-input').val(''); search(); });
+
+  // if the q parameter is given, fill #search-input and trigger a search
+  var parameters = getUrlParameters();
+  if(parameters.q) {
+    var text = $('#search-input').val(parameters.q);
+    search();
+  }
 });

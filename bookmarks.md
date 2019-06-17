@@ -7,14 +7,13 @@ As [promised](/2019/06/11/to-remember-is-to-live.html), here's some stuff that h
 
 # Tags
 
-<p>
 {% assign sorted_tags = site.data.bookmarks | map: 'tags' | join: ',' | downcase | split: ',' | group_by_exp: 'item', 'item' | sort: 'name' %}
-<!-- {{ sorted_tags }} -->
+<p>
 {% for tag in sorted_tags %}
-  <span class='tag'>{{ tag.name }} ({{ tag.size }})</span>
-  {%- if forloop.last == false -%}
-  , 
-  {%- endif -%}
+<a href='{{ page.url }}?q={{ tag.name }}' class='tag'>{{ tag.name }} ({{ tag.size }})</a>
+{%- if forloop.last == false -%}
+,
+{%- endif -%}
 {% endfor %}
 </p>
 

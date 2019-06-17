@@ -6,7 +6,7 @@
 <dd class='{{ tag_classes }}'>
 {%- assign sorted_tags = include.bookmark.tags | sort -%}
 {%- for tag in sorted_tags -%}
-<small class='tag'>{{ tag }}</small>{% if forloop.last == false %}, {% endif %}
+  <a href='{{ page.url }}?q={{ tag }}' class='tag'><small>{{ tag }}</small></a>{% if forloop.last == false %}, {% endif %}
 {%- endfor -%}
 </dd>
 {%- endif -%}

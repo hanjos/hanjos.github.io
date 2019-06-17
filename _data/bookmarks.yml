@@ -135,7 +135,7 @@
   title: Status as a Service (StaaS)
   authors: Eugene Wei
   description: An analysis of social networks on the dimension of status or social capital.
-  tags: ['computing', 'social']
+  tags: ['business', 'computing', 'social']
 - url: http://esr.ibiblio.org/?p=8254
   title: How not to design a wire protocol
   authors: Eric S. Raymond
@@ -145,7 +145,7 @@
   title: Remove the legend to become one
   authors: Eugene Wei
   description: Some basic principles on how to best present data for ease of consumption.
-  tags: ['data', 'ux']
+  tags: ['business', 'data', 'ux']
 - url: https://www.eugenewei.com/blog/2018/5/21/invisible-asymptotes
   title: Invisible asymptotes
   authors: Eugene Wei
@@ -214,3 +214,13 @@
   authors: [Harold Abelson, Gerald Jay Sussman, Julie Sussman]
   description: The second edition of MIT's classic introductory programming course, when they still used Scheme instead of Python.
   tags: ['book', 'computing', 'programming']
+- url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD10xx/EWD1036.html
+  title: On the cruelty of really teaching computing science
+  authors: Edsger W. Dijkstra
+  description: A famous essay which attempts to put computer science into a wider perspective within science, and argues that computer programming should be understood as a branch of mathematics, and that the formal provability of a program is a major criterion for correctness.
+  tags: ['computing', 'history', 'paper', 'science']
+- url: https://www.cs.virginia.edu/~evans/cs655/readings/steele.pdf
+  title: Growing a language
+  authors: Guy L. Steele Jr.
+  description: A famous talk/paper where the authors argues, essentially, that "a good programmer does not just write programs. A good programmer builds a working vocabulary. A good programmer does language design, though not from scratch, but building on the frame of a base language."
+  tags: ['computing', 'history', 'language', 'paper', 'programming']

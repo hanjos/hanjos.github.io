@@ -225,7 +225,7 @@
   description: In a nutshell, "a good programmer does not just write programs. A good programmer builds a working vocabulary. A good programmer does language design, though not from scratch, but building on the frame of a base language."
   tags: ['computing', 'history', 'language', 'paper', 'programming']
 - url: https://urbigenous.net/library/how_to_build.html
-  title: How to Build a Universe That Doesn’t Fall Apart Two Days Later (1978)
+  title: How to Build a Universe That Doesn’t Fall Apart Two Days Later
   authors: Philip K. Dick
-  description: One of several inquiries about the author's religious experiences, and his worries about the nature of reality as presented on TV.
-  tags: ['experience', 'fiction', 'science']
+  description: One of several texts about the author's religious experiences, and his worries about the nature of reality.
+  tags: ['experience', 'fiction', 'science', 'writing']

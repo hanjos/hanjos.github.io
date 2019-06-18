@@ -217,10 +217,10 @@
 - url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD10xx/EWD1036.html
   title: On the cruelty of really teaching computing science
   authors: Edsger W. Dijkstra
-  description: A famous essay which attempts to put computer science into a wider perspective within science, and argues that computer programming should be understood as a branch of mathematics, and that the formal provability of a program is a major criterion for correctness.
+  description: An attempt to put computer science into a wider perspective within science, an argument that computer programming should be understood as a branch of mathematics, and that the formal provability of a program is a major criterion for correctness.
   tags: ['computing', 'history', 'paper', 'science']
 - url: https://www.cs.virginia.edu/~evans/cs655/readings/steele.pdf
   title: Growing a language
   authors: Guy L. Steele Jr.
-  description: A famous talk/paper where the authors argues, essentially, that "a good programmer does not just write programs. A good programmer builds a working vocabulary. A good programmer does language design, though not from scratch, but building on the frame of a base language."
+  description: In a nutshell, "a good programmer does not just write programs. A good programmer builds a working vocabulary. A good programmer does language design, though not from scratch, but building on the frame of a base language."
   tags: ['computing', 'history', 'language', 'paper', 'programming']

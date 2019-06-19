@@ -229,3 +229,16 @@
   authors: Philip K. Dick
   description: One of several texts about the author's religious experiences, and his worries about the nature of reality.
   tags: ['experience', 'fiction', 'science', 'writing']
+- url: http://www.paulgraham.com/taste.html
+  title: Taste for Makers
+  authors: Paul Graham
+  description: The author's tips and observations on characteristics of good design.
+  tags: ['design']
+- url: https://medium.com/wardleymaps/on-being-lost-2ef5f05eb1ec
+  title: Wardley Maps
+  authors: Simon Wardley
+  description: The use of topographical intelligence in business strategy. Or, how and why build a map for your business.
+  tags: ['book', 'business']
+  
+  
+  

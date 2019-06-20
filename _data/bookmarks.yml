@@ -262,7 +262,7 @@
 - url: http://worrydream.com/LearnableProgramming/
   title: Learnable Programming
   authors: Bret Victor
-  descriptions: The author's answer to the question "How do we get people to understand programming?"
+  description: The author's answer to the question "How do we get people to understand programming?"
   tags: ['computing', 'programming', 'ux']
   
   

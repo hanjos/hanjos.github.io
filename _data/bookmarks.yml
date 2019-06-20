@@ -180,7 +180,7 @@
   title: We already know blockchain’s killer apps
   authors: Haseeb Qureshi
   description: There are many exciting ideas floating around blockchains, but its killer app may already be known.
-  tags: ['blockchain', 'computing', 'DLT']
+  tags: ['blockchain', 'computing']
 - url: https://forum.rpg.net/index.php?threads/time-traveling-dimension-hopping-kung-fu-killaz.176094/
   title: Time-traveling dimension hopping kung-fu killaz
   description: One of the most out there RPG world concepts I've seen.
@@ -243,12 +243,12 @@
   title: "Bitcoin: A Peer-to-Peer Electronic Cash System"
   authors: Satoshi Nakamoto
   description: The paper that first introduced Bitcoin.
-  tags: ['blockchain', 'cryptocurrency', 'paper']
+  tags: ['blockchain', 'computing', 'cryptocurrency', 'paper']
 - url: https://ojphi.org/ojs/index.php/fm/article/view/548/469
   title: Formalizing and Securing Relationships on Public Networks
   authors: Nick Szabo
   description: The original smart contract proposal.
-  tags: ['blockchain', 'contract', 'paper', 'smart']
+  tags: ['blockchain', 'computing', 'contract', 'paper', 'smart']
 - url: http://worrydream.com/ExplorableExplanations/
   title: Explorable Explanations
   authors: Bret Victor

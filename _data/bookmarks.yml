@@ -159,7 +159,7 @@
 - url: https://www.archive.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf
   title: Reflections on Trusting Trust
   authors: Ken Thompson
-  description: Classic paper on to what extent should one trust the software we run.
+  description: To what extent should one trust the software one runs.
   tags: ['computing', 'history', 'paper', 'security']
 - url: https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying
   title: "The Log: What every software engineer should know about real-time data's unifying abstraction"
@@ -239,6 +239,13 @@
   authors: Simon Wardley
   description: The use of topographical intelligence in business strategy. Or, how and why build a map for your business.
   tags: ['book', 'business']
-  
-  
-  
+- url: https://bitcoin.org/bitcoin.pdf
+  title: "Bitcoin: A Peer-to-Peer Electronic Cash System"
+  authors: Satoshi Nakamoto
+  description: The paper that first introduced Bitcoin.
+  tags: ['blockchain', 'cryptocurrency', 'paper']
+- url: https://ojphi.org/ojs/index.php/fm/article/view/548/469
+  title: Formalizing and Securing Relationships on Public Networks
+  authors: Nick Szabo
+  description: The original smart contract proposal.
+  tags: ['blockchain', 'contract', 'paper', 'smart']

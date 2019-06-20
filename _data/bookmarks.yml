@@ -249,3 +249,20 @@
   authors: Nick Szabo
   description: The original smart contract proposal.
   tags: ['blockchain', 'contract', 'paper', 'smart']
+- url: http://worrydream.com/ExplorableExplanations/
+  title: Explorable Explanations
+  authors: Bret Victor
+  description: An essay about the author's effort to enable and encourage active reading, presenting the notions of reactive documents, explorable examples and contextual information.
+  tags: ['computing', 'ux', 'writing']
+- url: https://jamesclear.com/great-speeches/inventing-on-principle-by-bret-victor
+  title: Inventing on Principle
+  authors: Bret Victor
+  description: A transcript of the author's famous speech at CUSEC 2012.
+  tags: ['computing', 'ux']
+- url: http://worrydream.com/LearnableProgramming/
+  title: Learnable Programming
+  authors: Bret Victor
+  descriptions: The author's answer to the question "How do we get people to understand programming?"
+  tags: ['computing', 'programming', 'ux']
+  
+  

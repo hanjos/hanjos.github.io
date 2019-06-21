@@ -3,6 +3,11 @@
   url: https://sbrubbles.org/feed.xml
   icon: /assets/images/rss.svg
   alt: This site's feed
+- network: E-mail
+  profile: h.anjos
+  url: mailto:h.anjos@sbrubbles.org
+  icon: /assets/images/email.svg
+  alt: E-mail
 - network: Github
   profile: hanjos
   url: https://github.com/hanjos

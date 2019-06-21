@@ -3,6 +3,15 @@ layout: default
 title: About
 ---
 
+# Me
+
+I have tons of accounts floating around (the consequences of being old, I guess :P), but these should be the most active.
+
+* **E-mail:** [h.anjos@sbrubbles.org](mailto:h.anjos@sbrubbles.org)
+* **Github:** [hanjos](https://github.com/hanjos)
+* **Steam:** [To Punch Garlic](https://steamcommunity.com/id/topunchgarlic)
+* **Wordpress:** [humanjos](https://patosdoinferno.wordpress.com/author/humanjos/)
+
 # This
 
 This site is written mostly in [Markdown](http://daringfireball.net/projects/markdown/), compiled by [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/). Here's [the source code](https://github.com/hanjos/hanjos.github.io). 

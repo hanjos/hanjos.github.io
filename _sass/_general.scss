@@ -31,6 +31,8 @@ $code-color: #f0f0f0;
 $mid-screen-width: 750px;
 $sidebar-width: 150px;
 
+$font-size: 14px;
+
 * {
   box-sizing: border-box;
 }
@@ -44,7 +46,7 @@ body {
 
   font-family: $sans-serif-font;
 
-  font-size: 14px;
+  font-size: $font-size;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -122,10 +124,6 @@ button { /* centering any content within */
 
 .side-comment {
   color: gray;
-}
-
-.tag {
-  color: $sidebar-link-color;
 }
 
 .hidden { /* useful to filter out elements in a list */

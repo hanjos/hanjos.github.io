@@ -1,3 +1,5 @@
+@import 'general';
+
 $search-input-padding: 0.5em;
 
 .search-widget {
@@ -16,5 +18,47 @@ $search-input-padding: 0.5em;
 
   #search-count {
     padding-left: $search-input-padding;
+  }
+}
+
+.tag-cloud {
+  margin: 0;
+
+  text-align: center;
+}
+
+.tag {
+  color: $sidebar-link-color;
+
+  &.tag-size-0 {
+    font-size: $font-size * 0.8333333;
+  }
+
+  &.tag-size-1 {
+    font-size: $font-size;
+  }
+
+  &.tag-size-2 {
+    font-size: $font-size * 1.166667;
+  }
+
+  &.tag-size-3 {
+    font-size: $font-size * 1.333333;
+  }
+
+  &.tag-size-4 {
+    font-size: $font-size * 1.5;
+  }
+
+  &.tag-size-5 {
+    font-size: $font-size * 1.666667;
+  }
+
+  &.tag-size-6 {
+    font-size: $font-size * 1.833333;
+  }
+
+  &.tag-size-7 {
+    font-size: $font-size * 2;
   }
 }

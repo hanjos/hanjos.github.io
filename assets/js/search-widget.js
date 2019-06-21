@@ -13,7 +13,6 @@ $(function () { // load only after the document is ready
 
       var tags = text.toLowerCase().split(/\s+/).map(function (v) { return '.tag-' + v; });
 
-      console.log('filtering by %o', tags);
       // unhiding everything
       $('.hidden').removeClass('hidden');
 
@@ -28,18 +27,12 @@ $(function () { // load only after the document is ready
     }
   }
 
-  function getUrlParameters() {
-    var pageUrl = window.location.search.substring(1),
-        parameterList = pageUrl.split('&'),
-        variables = {};
-
-    for (var i = 0; i < parameterList.length; i++) {
-      var parameter = parameterList[i].split('=');
-
-      variables[parameter[0]] = parameter[1];
+  function getUrlHash() {
+    if(! window.location.hash) {
+      return '';
     }
 
-    return variables;
+    return window.location.hash.substring(1); // removing the leading '#'
   }
 
   // connecting the functions to the HTML elements
@@ -53,10 +46,22 @@ $(function () { // load only after the document is ready
   $('#search-button').click(search);
   $('#clear-button').click(function () { $('#search-input').val(''); search(); });
 
+  // if an 'a.tag' is clicked, force a search
+  $('a.tag').click(function (event) {
+    var href = $(this).attr('href');
+
+    if(! href || ! href.startsWith('#')) {
+      console.error('Expected an a.tag to point to "#something", not "%s"', href);
+    }
+
+    $('#search-input').val(href.substring(1));
+    search();
+  });
+
   // if the q parameter is given, fill #search-input and trigger a search
-  var parameters = getUrlParameters();
-  if(parameters.q) {
-    var text = $('#search-input').val(parameters.q);
+  var hash = getUrlHash();
+  if(hash) {
+    $('#search-input').val(hash);
     search();
   }
 });

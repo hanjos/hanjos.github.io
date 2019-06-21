@@ -10,7 +10,7 @@ Here are all my blog posts, tagged, excerpted and ordered chronologically for yo
 <p>
 {% assign sorted_tags = site.tags | sort %}
 {% for tag in sorted_tags %}
-  <a href='{{ page.url}}?q={{ tag[0] }}' class='tag'>{{ tag[0] }} ({{ tag[1].size }})</a>
+  <a href='#{{ tag[0] }}' class='tag'>{{ tag[0] }} ({{ tag[1].size }})</a>
   {%- if forloop.last == false -%}
   , 
   {%- endif -%}

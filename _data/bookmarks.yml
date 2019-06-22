@@ -67,7 +67,7 @@
   tags: ['computing', 'design', 'pattern', 'social', 'ux']
 - url: http://8325.org/haiku/
   title: NetPositive error messages
-  description: A collection of humorous haiku error messages, originally from NetPositive, a web browser for BeOS. I'll probably steal some of these...
+  description: A collection of humorous haiku error messages originally from NetPositive, a web browser for BeOS. I'll probably steal some of these...
   tags: ['computing', 'humor']
 - url: https://www.gnu.org/fun/jokes/pasta.code.html
   title: Spaghetti Code
@@ -267,7 +267,7 @@
 - url: http://erlang.org/download/armstrong_thesis_2003.pdf
   title: Making reliable distributed systems in the presence of software errors
   authors: Joe Armstrong
-  description: The author's PhD dissertation on how to make reliable systems from faulty components, focusing on the essential characteristics the programming language and the standard library should have, which informed Erlang's design. 
+  description: The author's PhD dissertation on how to make reliable systems from faulty components, focusing on the essential characteristics the programming language and the standard library should have.
   tags: ['computing', 'Erlang', 'history', 'language', 'paper', 'programming', 'science']
 - url: http://www-formal.stanford.edu/jmc/recursive.html
   title: Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I 

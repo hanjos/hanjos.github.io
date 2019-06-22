@@ -10,5 +10,5 @@
 {%- endfor -%}
 </dd>
 {%- endif -%}
-{%- if include.bookmark.description -%}<dd class='{{ tag_classes }}'>{{ include.bookmark.description }}</dd>{%- endif -%}
+{%- if include.bookmark.description -%}<dd class='excerpt {{ tag_classes }}'>{{ include.bookmark.description | markdownify }}</dd>{%- endif -%}
 {%- endif -%}

@@ -284,7 +284,11 @@
   authors: Roberto Ierusalimschy
   description: A proposal to use Parsing Expression Grammars as a basis for pattern matching in programming languages, presenting LPeg as a working implementation.
   tags: ['computing', 'language', 'Lua', 'matching', 'paper', 'pattern', 'PEG', 'programming']
-  
+- url: https://surface.syr.edu/cgi/viewcontent.cgi?article=1012&context=lcsmith_other
+  title: Definitional Interpreters for Higher-Order Programming Languages
+  authors: John C. Reynolds
+  description: Classifies several varieties of interpreters, showing how they may be derived from one another, and how the choice of implementing language may affect the resulting implemented language.
+  tags: ['computing', 'interpreter', 'language', 'paper', 'programming']
   
   
   

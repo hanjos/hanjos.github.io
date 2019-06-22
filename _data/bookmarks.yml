@@ -294,5 +294,9 @@
   authors: Bryan Ford
   description: An alternative to context-free grammars and regular expressions for parsing machine-oriented languages.
   tags: ['computing', 'grammar', 'language', 'paper', 'PEG', 'programming']
-  
+- url: http://bracha.org/mirrors.pdf
+  title: "Mirrors: Design Principles for Meta-level Facilities of Object-Oriented Programming Languages"
+  authors: ['Gilad Bracha', 'David Ungar']
+  description: Gives some design principles for reflection and metaprogramming facilities, and defines the concept of mirrors for an reflective API which follows these principles.
+  tags: ['computing', 'language', 'metaprogramming', 'mirror', 'programming', 'reflection']
   

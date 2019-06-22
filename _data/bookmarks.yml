@@ -83,7 +83,7 @@
   title: Passing a Language through the Eye of a Needle
   authors: [Roberto Ierusalimschy, Luiz Henrique de Figueiredo, Waldemar Celes]
   description: How the embeddability of Lua impacted its design.
-  tags: ['computing', 'language', 'paper', 'programming']
+  tags: ['computing', 'language', 'Lua', 'paper', 'programming']
 - url: http://www.darkshire.net/jhkim/rpg/magic/antiscience.html
   title: Breaking Out of Scientific Magic Systems
   authors: John H. Kim
@@ -268,17 +268,17 @@
   title: Making reliable distributed systems in the presence of software errors
   authors: Joe Armstrong
   description: The author's PhD dissertation on how to make reliable systems from faulty components, focusing on the essential characteristics the programming language and the standard library should have, which informed Erlang's design. 
-  tags: ['computing', 'erlang', 'history', 'language', 'paper', 'programming', 'science']
+  tags: ['computing', 'Erlang', 'history', 'language', 'paper', 'programming', 'science']
 - url: http://www-formal.stanford.edu/jmc/recursive.html
   title: Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I 
   authors: John McCarthy
   description: The landmark paper introducing Lisp, code-as-data, and how a handful of simple operators and a notation for functions is enough to build a programming language.
-  tags: ['computing', 'history', 'language', 'lisp', 'paper', 'programming']
+  tags: ['computing', 'history', 'language', 'Lisp', 'paper', 'programming']
 - url: http://www.paulgraham.com/rootsoflisp.html
   title: The Roots of Lisp
   authors: Paul Graham
   description: The author's attempt to understand and distill the essence of John McCarthy's original paper on Lisp, in an easier form for modern audiences.
-  tags: ['computing', 'history', 'language', 'lisp', 'paper', 'programming']
+  tags: ['computing', 'history', 'language', 'Lisp', 'paper', 'programming']
   
   
   

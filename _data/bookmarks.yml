@@ -264,5 +264,9 @@
   authors: Bret Victor
   description: The author's answer to the question "How do we get people to understand programming?"
   tags: ['computing', 'programming', 'ux']
-  
+- url: http://erlang.org/download/armstrong_thesis_2003.pdf
+  title: Making reliable distributed systems in the presence of software errors
+  authors: Joe Armstrong
+  description: The author's PhD dissertation on how to make reliable systems from faulty components, focusing on the essential characteristics the programming language and the standard library should have. 
+  tags: ['computing', 'erlang', 'history', 'language', 'paper', 'programming', 'science']
   

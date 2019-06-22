@@ -289,6 +289,10 @@
   authors: John C. Reynolds
   description: Classifies several varieties of interpreters, showing how they may be derived from one another, and how the choice of implementing language may affect the resulting implemented language.
   tags: ['computing', 'interpreter', 'language', 'paper', 'programming']
-  
+- url: http://bford.info/pub/lang/peg.pdf
+  title: "Parsing Expression Grammars: A Recognition-Based Syntactic Foundation"
+  authors: Bryan Ford
+  description: An alternative to context-free grammars and regular expressions for parsing machine-oriented languages.
+  tags: ['computing', 'grammar', 'language', 'paper', 'PEG', 'programming']
   
   

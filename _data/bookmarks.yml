@@ -269,8 +269,18 @@
   authors: Joe Armstrong
   description: The author's PhD dissertation on how to make reliable systems from faulty components, focusing on the essential characteristics the programming language and the standard library should have, which informed Erlang's design. 
   tags: ['computing', 'erlang', 'history', 'language', 'paper', 'programming', 'science']
-- url: https://homepages.inf.ed.ac.uk/wadler/papers/papers-we-love/mccarthy-recursive-functions.pdf
+- url: http://www-formal.stanford.edu/jmc/recursive.html
   title: Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I 
   authors: John McCarthy
-  description: A landmark paper introducing Lisp, code-as-data, and how a handful of simple operators and a notation for functions is enough to build a programming language.
+  description: The landmark paper introducing Lisp, code-as-data, and how a handful of simple operators and a notation for functions is enough to build a programming language.
   tags: ['computing', 'history', 'language', 'lisp', 'paper', 'programming']
+- url: http://www.paulgraham.com/rootsoflisp.html
+  title: The Roots of Lisp
+  authors: Paul Graham
+  description: The author's attempt to understand and distill the essence of John McCarthy's original paper on Lisp, in an easier form for modern audiences.
+  tags: ['computing', 'history', 'language', 'lisp', 'paper', 'programming']
+  
+  
+  
+  
+  

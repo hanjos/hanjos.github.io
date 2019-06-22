@@ -279,7 +279,11 @@
   authors: Paul Graham
   description: The author's attempt to understand and distill the essence of John McCarthy's original paper on Lisp, in an easier form for modern audiences.
   tags: ['computing', 'history', 'language', 'Lisp', 'paper', 'programming']
-  
+- url: http://www.inf.puc-rio.br/~roberto/docs/peg.pdf
+  title: A Text Pattern-Matching Tool based on Parsing Expression Grammars
+  authors: Roberto Ierusalimschy
+  description: A proposal to use Parsing Expression Grammars as a basis for pattern matching in programming languages, presenting LPeg as a working implementation.
+  tags: ['computing', 'language', 'Lua', 'matching', 'paper', 'pattern', 'PEG', 'programming']
   
   
   

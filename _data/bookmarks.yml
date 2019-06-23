@@ -93,9 +93,10 @@
   title: How To Write A Dissertation, or Bedtime Reading For People Who Do Not Have Time To Sleep
   description: Tips and directions on how to write a formal scientific document.
   tags: ['science', 'writing']
-- url: http://pindancing.blogspot.com/2009/09/sudoku-in-coders-at-work.html
-  title: Test Driven Design vs Thought Driven Design
-  description: A blog post about some of Peter Norvig's thoughts about Ron Jeffries' (XP guy) vs his approaches for a Sudoku solver, from the book "Coders at Work".
+- url: https://gigamonkeys.wordpress.com/2009/10/05/coders-unit-testing/
+  title: Unit testing in Coders at Work
+  authors: Peter Siebel
+  description: A blog post about some known programmers' impressions of TDD, and particularly Ron Jeffries' (XP guy) vs Peter Norvig's approaches for a Sudoku solver.
   tags: ['computing', 'favorite', 'programming', 'TDD']
 - url: https://www.freecodecamp.org/news/fundamental-design-principles-for-non-designers-ad34c30caa7/
   title: Fundamental design principles for non-designers

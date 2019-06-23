@@ -78,7 +78,7 @@
   authors: Tom Davidson
   description: An argument for the most fundamental of all logical statements that can be made about a system, even when nothing is known about the contents or processes that may be found
     therein.
-  tags: ['humor']
+  tags: ['favorite', 'humor']
 - url: https://queue.acm.org/detail.cfm?id=1983083
   title: Passing a Language through the Eye of a Needle
   authors: [Roberto Ierusalimschy, Luiz Henrique de Figueiredo, Waldemar Celes]
@@ -93,10 +93,10 @@
   title: How To Write A Dissertation, or Bedtime Reading For People Who Do Not Have Time To Sleep
   description: Tips and directions on how to write a formal scientific document.
   tags: ['science', 'writing']
-- url: https://www.reddit.com/r/programming/comments/1kth0/test_driven_design_vs_thought_driven_design/
+- url: http://pindancing.blogspot.com/2009/09/sudoku-in-coders-at-work.html
   title: Test Driven Design vs Thought Driven Design
-  description: A Reddit discussion about Ron Jeffries' (XP guy) vs Peter Norvig's approaches for a Sudoku solver.
-  tags: ['computing', 'programming', 'TDD']
+  description: A blog post about some of Peter Norvig's thoughts about Ron Jeffries' (XP guy) vs his approaches for a Sudoku solver, from the book "Coders at Work".
+  tags: ['computing', 'favorite', 'programming', 'TDD']
 - url: https://www.freecodecamp.org/news/fundamental-design-principles-for-non-designers-ad34c30caa7/
   title: Fundamental design principles for non-designers
   authors: Anna Mészáros
@@ -120,7 +120,7 @@
   title: 'The Rise of "Worse is Better"'
   authors: Richard Gabriel
   description: 'Excerpted from "Lisp: Good News, Bad News, How to Win Big", this essay is about how simple-first, "New Jersey-style" software has better survival characteristics than quality-first, "MIT-style" approaches.'
-  tags: ['architecture', 'computing', 'history', 'programming']
+  tags: ['architecture', 'computing', 'favorite', 'history', 'programming']
 - url: https://gist.github.com/hanjos/2764ed8c5d8af859320911eb5c11aead
   title: Stevey's Google Platforms Rant
   authors: Steve Yegge
@@ -184,7 +184,7 @@
 - url: https://forum.rpg.net/index.php?threads/time-traveling-dimension-hopping-kung-fu-killaz.176094/
   title: Time-traveling dimension hopping kung-fu killaz
   description: One of the most out there RPG world concepts I've seen.
-  tags: ['concept', 'game', 'RPG']
+  tags: ['concept', 'favorite', 'game', 'RPG']
 - url: https://norvig.com/design-patterns/design-patterns.pdf
   title: Design Patterns in Dynamic Programming
   authors: Peter Norvig
@@ -208,12 +208,12 @@
   title: The Jargon File
   authors: Eric S. Raymond
   description: A comprehensive compendium of hacker slang illuminating many aspects of hackish tradition, folklore, and humor.
-  tags: ['book', 'computing', 'history', 'humor']
+  tags: ['book', 'computing', 'favorite', 'history', 'humor']
 - url: https://web.mit.edu/alexmv/6.037/sicp.pdf
   title: Structure and Interpretation of Computer Programs, 2nd edition
   authors: [Harold Abelson, Gerald Jay Sussman, Julie Sussman]
   description: The second edition of MIT's classic introductory programming course, when they still used Scheme instead of Python.
-  tags: ['book', 'computing', 'programming']
+  tags: ['book', 'computing', 'favorite', 'programming']
 - url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD10xx/EWD1036.html
   title: On the cruelty of really teaching computing science
   authors: Edsger W. Dijkstra
@@ -223,7 +223,7 @@
   title: Growing a language
   authors: Guy L. Steele Jr.
   description: In a nutshell, "a good programmer does not just write programs. A good programmer builds a working vocabulary. A good programmer does language design, though not from scratch, but building on the frame of a base language."
-  tags: ['computing', 'history', 'language', 'paper', 'programming']
+  tags: ['computing', 'favorite', 'history', 'language', 'paper', 'programming']
 - url: https://urbigenous.net/library/how_to_build.html
   title: How to Build a Universe That Doesn’t Fall Apart Two Days Later
   authors: Philip K. Dick
@@ -288,7 +288,7 @@
   title: Definitional Interpreters for Higher-Order Programming Languages
   authors: John C. Reynolds
   description: Classifies several varieties of interpreters, showing how they may be derived from one another, and how the choice of implementing language may affect the resulting implemented language.
-  tags: ['computing', 'interpreter', 'language', 'paper', 'programming']
+  tags: ['computing', 'favorite', 'language', 'paper', 'programming']
 - url: http://bford.info/pub/lang/peg.pdf
   title: "Parsing Expression Grammars: A Recognition-Based Syntactic Foundation"
   authors: Bryan Ford
@@ -303,4 +303,4 @@
   title: How Complex Systems Fail
   authors: Richard I. Cook
   description: A series of bullet points on the nature of failure and how failure is and should be evaluated.
-  tags: ['complex', 'history', 'paper', 'system']
+  tags: ['complex', 'favorite', 'history', 'paper', 'systems']

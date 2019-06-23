@@ -1,6 +1,6 @@
 {% assign tag_classes = include.post.tags | join: ',' | downcase | prepend: ',' | replace: ',', '$tag-' | replace: ' ', '-' | replace_first: '$', '' | split: '$' | join: ' ' %}
 <dt class='list-item heading {{ tag_classes }}'>
-  <small class='side-comment'><time datetime='{{ include.post.date | date_to_xmlschema }}'>{{ include.post.date | date: "%d %b %Y" }}</time></small>&nbsp;&nbsp;
+  <small class='side-comment'><time datetime='{{ include.post.date | date_to_xmlschema }}'>{{ include.post.date | date: "%d %b %Y" }}</time></small>&nbsp;&nbsp;{%- if tag_classes contains 'tag-favorite' -%}<span class='favorite'>&starf;&nbsp;</span>{%- endif -%}
   <a href='{{ include.post.url }}' class='title'>{{ include.post.title }}</a>
 </dt>
 {% if include.show_tags and include.post.tags.size > 0 %}

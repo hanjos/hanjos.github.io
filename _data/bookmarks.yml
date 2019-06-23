@@ -299,4 +299,8 @@
   authors: ['Gilad Bracha', 'David Ungar']
   description: Gives some design principles for reflection and metaprogramming facilities, and defines the concept of mirrors for an reflective API which follows these principles.
   tags: ['computing', 'language', 'metaprogramming', 'mirror', 'programming', 'reflection']
-  
+- url: https://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf
+  title: How Complex Systems Fail
+  authors: Richard I. Cook
+  description: A series of bullet points on the nature of failure and how failure is and should be evaluated.
+  tags: ['complex', 'history', 'paper', 'system']

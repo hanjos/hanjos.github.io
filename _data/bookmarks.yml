@@ -305,3 +305,9 @@
   authors: Richard I. Cook
   description: A series of bullet points on the nature of failure and how failure is and should be evaluated.
   tags: ['complex', 'favorite', 'history', 'paper', 'systems']
+- url: https://cs.uwaterloo.ca/~dberry/FTP_SITE/reprints.journals.conferences/YeminiBerry1985Mechanism.pdf
+  title: A Modular Verifiable Exception-Handling Mechanism 
+  authors: ['Shaula Yemini', 'Daniel M. Berry']
+  description: Describes several known exception handling mechanisms, and provides a new model which supports them all. 
+  tags: ['computing', 'error', 'handling', 'language', 'paper', 'programming']
+

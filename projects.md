@@ -3,7 +3,7 @@ layout: default
 title: Projects
 ---
 
-Here is some of my code available in the wild. Unfortunately some of my meatier stuff is employer-owned, but I still have some interesting stuff running around...
+Here is some of my code available in the wild. Unfortunately my meatier stuff is employer-owned, but I still have some interesting things running around...
 
 # Tags
 

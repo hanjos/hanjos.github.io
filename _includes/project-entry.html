@@ -1,0 +1,18 @@
+{% assign tag_classes = include.project.tags | join: ',' | downcase | prepend: ',' | replace: ',', '$tag-' | replace: ' ', '-' | replace_first: '$', '' | split: '$' | join: ' ' %}
+<dt class='list-item heading {{ tag_classes }}'>
+  {%- if tag_classes contains 'tag-favorite' -%}<span class='favorite'>&starf;&nbsp;</span>{%- endif -%}
+  <a href='{{ include.project.url }}' class='title'>{{ include.project.title }}</a>
+</dt>
+{%- if include.project.tags.size > 0 -%}
+<dd class='{{ tag_classes }}'>
+  {%- assign sorted_tags = include.project.tags | sort -%}
+  {%- for tag in sorted_tags -%}
+  <a href='#{{ tag }}' class='tag'><small>{{ tag }}</small></a>{% if forloop.last == false %}, {% endif %}
+  {%- endfor -%}
+</dd>
+{%- endif -%}
+{%- if include.project.description -%}
+<dd class='excerpt {{ tag_classes }}'>
+  {{ include.project.description | markdownify }}
+</dd>
+{%- endif -%}

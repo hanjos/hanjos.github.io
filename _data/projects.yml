@@ -1,0 +1,29 @@
+- title: mea-libris
+  url: https://github.com/hanjos/mea-libris
+  description: A simple web API which shows one's books (using OAuth) in Google Books as JSON or CSV. Getting the Amazon Kindle ones is... trickier.
+  tags: ['API', 'Go', 'service', 'web']
+- title: javadoc-taglets
+  url: https://github.com/hanjos/javadoc-taglets
+  description: "A place for some custom Javadoc taglets. For now there's only one: `include.file`, which inserts the text content of a file in the docs."
+  tags: ['Java', 'Javadoc', 'taglets']
+- title: nexus
+  url: https://github.com/hanjos/nexus
+  description: Pulls data from a Sonatype Nexus 2.x instance.
+  tags: ['Go', 'Nexus']
+- title: groucho
+  url: https://github.com/hanjos/groucho
+  description: An alternative [Mustache](http://mustache.github.io/) implementation for Lua.
+  tags: ['Lua', 'mustache']
+- title: genericcons
+  url: https://github.com/hanjos/genericcons
+  description: An amusing, Lisp-inspired trick for Java generics to accept an open-ended list of type variables.
+  tags: ['favorite', 'generics', 'Java']
+- title: leg
+  url: https://github.com/keplerproject/leg
+  description: A Lua library which offers a Lua 5.1 grammar along with some functions to use and modify it. I don't maintain it, but I did write the initial version (holy crap, I'm old...).
+  tags: ['5.1', 'Lua', 'grammar']
+- title: shake
+  url: https://github.com/keplerproject/shake
+  description: A simple and transparent test engine for Lua. I don't maintain it, but I did write the initial core (wow, it has been a while...).
+  tags: ['5.1', 'Lua', 'test']
+

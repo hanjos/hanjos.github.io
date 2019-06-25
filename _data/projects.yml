@@ -20,10 +20,10 @@
   tags: ['favorite', 'generics', 'Java']
 - title: leg
   url: https://github.com/keplerproject/leg
-  description: A Lua library which offers a Lua 5.1 grammar along with some functions to use and modify it. I don't maintain it, but I did write the initial version (holy crap, I'm old...).
-  tags: ['5.1', 'Lua', 'grammar']
+  description: A Lua 5.1 grammar, along with some functions to use and modify it. I don't maintain it, but I did write the initial version (holy crap, I'm old...).
+  tags: ['Lua', 'grammar']
 - title: shake
   url: https://github.com/keplerproject/shake
-  description: A simple and transparent test engine for Lua. I don't maintain it, but I did write the initial core (wow, it has been a while...).
-  tags: ['5.1', 'Lua', 'test']
+  description: A simple and transparent test engine for Lua 5.1. I don't maintain it, but I did write the initial core (wow, it has been a while...).
+  tags: ['Lua', 'test']
 

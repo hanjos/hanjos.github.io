@@ -1,7 +1,7 @@
 - title: mea-libris
   url: https://github.com/hanjos/mea-libris
-  description: A simple web API which shows one's books (using OAuth) in Google Books as JSON or CSV. Getting the Amazon Kindle ones is... trickier.
-  tags: ['API', 'Go', 'service', 'web']
+  description: A simple web API which shows one's books (using OAuth) in Google Books as JSON or CSV. Alas, getting the Kindle books is trickier. Especially when Amazon doesn't want you to...
+  tags: ['API', 'book', 'Go', 'Google', 'service', 'web']
 - title: javadoc-taglets
   url: https://github.com/hanjos/javadoc-taglets
   description: "A place for some custom Javadoc taglets. For now there's only one: `include.file`, which inserts the text content of a file in the docs."
@@ -20,10 +20,10 @@
   tags: ['favorite', 'generics', 'Java']
 - title: leg
   url: https://github.com/keplerproject/leg
-  description: A Lua 5.1 grammar, along with some functions to use and modify it. I don't maintain it, but I did write the initial version (holy crap, I'm old...).
-  tags: ['Lua', 'grammar']
+  description: A Lua 5.1 grammar, along with some functions to use and modify it. I don't maintain it, but I wrote the initial version (holy crap, I'm old...).
+  tags: ['grammar', 'Lua', 'LPeg']
 - title: shake
   url: https://github.com/keplerproject/shake
-  description: A simple and transparent test engine for Lua 5.1. I don't maintain it, but I did write the initial core (wow, it has been a while...).
+  description: A simple and transparent test engine for Lua 5.1. I don't maintain it, but I wrote the initial core (wow, it has been a while...).
   tags: ['Lua', 'test']
 

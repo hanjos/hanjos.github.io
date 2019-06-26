@@ -18,19 +18,12 @@ group, go nuts). Maybe something turn-based, XCOM style...
 
 #### MMORPGs with more than combat
 
-I've tried playing MMOs. But the idea that captured my imagination was "persistent world". Thing is, to me that means 
-"being able to change the world", and most games go for the theme park/grinding style. I can see why: not every paying 
-subscriber can be a warrior-god world saver, and there's no way the devs can come up with new content all the time. 
-Theme park/grinding is just easier, and seems to be enough to pay the bills. For some games, at least.
-
-I don't have a solution. But there are some things I'd like to see:
+Some uncommmon things I thought would be interesting to see more:
 
 * Other career choices besides "adventurer". Maybe if there were something else to do (something fun, of course) besides 
-Killing and Looting&trade;, the subsequent inevitable arms race could be stemmed, and more possibilities explored.
- 
-  * A bard, along with some rhythm-based minigames, might be interesting. I can visualize a player using a Guitar Hero 
-controller on jam night at the tavern. And it could be useful in adventuring too, with the player 'playing' their 
-spells into existence. 
+Killing and Looting&trade;, the inevitable arms race could be stemmed, and more possibilities explored.
+
+* Developing the previous point further, these other careers would be minigames of their own, possibly even with other forms of interaction. A bard, for example, could use a Guitar Hero controller, either in jam night at the tavern, or to 'play' their spells into existence. 
 
 * Instead of explicit karma, griefers could be marked as wanted, with other players being able to act as bounty hunters. 
 With adequate bounties, this could be a way for players to police themselves. And griefers to be constantly harassed by 

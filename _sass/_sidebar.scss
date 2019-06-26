@@ -5,4 +5,15 @@ body > header nav {
   	font-weight: bold;
   	color: $sidebar-link-color; /* same orange as in the profile image */
   }
+
+  a {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+
+    img {
+      width: 1.2em;
+      height: 1.2em;
+    }
+  }
 }

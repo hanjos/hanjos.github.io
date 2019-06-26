@@ -28,8 +28,9 @@ $monospace-font:
 $sidebar-link-color: #f3732a;
 $code-color: #f0f0f0;
 
-$mid-screen-width: 750px;
-$sidebar-width: 150px;
+$sidebar-width: 200px;
+$max-main-width: 600px;
+$mid-screen-width: $sidebar-width + $max-main-width;
 
 $font-size: 14px;
 

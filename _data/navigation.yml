@@ -1,8 +1,12 @@
 - name: About
   link: /about.html
+  icon: /assets/images/information-outline.svg
 - name: Bookmarks
   link: /bookmarks.html
+  icon: /assets/images/bookmark-multiple.svg
 - name: Posts
   link: /posts.html
+  icon: /assets/images/file.svg
 - name: Projects
   link: /projects.html
+  icon: /assets/images/console.svg

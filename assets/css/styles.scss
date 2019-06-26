@@ -47,11 +47,13 @@ body {
     padding: 0 1em;
 
     * {
-      display: flex; /* flattening and centering */
-
       margin: 0; /* necessary or alignment goes out of whack */
 
       text-decoration: none; /* no underlines here */
+    }
+
+    nav ul {
+      display: flex;
     }
 
     address ul {
@@ -88,7 +90,7 @@ body {
   }
 
   > main {
-    max-width: 600px;
+    max-width: $max-main-width;
 
     margin: 0 auto; /* centering */
     padding: 0 2em 2em 2em;
@@ -138,15 +140,16 @@ img.banner {
         display: flex;
         flex-flow: column nowrap;
         justify-content: flex-start;
-        align-items: center;
+        align-items: flex-end;
 
         /* lining up with main */
         max-width: $sidebar-width;
         margin: 0;
 
-        * {
+        nav ul {
           display: flex; /* unflattening */
           flex-flow: column;
+          align-items: flex-end;
 
           margin: 0; /* necessary or alignment goes out of whack */
           padding: 0;

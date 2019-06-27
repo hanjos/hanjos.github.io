@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projects
+title: Code
 ---
 
 Here is some of my code available in the wild. Unfortunately my meatier stuff is employer-owned, but I still have some interesting things running around...
@@ -24,7 +24,7 @@ Here is some of my code available in the wild. Unfortunately my meatier stuff is
 <dl>
 {% assign sorted_projects = site.data.projects | sort: 'title', 'last' %}
 {% for project in sorted_projects %}
-  {% include project-entry.html project=project %}
+  {% include code-entry.html project=project %}
 {% endfor %}
 </dl>
 {% endif %}

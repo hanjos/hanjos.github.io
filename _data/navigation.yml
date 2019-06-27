@@ -1,6 +1,6 @@
 - name: About
   link: /about.html
-  icon: /assets/images/information-outline.svg
+  icon: /assets/images/information-variant.svg
 - name: Bookmarks
   link: /bookmarks.html
   icon: /assets/images/bookmark-multiple.svg
@@ -9,4 +9,4 @@
   icon: /assets/images/source-repository-multiple.svg
 - name: Posts
   link: /posts.html
-  icon: /assets/images/file-document-box-multiple.svg
+  icon: /assets/images/fountain-pen-tip.svg

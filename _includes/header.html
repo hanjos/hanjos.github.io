@@ -7,7 +7,7 @@
       <ul>
       {% for item in site.data.navigation %}
         <li><a href='{{ item.link }}' {% if page.url == item.link %}class='current'{% endif %}>
-          <span class='only-md'>{{ item.name }}&nbsp;</span><img src='{{ item.icon }}' alt='{{ item.name }}' title='{{ item.name }}' class='navigation-link'>
+          <span class='only-md'>{{ item.name }}&nbsp;</span><img src='{{ item.icon }}' alt='{{ item.name }}' title='{{ item.name }}' class='navigation-link only-sm'>
         </a></li>
       {% endfor %}
       </ul>

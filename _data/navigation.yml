@@ -9,7 +9,7 @@
 - name: Code
   link: /code.html
   icon: /assets/images/source-repository-multiple.svg
-  symbol: >_
+  symbol: '>_'
 - name: Posts
   link: /posts.html
   icon: /assets/images/file-document-box-multiple.svg

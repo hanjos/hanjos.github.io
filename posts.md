@@ -3,9 +3,9 @@ layout: default
 title: Latest posts
 ---
 
-Here are all my blog posts, tagged, excerpted and ordered chronologically for your appreciation. I can't promise frequency, correctness, usefulness or even sanity, but, well, go nuts :P
+# Posts
 
-# Tags
+Here are all my blog posts, tagged, excerpted and ordered chronologically for your appreciation. I can't promise frequency, correctness, usefulness or even sanity, but, well, go nuts :P
 
 {% assign sorted_tags = site.tags | sort %}
 {% assign max_count = site.tags | group_by_exp: 'item', 'item[1].size' | map: 'name' | sort | last | times: 1.0 %}
@@ -14,8 +14,6 @@ Here are all my blog posts, tagged, excerpted and ordered chronologically for yo
   <a href='#{{ tag[0] }}' class='tag tag-size-{{ tag[1].size | divided_by: max_count | times: 7 | round }}'>{{ tag[0] }}</a>&nbsp;
 {% endfor %}
 </p>
-
-# Posts
 
 {% assign count = site.posts.size %}
 {% include search-widget.html count=count %}

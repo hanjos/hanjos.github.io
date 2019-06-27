@@ -3,9 +3,9 @@ layout: default
 title: Code
 ---
 
-Here is some of my code available in the wild. Unfortunately my meatier stuff is employer-owned, but I still have some interesting things running around...
+# Code
 
-# Tags
+Here is some of my code available in the wild. Unfortunately my meatier stuff is employer-owned, but I still have some interesting things running around...
 
 {% assign sorted_tags = site.data.projects | map: 'tags' | join: ',' | downcase | split: ',' | group_by_exp: 'item', 'item' | sort: 'name' %}
 {% assign max_count = sorted_tags | map: 'size' | sort | last | times: 1.0 %}
@@ -14,8 +14,6 @@ Here is some of my code available in the wild. Unfortunately my meatier stuff is
 <a href='#{{ tag.name }}' class='tag tag-size-{{ tag.size | divided_by: max_count | times: 7 | round }}'>{{ tag.name }}</a>&nbsp;
 {% endfor %}
 </p>
-
-# Projects
 
 {% assign count = site.data.projects.size %}
 {% include search-widget.html count=count %}

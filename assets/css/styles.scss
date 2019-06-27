@@ -35,8 +35,9 @@ body {
       padding-left: 1em;
     }
 
-    a.navigation-link {
-      font-size: 1.5em;
+    img.navigation-link {
+      width: 1.5em;
+      height: 1.5em;
     }
   }
 
@@ -169,8 +170,9 @@ img.banner {
           border-radius: 1.5em;
         }
 
-        a.navigation-link {
-          font-size: 1.2em;
+        img.navigation-link {
+          width: 1.2em;
+          height: 1.2em;
         }
 
         nav {

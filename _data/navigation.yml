@@ -1,12 +1,16 @@
 - name: About
   link: /about.html
   icon: /assets/images/information-outline.svg
+  symbol: ℹ
 - name: Bookmarks
   link: /bookmarks.html
   icon: /assets/images/bookmark-multiple.svg
+  symbol: 🔖
 - name: Code
   link: /code.html
   icon: /assets/images/source-repository-multiple.svg
+  symbol: >_
 - name: Posts
   link: /posts.html
   icon: /assets/images/file-document-box-multiple.svg
+  symbol: ✒

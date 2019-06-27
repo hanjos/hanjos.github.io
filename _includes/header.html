@@ -6,8 +6,8 @@
     <nav>
       <ul>
       {% for item in site.data.navigation %}
-        <li><a href='{{ item.link }}' {% if page.url == item.link %}class='current'{% endif %}>
-          <span class='only-md'>{{ item.name }}&nbsp;</span><img src='{% if page.url == item.link %}{{ item.icon | replace: ".svg", "-current.svg" }}{% else %}{{ item.icon }}{% endif %}' alt='{{ item.name }}' title='{{ item.name }}' class='navigation-link only-sm'>
+        <li><a href='{{ item.link }}' class='navigation-link {% if page.url == item.link %}current{% endif %}'>
+          <span class='only-md'>{{ item.name }}&nbsp;</span><span class='only-sm'>{{ item.symbol }}</span>
         </a></li>
       {% endfor %}
       </ul>

@@ -34,3 +34,6 @@ Some uncommmon things I thought would be interesting to see more:
     * No, I have no idea how to balance all this...
     * A sci-fi scenario would use different technobabble, but the basic idea would be the same.
     
+### RSS-based social network
+
+Something like this is what I thought Google Reader could evolve to be, or what Google+ could have been. A content-focused social network, with almost every news site and blog compatible out of the box (due to RSS/Atom). 

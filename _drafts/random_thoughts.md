@@ -16,7 +16,7 @@ in my general experience it only adds "a how to reach a human" step to the proce
 Well, how about a game in chat? Besides the more obvious MUDs? Ideally one which could be made multiplayer (create a 
 group, go nuts). Maybe something turn-based, XCOM style...
 
-### new mechanics for MMORPGs 
+### New mechanics for MMORPGs 
 
 Some uncommmon things I thought would be interesting to see more:
 
@@ -36,4 +36,4 @@ Some uncommmon things I thought would be interesting to see more:
     
 ### RSS-based social network
 
-Something like this is what I thought Google Reader could evolve to be, or what Google+ could have been. A content-focused social network, with almost every news site and blog compatible out of the box (due to RSS/Atom). 
+Something like this is what I thought Google Reader could've evolved to be, or what Google+ could have been. A content-focused social network, with almost every news site and blog compatible out of the box (due to RSS/Atom). 

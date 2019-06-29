@@ -35,9 +35,8 @@ body {
       padding-left: 1em;
     }
 
-    img.navigation-link {
-      width: 1.5em;
-      height: 1.5em;
+    .navigation-link {
+      font-size: 1.5em;
     }
   }
 
@@ -84,7 +83,7 @@ body {
       border-radius: 1.5em;
     }
 
-    img.external_profile {
+    .external_profile svg {
       width: 30px;
       height: 30px;
     }
@@ -151,6 +150,10 @@ img.banner {
         max-width: $sidebar-width;
         margin: 0;
 
+        .navigation-link {
+          font-size: 1.2em;
+        }
+
         nav ul {
           display: flex; /* unflattening */
           flex-flow: column;
@@ -168,11 +171,6 @@ img.banner {
 
           padding: 0;
           border-radius: 1.5em;
-        }
-
-        img.navigation-link {
-          width: 1.2em;
-          height: 1.2em;
         }
 
         nav {

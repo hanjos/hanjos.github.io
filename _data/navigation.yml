@@ -1,12 +1,12 @@
 - name: About
   link: /about.html
-  icon: /assets/images/information-variant.svg
+  icon: icons/information-variant.svg
 - name: Bookmarks
   link: /bookmarks.html
-  icon: /assets/images/bookmark.svg
+  icon: icons/bookmark.svg
 - name: Code
   link: /code.html
-  icon: /assets/images/source-repository.svg
+  icon: icons/source-repository.svg
 - name: Posts
   link: /posts.html
-  icon: /assets/images/fountain-pen-tip.svg
+  icon: icons/fountain-pen-tip.svg

@@ -1,9 +1,13 @@
 body > header nav {
   font-size: 1.2em;
   
-  .current {
+  .navigation-link.current {
   	font-weight: bold;
   	color: $sidebar-link-color; /* same orange as in the profile image */
+
+    svg>path {
+      fill: $sidebar-link-color; /* same orange as in the profile image */
+    }
   }
 
   a {

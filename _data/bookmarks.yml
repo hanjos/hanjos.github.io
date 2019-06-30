@@ -310,4 +310,18 @@
   authors: ['Shaula Yemini', 'Daniel M. Berry']
   description: Describes several known exception handling mechanisms, and provides a new model which supports them all. 
   tags: ['computing', 'error', 'favorite', 'handling', 'language', 'paper', 'programming']
-
+- url: https://www.infoq.com/presentations/Value-Values/
+  title: The Value of Values
+  authors: Rich Hickey
+  description: A presentation comparing value-oriented programming with place-oriented programming, concluding that the time of imperative languages has passed and it is the time of functional programming.
+  tags: ['computing', 'favorite', 'functional', 'language', 'object-oriented', 'presentation', 'programming']
+- url: https://www.infoq.com/presentations/Simple-Made-Easy/
+  title: Simple Made Easy
+  authors: Rich Hickey
+  description: A presentation emphasizing simplicity’s virtues over easiness’, showing that while many choose easiness they may end up with complexity, and the better way is to choose easiness along the simplicity path.
+  tags: ['computing', 'favorite', 'language', 'presentation', 'programming', 'simple']
+- url: https://www.infoq.com/presentations/Are-We-There-Yet-Rich-Hickey/
+  title: Are We There Yet?
+  authors: Rich Hickey
+  description: In his keynote at JVM Languages Summit 2009, Rich Hickey advocated for the reexamination of basic principles like state, identity, value, time, types, genericity, complexity, as they are used by OOP today, to be able to create the new constructs and languages to deal with the massive parallelism and concurrency of the future.
+  tags: ['computing', 'concurrency', 'favorite', 'language', 'parallel', 'presentation', 'programming']

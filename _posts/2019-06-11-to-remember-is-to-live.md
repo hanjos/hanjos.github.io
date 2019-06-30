@@ -9,7 +9,7 @@ Somehow, I have stumbled upon my old [Google Bookmarks](https://www.google.com/b
 I'm surprised the service is still live. But it does look like something Google forgot about. And I've seen that before with [Google Reader](https://www.cnet.com/news/google-closes-the-book-on-reader-announces-july-1-sunset/)...
 
 <figure class='center-block'>
-  <img alt='Pouring one out for Google Reader' src='/assets/images/pouring-one-out.png' style='max-width: 400px' title='Photo from freundevonfreunden.com'>
+  <img alt='Pouring one out for Google Reader' src='/assets/images/pouring-one-out.png' style='max-width: 300px' title='Photo from freundevonfreunden.com'>
   <figcaption>R.I.P.</figcaption>
 </figure>
 

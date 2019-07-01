@@ -314,7 +314,7 @@
   title: The Value of Values
   authors: Rich Hickey
   description: A presentation comparing value-oriented programming with place-oriented programming, concluding that the time of imperative languages has passed and it is the time of functional programming.
-  tags: ['computing', 'favorite', 'functional', 'language', 'object-oriented', 'presentation', 'programming']
+  tags: ['computing', 'functional', 'language', 'object-oriented', 'presentation', 'programming']
 - url: https://www.infoq.com/presentations/Simple-Made-Easy/
   title: Simple Made Easy
   authors: Rich Hickey

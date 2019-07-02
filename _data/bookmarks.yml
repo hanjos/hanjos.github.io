@@ -335,5 +335,9 @@
   authors: Paul Graham
   description: Why hackers are makers, not scientists, and therefore should look at painters more than mathematicians to improve on their craft.
   tags: ['computing', 'design']
-  
+- url: http://pu.inf.uni-tuebingen.de/users/klaeren/epigrams.html
+  title: Epigrams on Programming
+  authors: Alan J. Perlis
+  description: A series of short, programming-language-neutral, widely-quoted humorous statements about computers and programming.
+  tags: ['computing', 'history', 'humor']
   

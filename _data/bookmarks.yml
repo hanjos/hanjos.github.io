@@ -330,6 +330,10 @@
   authors: Frederick P. Brooks
   description: A famous paper where the author argues that "there is no single development, in either technology or management technique, which by itself promises even one order of magnitude [tenfold] improvement within a decade in productivity, in reliability, in simplicity."
   tags: ['complexity', 'computing', 'favorite', 'paper']
-  
+- url: http://www.paulgraham.com/hp.html
+  title: Hackers and Painters
+  authors: Paul Graham
+  description: Why hackers are makers, not scientists, and therefore should look at painters more than mathematicians to improve on their craft.
+  tags: ['computing', 'design']
   
   

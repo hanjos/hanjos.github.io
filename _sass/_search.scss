@@ -29,31 +29,31 @@ $search-input-padding: 0.5em;
   color: $sidebar-link-color;
 
   &.tag-size-0 {
-    font-size: $font-size * 0.8333333;
+    font-size: $font-size * 0.6;
   }
 
   &.tag-size-1 {
-    font-size: $font-size;
+    font-size: $font-size * 0.8;
   }
 
   &.tag-size-2 {
-    font-size: $font-size * 1.166667;
+    font-size: $font-size;
   }
 
   &.tag-size-3 {
-    font-size: $font-size * 1.333333;
+    font-size: $font-size * 1.2;
   }
 
   &.tag-size-4 {
-    font-size: $font-size * 1.5;
+    font-size: $font-size * 1.4;
   }
 
   &.tag-size-5 {
-    font-size: $font-size * 1.666667;
+    font-size: $font-size * 1.6;
   }
 
   &.tag-size-6 {
-    font-size: $font-size * 1.833333;
+    font-size: $font-size * 1.8;
   }
 
   &.tag-size-7 {

@@ -8,8 +8,8 @@ Somehow, I have stumbled upon my old [Google Bookmarks](https://www.google.com/b
 
 I'm surprised the service is still live. But it does look like something Google forgot about. And I've seen that before with [Google Reader](https://www.cnet.com/news/google-closes-the-book-on-reader-announces-july-1-sunset/)...
 
-<figure class='center-block'>
-  <img alt='Pouring one out for Google Reader' src='/assets/images/pouring-one-out.png' style='max-width: 300px' title='Photo from freundevonfreunden.com'>
+<figure class='center-block' style='max-width: 500px'>
+  <img alt='Pouring one out for Google Reader' src='/assets/images/pouring-one-out.png' title='Photo from freundevonfreunden.com'>
   <figcaption>R.I.P.</figcaption>
 </figure>
 
@@ -21,9 +21,8 @@ I haven't found a way to make a public reading list. I could use [Pocket's API](
 
 I could look at other services. But, after giving it some thought, the idea of this site being backed by a constellation of little services doesn't seem nice, with my data spread all over the place and lots of code snippets pulling them in. So I'll just hack something right here. Of course, some features would be missing (Pocket's [apps and integrations](https://getpocket.com/apps/) are nice, and sharing is caring). But I wouldn't depend on third party services for a relatively simple task. 
 
-<figure class='center-block'>
-  <img alt='How hard can it be?' src='/assets/images/how-hard-can-it-be.jpg' 
-    style='max-width: 300px' title='Picture from teepublic.com'>
+<figure class='center-block' style='max-width: 300px'>
+  <img alt='How hard can it be?' src='/assets/images/how-hard-can-it-be.jpg' title='Picture from teepublic.com'>
   <figcaption>Right?</figcaption>
 </figure>
 

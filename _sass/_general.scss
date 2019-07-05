@@ -121,6 +121,12 @@ button { /* centering any content within */
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+
+  margin: 0 auto;
+
+  img {
+    width: 100%;
+  }
 }
 
 .side-comment {

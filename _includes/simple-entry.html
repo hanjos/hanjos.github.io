@@ -1,0 +1,23 @@
+{%- if include.entry.url -%}
+{% assign tag_classes = include.entry.tags | join: ',' | downcase | prepend: ',' | replace: ',', '$tag-' | replace: ' ', '-' | replace_first: '$', '' | split: '$' | join: ' ' %}
+<dt class='list-item heading {{ tag_classes }}'>
+  {%- if include.entry.date -%}<small class='side-comment'><time datetime='{{ include.entry.date | date_to_xmlschema }}'>{{ include.entry.date | date: "%d %b %Y" }}</time></small>&nbsp;&nbsp;{%- endif -%}
+  {%- if tag_classes contains 'tag-favorite' -%}<span class='favorite'>&starf;&nbsp;</span>{%- endif -%}
+  <a href='{{ include.entry.url }}'>{{ include.entry.title }}</a>
+  {%- if include.entry.authors -%}, <small class='side-comment'>by {{ include.entry.authors | join: ", " }}</small>{%- endif -%}
+</dt>
+{%- if include.entry.tags.size > 0 -%}
+<dd class='{{ tag_classes }}'>
+{%- assign sorted_tags = include.entry.tags | sort -%}
+{%- for tag in sorted_tags -%}
+  <a href='#{{ tag }}' class='tag'><small>{{ tag }}</small></a>{% if forloop.last == false %}, {% endif %}
+{%- endfor -%}
+</dd>
+{%- endif -%}
+{%- if include.entry.description -%}
+<dd class='excerpt {{ tag_classes }}'>{{ include.entry.description | markdownify }}</dd>
+{%- endif -%}
+{%- if include.entry.excerpt -%}
+<dd class='excerpt {{ tag_classes }}'>{{ include.entry.excerpt | markdownify }}</dd>
+{%- endif -%}
+{%- endif -%}

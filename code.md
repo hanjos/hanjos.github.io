@@ -22,7 +22,7 @@ Here is some of my code available in the wild. Unfortunately my meatier stuff is
 <dl>
 {% assign sorted_projects = site.data.code | sort: 'title', 'last' %}
 {% for project in sorted_projects %}
-  {% include simple-entry.html entry=project %}
+  {% include dt-entry.html entry=project %}
 {% endfor %}
 </dl>
 {% endif %}

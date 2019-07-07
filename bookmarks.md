@@ -22,7 +22,7 @@ As [promised](/2019/06/11/to-remember-is-to-live.html), here's some stuff that h
 <dl>
 {% assign sorted_bookmarks = site.data.bookmarks | sort: 'title', 'last' %}
 {% for bookmark in sorted_bookmarks %}
-  {% include simple-entry.html entry=bookmark %}
+  {% include dt-entry.html entry=bookmark %}
 {% endfor %}
 </dl>
 {% endif %}

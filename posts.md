@@ -20,6 +20,6 @@ Here are all my blog posts, tagged, excerpted and ordered chronologically for yo
 
 <dl>
 {% for post in site.posts %}
-  {% include simple-entry.html entry=post %}
+  {% include dt-entry.html entry=post %}
 {% endfor %}
 </dl>

@@ -343,5 +343,5 @@
 - url: https://www.enterpriseintegrationpatterns.com/docs/EDA.pdf
   title: Programming Without a Call Stack – Event-driven Architectures
   authors: Gregor Hohpe
-  description: A summary of why event-driven architectures might be interesting, and some of the challenges involved.
-  tags: ['architecture', 'computing', 'EDA', 'event']
+  description: A summary of why event-driven architectures might be interesting, and some of the challenges involved (_e.g._ debugging).
+  tags: ['architecture', 'computing', 'EDA', 'event', 'programming']

@@ -340,4 +340,8 @@
   authors: Alan J. Perlis
   description: A series of short, programming-language-neutral, widely-quoted humorous statements about computers and programming.
   tags: ['computing', 'history', 'humor']
-  
+- url: https://www.enterpriseintegrationpatterns.com/docs/EDA.pdf
+  title: Programming Without a Call Stack – Event-driven Architectures
+  authors: Gregor Hohpe
+  description: A summary of why event-driven architectures might be interesting, and some of the challenges involved.
+  tags: ['architecture', 'computing', 'EDA', 'event']

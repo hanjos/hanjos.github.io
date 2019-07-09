@@ -120,7 +120,7 @@
 - url: http://dreamsongs.com/RiseOfWorseIsBetter.html
   title: 'The Rise of "Worse is Better"'
   authors: Richard Gabriel
-  description: 'Excerpted from "Lisp: Good News, Bad News, How to Win Big", this essay is about how simple-first, "New Jersey-style" software has better survival characteristics than quality-first, "MIT-style" approaches.'
+  description: 'Excerpted from "[Lisp: Good News, Bad News, How to Win Big](https://www.dreamsongs.com/Files/LispGoodNewsBadNews.pdf)", this essay is about how simple-first, "New Jersey-style" software has better survival characteristics than quality-first, "MIT-style" approaches.'
   tags: ['architecture', 'computing', 'favorite', 'history', 'programming']
 - url: https://gist.github.com/hanjos/2764ed8c5d8af859320911eb5c11aead
   title: Stevey's Google Platforms Rant

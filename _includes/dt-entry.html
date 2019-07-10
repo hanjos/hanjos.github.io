@@ -17,7 +17,7 @@
 {%- endif -%}
 {%- if include.entry.docs -%}
 <dd class='{{ tag_classes }}'>
-  {% include icons/file-outline.svg %}&nbsp;<small>{{ include.entry.docs | markdownify }}</small>
+  {% include icons/file-outline.svg %}&nbsp;<small>{{ include.entry.docs | markdownify | remove: '<p>' | remove: '</p>' }}</small>
 </dd>
 {%- endif -%}
 {%- if include.entry.description -%}

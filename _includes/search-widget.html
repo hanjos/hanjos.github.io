@@ -1,11 +1,11 @@
 <div class='search-widget'>
   <div class='search-bar'>
     <input type='text' id='search-input' name='search-input' placeholder='Search by tag'>
-    <button id='search-button' type='button' style='width: 2.5em'>
-      {% include icons/magnify.svg %}
+    <button id='search-button' type='button'>
+      <img src='assets/icons/magnify.svg'>
     </button>
-    <button id='clear-button' type='button' style='width: 2.5em'>
-      {% include icons/close.svg %}
+    <button id='clear-button' type='button'>
+      <img src='assets/icons/close.svg'>
     </button>
   </div>
   <small id='search-count' class='side-comment'>{{ include.count }} entries</small>

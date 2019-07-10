@@ -21,9 +21,9 @@
 </dd>
 {%- endif -%}
 {%- if include.entry.description -%}
-<dd class='excerpt {{ tag_classes }}'>{{ include.entry.description | markdownify }}</dd>
+<dd class='description {{ tag_classes }}'>{{ include.entry.description | markdownify | remove: '<p>' | remove: '</p>' }}</dd>
 {%- endif -%}
 {%- if include.entry.excerpt -%}
-<dd class='excerpt {{ tag_classes }}'>{{ include.entry.excerpt | markdownify }}</dd>
+<dd class='description {{ tag_classes }}'>{{ include.entry.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</dd>
 {%- endif -%}
 {%- endif -%}

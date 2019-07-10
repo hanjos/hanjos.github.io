@@ -8,7 +8,7 @@
 </dt>
 {%- if include.entry.tags.size > 0 -%}
 <dd class='tags {{ tag_classes }}'>
-  <img src='assets/icons/tag.svg'>&nbsp;
+  <img src='assets/icons/tag.svg' alt='Tags' title='Tags'>&nbsp;
 {%- assign sorted_tags = include.entry.tags | sort -%}
   <span>{%- for tag in sorted_tags -%}
   <a href='#{{ tag }}' class='tag'><small>{{ tag }}</small></a>{% if forloop.last == false %},&nbsp;{% endif %}
@@ -17,7 +17,7 @@
 {%- endif -%}
 {%- if include.entry.docs -%}
 <dd class='docs {{ tag_classes }}'>
-  <img src='assets/icons/file-outline.svg'>&nbsp;<small>{{ include.entry.docs | markdownify | remove: '<p>' | remove: '</p>' }}</small>
+  <img src='assets/icons/file-outline.svg' alt='Docs' title='Docs'>&nbsp;<small>{{ include.entry.docs | markdownify | remove: '<p>' | remove: '</p>' }}</small>
 </dd>
 {%- endif -%}
 {%- if include.entry.description -%}

@@ -5,7 +5,7 @@ title: Code
 
 # Code
 
-Here is some of my code available in the wild. Unfortunately my meatier stuff is employer-owned, but I still have some interesting things running around...
+Here is some of my code available in the wild. Unfortunately my meatier stuff is employer-owned, but I still have some interesting things running around. Most of the stuff below is rather old, so they may not run correctly, if at all, in newer versions of their respective languages.
 
 {% assign sorted_tags = site.data.code | map: 'tags' | join: ',' | downcase | split: ',' | group_by_exp: 'item', 'item' | sort: 'name' %}
 {% assign max_count = sorted_tags | map: 'size' | sort | last | times: 1.0 %}

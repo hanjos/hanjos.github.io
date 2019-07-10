@@ -14,6 +14,11 @@
 {%- endfor -%}
 </dd>
 {%- endif -%}
+{%- if include.entry.docs -%}
+<dd class='{{ tag_classes }}'>
+  <a href='{{ include.entry.docs }}'>{{ include.entry.docs }}</a>
+</dd>
+{%- endif -%}
 {%- if include.entry.description -%}
 <dd class='excerpt {{ tag_classes }}'>{{ include.entry.description | markdownify }}</dd>
 {%- endif -%}

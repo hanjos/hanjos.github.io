@@ -4,20 +4,23 @@
   tags: ['API', 'book', 'Go', 'Google', 'service', 'web']
 - title: javadoc-taglets
   url: https://github.com/hanjos/javadoc-taglets
-  description: "A place for some custom Javadoc taglets. For now there's only one: `include.file`, which inserts the text content of a file in the docs. [Here's](https://sbrubbles.org/javadoc-taglets/index.html) the documentation."
+  description: "A place for some custom Javadoc taglets. For now there's only one: `include.file`, which inserts the text content of a file in the docs."
   tags: ['Java', 'Javadoc', 'taglets']
+  docs: https://sbrubbles.org/javadoc-taglets/index.html
 - title: nexus
   url: https://github.com/hanjos/nexus
-  description: Pulls some data from a Sonatype Nexus 2.x instance. I haven't tested, but it probably doesn't work with Nexus 3.x, which has a different API. [Here's](https://godoc.org/sbrubbles.org/go/nexus) the documentation.
+  description: Pulls some data from a Sonatype Nexus 2.x instance. I haven't tested, but it probably doesn't work with Nexus 3.x, which has a different API.
   tags: ['Go', 'Nexus']
+  docs: https://godoc.org/sbrubbles.org/go/nexus
 - title: groucho
   url: https://github.com/hanjos/groucho
   description: An alternative [Mustache](http://mustache.github.io/) implementation for Lua. Written mainly as an excuse to check out [re](http://www.inf.puc-rio.br/~roberto/lpeg/re.html), and later [telescope](https://github.com/norman/telescope) for Mustache's specs.
   tags: ['Lua', 'mustache']
 - title: genericcons
   url: https://github.com/hanjos/genericcons
-  description: An amusing, Lisp-inspired trick for Java generics to accept an open-ended list of type variables. The possibility occurred to me one day, and I'd read about [type tokens](http://gafter.blogspot.com/2006/12/super-type-tokens.html) for Java, so it was a quick hack. [Here's](https://sbrubbles.org/genericcons/docs/0.3/apidocs/index.html) the documentation.
+  description: An amusing, Lisp-inspired trick for Java generics to accept an open-ended list of type variables. The possibility occurred to me one day, and I'd read about [type tokens](http://gafter.blogspot.com/2006/12/super-type-tokens.html) for Java, so it was a quick hack.
   tags: ['favorite', 'generics', 'Java', 'token', 'type']
+  docs: https://sbrubbles.org/genericcons/docs/0.3/apidocs/index.html
 - title: leg
   url: https://github.com/keplerproject/leg
   description: A complete Lua 5.1 grammar in LPeg, along with some functions to use and modify it. I don't maintain it, but I wrote the initial version (holy crap, I'm old...).

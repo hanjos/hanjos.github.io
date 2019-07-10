@@ -17,7 +17,7 @@ article {
   }
 
   .subtitle, .meta {
-    margin: 0.333em 0;  
+    margin: 0.333em 0;
   }
 
   .subtitle {
@@ -63,18 +63,6 @@ article {
   }
 }
 
-.heading {
-  .tags {
-    display: inline-flex;
-    flex-flow: row wrap;
-    align-items: baseline;
-
-    .tag {
-      font-weight: normal;
-    }
-  }
-}
-
 .meta {
   display: flex;
   flex-flow: row wrap;
@@ -91,8 +79,14 @@ article {
   padding: 0.5em 0;
 }
 
-.tags {
-  text-align: left; /* undoing the standard justify for this case */
+.tags, .docs {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+
+  img {
+    width: 1em;
+  }
 }
 
 .favorite {

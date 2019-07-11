@@ -345,3 +345,8 @@
   authors: Gregor Hohpe
   description: A summary of why event-driven architectures might be interesting, and some of the challenges involved (_e.g._ debugging).
   tags: ['architecture', 'computing', 'EDA', 'event', 'favorite', 'programming']
+- url: https://medium.com/@sdboyer/so-you-want-to-write-a-package-manager-4ae9c17d9527
+  title: So you want to write a package manager
+  authors: Sam Boyer
+  description: An essay about the nasty complexities of package management in general and Go's in particular, proposing a general set of requirements and insightful way of framing the problem.
+  tags: ['computing', 'favorite', 'Go', 'language', 'package', 'programming']

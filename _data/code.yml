@@ -25,7 +25,7 @@
   url: https://github.com/keplerproject/leg
   description: A complete Lua 5.1 grammar in LPeg, along with some functions to use and modify it. I don't maintain it, but I wrote the initial version (holy crap, I'm old...).
   tags: ['grammar', 'Lua', 'LPeg']
-  docs: "There's a [LuaForge](http://leg.luaforge.net/) link, but it's for an older version."
+  docs: "There's a [LuaForge link](http://leg.luaforge.net/), but it's for an older version."
 - title: shake
   url: https://github.com/keplerproject/shake
   description: A simple and transparent test engine for Lua 5.1, which uses [leg](https://github.com/keplerproject/leg). I don't maintain it, but I wrote the initial core (wow, it has been a while...).

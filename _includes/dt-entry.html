@@ -9,10 +9,10 @@
 {%- if include.entry.tags.size > 0 -%}
 <dd class='tags {{ tag_classes }}'>
   <img src='assets/icons/tag.svg' alt='Tags' title='Tags'>&nbsp;
-{%- assign sorted_tags = include.entry.tags | sort -%}
-  <span>{%- for tag in sorted_tags -%}
+  {%- assign sorted_tags = include.entry.tags | sort -%}
+  {%- for tag in sorted_tags -%}
   <a href='#{{ tag }}' class='tag'><small>{{ tag }}</small></a>{% if forloop.last == false %},&nbsp;{% endif %}
-{%- endfor -%}</span>
+  {%- endfor -%}
 </dd>
 {%- endif -%}
 {%- if include.entry.docs -%}

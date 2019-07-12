@@ -1,12 +1,12 @@
 - name: About
-  link: /about.html
+  link: /about/ # don't forget the ending /, or current page detection won't work!
   icon: icons/information-variant.svg
 - name: Bookmarks
-  link: /bookmarks.html
+  link: /bookmarks/
   icon: icons/bookmark.svg
 - name: Code
-  link: /code.html
+  link: /code/
   icon: icons/source-repository.svg
 - name: Posts
-  link: /posts.html
+  link: /posts/
   icon: icons/fountain-pen-tip.svg

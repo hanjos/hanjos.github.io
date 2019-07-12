@@ -60,10 +60,11 @@ h1 {
 
 pre, code {
   white-space: pre-wrap; /* pre doesn't wrap by default */
-  
+  text-align: left;
+
   font-family: $monospace-font;
-    
-  font-size: 0.9em;
+  /* Jekyll's highlighter puts a <code> inside a <pre>, which makes 0.9em become effectively a 0.81em. This should set the intended size properly. */
+  font-size: 0.9 * $font-size;
 
   background-color: $code-color;
 }
@@ -93,6 +94,12 @@ figure {
     font-size: 0.8em;
     color: gray;
   }
+}
+
+figure.highlight {
+  /* Jekyll's highlight tag creates a figure.highlight; there should be no extra space then */
+  padding: 0;
+  margin: 0;
 }
 
 dl {

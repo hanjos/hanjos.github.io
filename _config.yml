@@ -20,6 +20,8 @@ defaults:
       license: "cc-by"
       image: "assets/images/profile.jpg"
 
+permalink: pretty
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap

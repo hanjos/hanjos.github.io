@@ -125,8 +125,8 @@
 - url: https://gist.github.com/hanjos/2764ed8c5d8af859320911eb5c11aead
   title: Stevey's Google Platforms Rant
   authors: Steve Yegge
-  description: Why Amazon does everything wrong and Google everything right, yet Amazon offers a better platform. Saved as a Gist for posterity, since Google+ no longer is a thing.
-  tags: ['business', 'computing', 'platform']
+  description: Why Amazon does everything wrong and Google everything right, and still offers a better platform. Saved as a Gist for posterity, since Google+ no longer is a thing.
+  tags: ['business', 'computing', 'favorite', 'platform']
 - url: https://medium.com/s/story/jeff-bezos-jack-ma-and-the-quest-to-kill-ebay-bb4992dc5020
   title: Jeff Bezos, Jack Ma, and the Quest to Kill eBay
   authors: Steve Yegge
@@ -136,7 +136,7 @@
   title: Status as a Service (StaaS)
   authors: Eugene Wei
   description: An analysis of social networks on the dimension of status or social capital.
-  tags: ['business', 'computing', 'social']
+  tags: ['business', 'social']
 - url: http://esr.ibiblio.org/?p=8254
   title: How not to design a wire protocol
   authors: Eric S. Raymond
@@ -189,8 +189,8 @@
 - url: https://norvig.com/design-patterns/design-patterns.pdf
   title: Design Patterns in Dynamic Programming
   authors: Peter Norvig
-  description: The title is pretty self-explaining.
-  tags: ['computing', 'design', 'dynamic', 'language', 'pattern', 'programming']
+  description: The title is pretty self-explaining :)
+  tags: ['computing', 'design', 'dynamic', 'favorite', 'language', 'pattern', 'programming']
 - url: http://c9x.me/compile/bib/
   title: Resources for Amateur Compiler Writers
   authors: Quentin Carbonneaux
@@ -209,7 +209,7 @@
   title: The Jargon File
   authors: Eric S. Raymond
   description: A comprehensive compendium of hacker slang illuminating many aspects of hackish tradition, folklore, and humor.
-  tags: ['book', 'computing', 'favorite', 'history', 'humor']
+  tags: ['book', 'computing', 'history', 'humor']
 - url: https://web.mit.edu/alexmv/6.037/sicp.pdf
   title: Structure and Interpretation of Computer Programs, 2nd edition
   authors: [Harold Abelson, Gerald Jay Sussman, Julie Sussman]
@@ -223,7 +223,7 @@
 - url: https://www.cs.virginia.edu/~evans/cs655/readings/steele.pdf
   title: Growing a language
   authors: Guy L. Steele Jr.
-  description: In a nutshell, "a good programmer does not just write programs. A good programmer builds a working vocabulary. A good programmer does language design, though not from scratch, but building on the frame of a base language."
+  description: '"A good programmer does not just write programs. A good programmer builds a working vocabulary. A good programmer does language design, though not from scratch, but building on the frame of a base language."'
   tags: ['computing', 'favorite', 'history', 'language', 'paper', 'programming']
 - url: https://urbigenous.net/library/how_to_build.html
   title: How to Build a Universe That Doesn’t Fall Apart Two Days Later
@@ -268,7 +268,7 @@
 - url: http://erlang.org/download/armstrong_thesis_2003.pdf
   title: Making reliable distributed systems in the presence of software errors
   authors: Joe Armstrong
-  description: The author's PhD dissertation on how to make reliable systems from faulty components, focusing on the essential characteristics the programming language and the standard library should have.
+  description: The author's PhD dissertation on how to make reliable systems from faulty components, focusing on the essential characteristics the programming language (here, Erlang) and the standard library should have.
   tags: ['computing', 'Erlang', 'history', 'language', 'paper', 'programming', 'science']
 - url: http://www-formal.stanford.edu/jmc/recursive.html
   title: Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I 
@@ -299,7 +299,7 @@
   title: "Mirrors: Design Principles for Meta-level Facilities of Object-Oriented Programming Languages"
   authors: ['Gilad Bracha', 'David Ungar']
   description: Gives some design principles for reflection and metaprogramming facilities, and defines the concept of mirrors for an reflective API which follows these principles.
-  tags: ['computing', 'language', 'metaprogramming', 'mirror', 'programming', 'reflection']
+  tags: ['computing', 'favorite', 'language', 'metaprogramming', 'mirror', 'programming', 'reflection']
 - url: https://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf
   title: How Complex Systems Fail
   authors: Richard I. Cook
@@ -319,7 +319,7 @@
   title: Simple Made Easy
   authors: Rich Hickey
   description: A presentation emphasizing simplicity’s virtues over easiness’, showing that while many choose easiness they may end up with complexity, and the better way is to choose easiness along the simplicity path.
-  tags: ['computing', 'favorite', 'language', 'presentation', 'programming', 'simple']
+  tags: ['computing', 'language', 'presentation', 'programming', 'simple']
 - url: https://www.infoq.com/presentations/Are-We-There-Yet-Rich-Hickey/
   title: Are We There Yet?
   authors: Rich Hickey
@@ -328,7 +328,7 @@
 - url: http://faculty.salisbury.edu/~xswang/Research/Papers/SERelated/no-silver-bullet.pdf
   title: No Silver Bullet – Essence and Accident in Software Engineering
   authors: Frederick P. Brooks
-  description: A famous paper where the author argues that "there is no single development, in either technology or management technique, which by itself promises even one order of magnitude [tenfold] improvement within a decade in productivity, in reliability, in simplicity."
+  description: '"There is no single development, in either technology or management technique, which by itself promises even one order of magnitude [tenfold] improvement within a decade in productivity, in reliability, in simplicity."'
   tags: ['complexity', 'computing', 'favorite', 'paper']
 - url: http://www.paulgraham.com/hp.html
   title: Hackers and Painters
@@ -348,5 +348,5 @@
 - url: https://medium.com/@sdboyer/so-you-want-to-write-a-package-manager-4ae9c17d9527
   title: So you want to write a package manager
   authors: Sam Boyer
-  description: An essay about the nasty complexities of package management in general and Go's in particular, proposing a general set of requirements and insightful way of framing the problem.
+  description: An essay about the nasty complexities of package management in general and Go's in particular, proposing a general set of requirements and an insightful way of framing the problem.
   tags: ['computing', 'favorite', 'Go', 'language', 'package', 'programming']

@@ -4,6 +4,9 @@ url: https://sbrubbles.org
 author: "Humberto Anjos"
 profile_image: assets/images/profile.jpg
 
+permalink: pretty
+highlighter: rouge
+
 defaults:
   - scope:
       path: ""
@@ -19,8 +22,6 @@ defaults:
       author: "Humberto Anjos"
       license: "cc-by"
       image: "assets/images/profile.jpg"
-
-permalink: pretty
 
 plugins:
   - jekyll-feed

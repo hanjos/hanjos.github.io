@@ -63,8 +63,8 @@ pre, code {
   text-align: left;
 
   font-family: $monospace-font;
-  /* Jekyll's highlighter puts a <code> inside a <pre>, which makes 0.9em become effectively a 0.81em. This should set the intended size properly. */
-  font-size: 0.9 * $font-size;
+  /* Jekyll's highlighter puts a <code> inside a <pre>, which makes 0.9em effectively a 0.81em. This should set the intended size properly. */
+  font-size: 0.8 * $font-size;
 
   background-color: $code-color;
 }

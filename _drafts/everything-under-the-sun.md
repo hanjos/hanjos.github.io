@@ -63,13 +63,13 @@ Go will break the build if the code doesn't come from that URL or can't be found
 
 ### “Always have an attitude of gratitude.”
 
-All this HTML needs to be served somewhere, hopefully in a nice URL. One can go old school (although subpackages might be a pain), but there's tons of great static site generators out here (this blog is in [Jekyll](https://jekyllrb.com/), but I hear great things about [Nanoc](https://nanoc.ws/) and [Hugo](https://gohugo.io/), for example), so that's the easy part :)
+All this HTML needs to be served somewhere. One can go old school (subpackages might be a pain), but there's tons of great static site generators out here (this blog is in [Jekyll](https://jekyllrb.com/), but I hear great things about [Nanoc](https://nanoc.ws/) and [Hugo](https://gohugo.io/), for example), so this is the easy part :)
 
-Don't go crazy on the HTML; Go uses an [XML parser](https://github.com/golang/go/blob/1102616/src/cmd/go/internal/get/discovery.go#L32) to extract the `<meta>`, which means it may choke on CSS or JavaScript. The examples I've seen basically redirect to browser to the package's documentation on [GoDoc](https://godoc.org/), in the eventuality of somebody pointing a browser there.
+Don't go crazy on the HTML; Go uses an [XML parser](https://github.com/golang/go/blob/1102616/src/cmd/go/internal/get/discovery.go#L32) to extract the `<meta>`, which means it may choke on CSS or JavaScript. The examples I've seen basically add a redirect to the package's documentation on [GoDoc](https://godoc.org/), in the eventuality of a browser wandering its way there.
 
 ### Kurzgesagt
 
-So, after all this, here's the HTML at `sbrubbles.org/go/nexus`:
+In short, here's the HTML returned `sbrubbles.org/go/nexus`:
 
 {% highlight html %}
 <!DOCTYPE html>
@@ -90,7 +90,7 @@ Nothing to see here; <a href="https://godoc.org/sbrubbles.org/go/nexus">move alo
 
 Now, after all of that being said... 
 
-Go is getting [modules](https://blog.golang.org/modules2019), so *a lot* of this might change. 
+Go is getting [modules](https://blog.golang.org/modules2019), so *a lot* of this text might not apply after the change. 
 
 <figure class='center-block' style='max-width: 200px'>
   <img alt='Sad trombone enamel pin' src='/assets/images/sad_trombone.jpg' title='Photo from etsy.com'>

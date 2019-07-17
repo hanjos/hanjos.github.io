@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Random thoughts
-tags: english idea
+tags: idea
 ---
 
 A blog post isn't the best place for an idea dump, but what the hell; these are early days :)

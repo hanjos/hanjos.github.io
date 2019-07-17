@@ -58,7 +58,7 @@ $dark-yellow: #9b870c; // dark yellow
 .highlight .nf { color: $blue; } /* Name.Function */
 .highlight .nl { color: $yellow; } /* Name.Label */
 .highlight .nn { color: $blue; } /* Name.Namespace */
-.highlight .nt { color: $teal; } /* Name.Tag */
+.highlight .nt { color: darken($teal, 5%); } /* Name.Tag */
 .highlight .nv { color: darken($blue, 10%); } /* Name.Variable */
 .highlight .ow { color: $blue; font-weight: bold } /* Operator.Word */
 .highlight .w { color: #bbbbbb } /* Text.Whitespace */

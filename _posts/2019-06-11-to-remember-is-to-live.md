@@ -1,7 +1,7 @@
 ---
 layout: post
 title: To remember is to live
-tags: english bookmarks
+tags: bookmarks
 ---
 
 Somehow, I have stumbled upon my old [Google Bookmarks](https://www.google.com/bookmarks/). 

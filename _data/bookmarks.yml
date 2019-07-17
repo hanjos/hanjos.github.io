@@ -223,7 +223,7 @@
 - url: https://www.cs.virginia.edu/~evans/cs655/readings/steele.pdf
   title: Growing a language
   authors: Guy L. Steele Jr.
-  description: '"A good programmer does not just write programs. A good programmer builds a working vocabulary. A good programmer does language design, though not from scratch, but building on the frame of a base language."'
+  description: '"A good programmer does not just write programs. A good programmer builds a working vocabulary. A good programmer does language design, though not from scratch, but building on the frame of a base language." One can watch the keynote [here](https://www.youtube.com/watch?v=_ahvzDzKdB0).'
   tags: ['computing', 'favorite', 'history', 'language', 'paper', 'programming']
 - url: https://urbigenous.net/library/how_to_build.html
   title: How to Build a Universe That Doesn’t Fall Apart Two Days Later

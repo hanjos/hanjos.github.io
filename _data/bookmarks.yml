@@ -350,3 +350,8 @@
   authors: Sam Boyer
   description: An essay about the nasty complexities of package management in general and Go's in particular, proposing a general set of requirements and an insightful way of framing the problem.
   tags: ['computing', 'favorite', 'Go', 'language', 'package', 'programming']
+- url: http://gigamonkeys.com/book/beyond-exception-handling-conditions-and-restarts.html
+  title: "Beyond Exception Handling: Conditions and Restarts"
+  authors: Peter Seibel
+  description: "A description of Common Lisp's _conditions_, a more general feature than exceptions."
+  tags: ['computing', 'condition', 'exception', 'favorite', 'language', 'Lisp', 'programming']

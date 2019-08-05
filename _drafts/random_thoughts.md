@@ -26,14 +26,15 @@ Some uncommmon things I thought would be interesting to see more:
 
 * Instead of explicit karma, griefers could be marked as wanted, with other players being able to act as bounty hunters. With adequate bounties, this could be a way for players to police themselves. And griefers to be constantly harassed by PCs and NPCs alike. And for the griefers' friends to become wanted as well for aiding and abetting.  
 
-* A spell could be an actual program, 'coded' by wizards. Different schools of magic could be different programming 'paradigms', with different mechanisms (good ol' scrolls, Guitar Hero-like instruments; microphone-based chanting; Just Dance-like ritual dancing; drawings on a surface; bargaining with ancient spirits, building magical circuits by connecting arcane components together...). 
+* A spell could be an actual program, 'coded' by wizards. Different schools of magic could be different programming 'paradigms', with different mechanisms (good ol' scrolls, Guitar Hero-like instruments; microphone-based chanting; Just Dance-like ritual dancing; drawings on a surface; bargaining with ancient spirits; building magical circuits by connecting arcane components together...). 
     * Spells could be 'packaged' (think Staff of Lightning and the like) and sold. 
-    * Each 'paradigm' would be a minigame of sorts in and of itself. 
-    * Botched spells would be interesting to test and use :)
+    * Each 'paradigm' could be a minigame of sorts in and of itself. 
+    * Depending on the paradigm, some quests could be required to "unlock your inner chakra" or some such;
+    * Botched spells would be interesting to test and use (typos could be murder :)
     * The game itself probably would to revolve around mages for a system this complex. Or it could be one hell of a DLC...
     * No, I have no idea how to balance all this...
     * A sci-fi scenario would use different technobabble, but the basic idea would be the same.
     
 ### RSS-based social network
 
-Something like this is what I thought Google Reader could've evolved to be, or what Google+ could have been. A content-focused social network, with almost every news site and blog compatible out of the box (due to RSS/Atom). 
+This is what I thought Google Reader could've evolved to be, or what Google+ could have been. A content-focused social network,  compatible with almost every news site and blog out of the box (due to RSS/Atom).  

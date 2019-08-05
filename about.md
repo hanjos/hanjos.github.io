@@ -5,7 +5,7 @@ title: About
 
 # Me
 
-Hi! My name is **Humberto Anjos**. Currently I'm an *Enterprise Architect*&trade;, but the joy of coding never goes away. So I built this site to dust off some of those skills, and pile up some of my interests (my [bookmarks](/bookmarks.html) should be a good hint of those), projects and musings in my own cozy little place of the Internet. 
+Hi! My name is **Humberto Anjos**. Currently I'm an *Enterprise Architect*&trade;, but the joy of coding never goes away :D So I built this site to dust off some of those skills, and pile up some of my interests (the [bookmarks](/bookmarks.html) should be a good hint of those), projects and musings in my own cozy little place of the Internet. 
 
 Besides, I've been using `org.sbrubbles` as my Java package root for years, so it's neat to finally own the domain :) 
 

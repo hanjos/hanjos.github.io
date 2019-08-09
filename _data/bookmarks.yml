@@ -368,7 +368,7 @@
 - url: https://www.cs.utexas.edu/~EWD/transcriptions/OtherDocs/Haskell.html
   title: To the members of the Budget Council
   authors: Edsger W. Dijkstra
-  description: A note where the author advocates for continuing to use Haskell for the introductory programming course in the university, and reminds the Budget Council that "we are all shaped by the tools we train ourselves to use, and in this respect programming languages have a devious influence: they shape our thinking habits."
+  description: 'A memo where the author advocates for continuing to use Haskell for the introductory programming course in the university, and notes that "we are all shaped by the tools we train ourselves to use, and in this respect programming languages have a devious influence: they shape our thinking habits."'
   tags: ['computing', 'programming', 'science']
   
   

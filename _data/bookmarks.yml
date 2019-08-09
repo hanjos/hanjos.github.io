@@ -355,3 +355,16 @@
   authors: Peter Seibel
   description: "A description of Common Lisp's _conditions_, a more general feature than exceptions."
   tags: ['computing', 'condition', 'exception', 'favorite', 'language', 'Lisp', 'programming']
+- url: https://www.cs.utexas.edu/~EWD/ewd02xx/EWD249.PDF
+  title: Notes on Structured Programming
+  authors: Edsger W. Dijkstra
+  description: One of the first papers introducing the (now commonplace) notion of structured programming.
+  tags: ['computing', 'history', 'paper', 'programming', 'science', 'structured']
+- url: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.92.4846&rep=rep1&type=pdf
+  title: Go to considered harmful
+  authors: Edsger W. Dijkstra
+  description: The classic paper which brought the downfall of `goto` as a high-level control flow construct.
+  tags: ['computing', 'goto', 'history', 'paper', 'programming', 'science']
+  
+  
+  

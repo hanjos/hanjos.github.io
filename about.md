@@ -5,18 +5,7 @@ title: About
 
 # Me
 
-Hi! My name is **Humberto Anjos**. Currently I'm an *Enterprise Architect*&trade;, but the joy of coding never goes away...
-
-So I built this site to dust off some of those skills, and pile up some of my projects, musings and interests (the [bookmarks](/bookmarks.html) should be a good hint of those) in my own cozy little place of the Internet. 
-
-Besides, I've been using `org.sbrubbles` as my Java package root for years, so it's neat to finally own the domain :) 
-
-I've accumulated accounts in several sites and social networks over the years; the profile image might give me away. But the most relevant are on the footer, and reproduced below:
-
-* **E-mail:** [h.anjos](mailto:h.anjos@sbrubbles.org)
-* **Github:** [hanjos](https://github.com/hanjos)
-* **Steam:** [To Punch Garlic](https://steamcommunity.com/id/topunchgarlic)
-* **Wordpress:** [humanjos](https://patosdoinferno.wordpress.com/author/humanjos/)
+Check out the [homepage](/)!
 
 # This
 

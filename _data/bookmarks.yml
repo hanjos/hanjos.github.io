@@ -353,7 +353,7 @@
 - url: http://gigamonkeys.com/book/beyond-exception-handling-conditions-and-restarts.html
   title: "Beyond Exception Handling: Conditions and Restarts"
   authors: Peter Seibel
-  description: "A description of Common Lisp's _conditions_, a more general feature than exceptions."
+  description: "Common Lisp's _conditions_ are more general than exceptions, for more than error handling."
   tags: ['computing', 'condition', 'exception', 'favorite', 'language', 'Lisp', 'programming']
 - url: https://www.cs.utexas.edu/~EWD/ewd02xx/EWD249.PDF
   title: Notes on Structured Programming

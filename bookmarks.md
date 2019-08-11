@@ -9,11 +9,14 @@ As [promised](/2019/06/11/to-remember-is-to-live.html), here's some stuff that h
 
 {% assign sorted_tags = site.data.bookmarks | map: 'tags' | join: ',' | downcase | split: ',' | group_by_exp: 'item', 'item' | sort: 'name' %}
 {% assign max_count = sorted_tags | map: 'size' | sort | last | times: 1.0 %}
+<details>
+<summary><h2>Tags</h2></summary>
 <p class='tag-cloud'>
 {% for tag in sorted_tags %}
 <a href='#{{ tag.name }}' class='tag tag-size-{{ tag.size | divided_by: max_count | times: 7 | round }}'>{{ tag.name }}</a>&nbsp;
 {% endfor %}
 </p>
+</details>
 
 {% assign count = site.data.bookmarks.size %}
 {% include search-widget.html count=count %}

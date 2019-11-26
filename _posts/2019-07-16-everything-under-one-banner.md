@@ -94,8 +94,6 @@ Now, after all of that being said...
 
 Go is getting [modules](https://blog.golang.org/modules2019) now, so *a lot* of this text might not apply after the change. 
 
-<figure class='center-block' style='max-width: 200px'>
-  <img alt='Sad trombone enamel pin' src='/assets/images/sad_trombone.jpg' title='Photo from etsy.com'>
-</figure>
+<img class='center-block' alt='Sad trombone enamel pin' src='/assets/images/sad_trombone.jpg' title='Photo from etsy.com'>
 
 I may need to revisit my Go code soon...

@@ -370,5 +370,10 @@
   authors: Edsger W. Dijkstra
   description: 'A memo where the author advocates for continuing to use Haskell for the introductory programming course in the university, and notes that "we are all shaped by the tools we train ourselves to use, and in this respect programming languages have a devious influence: they shape our thinking habits."'
   tags: ['computing', 'programming', 'science']
+- url: https://www.ribbonfarm.com/2009/10/07/the-gervais-principle-or-the-office-according-to-the-office/
+  title: "The Gervais Principle, Or The Office According to 'The Office'"
+  authors: Venkatesh Rao
+  description: "Seeing the TV show 'The Office' as a fully realized theory of management, which supercedes both the Peter Principle and the Dilbert Principles."
+  tags: ['business', 'management']
   
   

@@ -100,6 +100,9 @@ figure.highlight {
   /* Jekyll's highlight tag creates a figure.highlight; there should be no extra space then */
   padding: 0;
   margin: 0;
+  
+  /* keeps code highlighting from screwing up the layout in smaller screens */
+  word-break: break-word;
 }
 
 dl {

@@ -375,5 +375,9 @@
   authors: Venkatesh Rao
   description: "Seeing the TV show 'The Office' as a fully realized theory of management, which supercedes both the Peter Principle and the Dilbert Principle."
   tags: ['business', 'favorite', 'management']
-  
+- url: https://research.swtch.com/deps
+  title: Our Software Dependency Problem
+  authors: Russ Cox
+  description: A critical examination on dependency management practices.
+  tags: ['computing', 'dependencies', 'programming']
   

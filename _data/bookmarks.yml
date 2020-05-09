@@ -380,4 +380,8 @@
   authors: Russ Cox
   description: A critical examination on dependency management practices.
   tags: ['computing', 'dependencies', 'programming']
-  
+- url: https://www.brandonsmith.ninja/blog/libraries-not-frameworks
+  title: Write Libraries, Not Frameworks
+  authors: Brandon Smith
+  description: "A reasoned argument for, by and large, preferring libraries to frameworks if they aren't called for."
+  tags: ['computing', 'programming']

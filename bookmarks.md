@@ -5,7 +5,7 @@ title: Bookmarks
 
 # Bookmarks
 
-As [promised](/2019/06/11/to-remember-is-to-live.html), here's some stuff that has interested, educated and/or amused me over the years. At least those which are still around for me to link to :)
+As [promised](/2019/06/11/to-remember-is-to-live), here's some stuff that has interested, educated and/or amused me over the years. At least those which are still around for me to link to :)
 
 {% assign sorted_tags = site.data.bookmarks | map: 'tags' | join: ',' | downcase | split: ',' | group_by_exp: 'item', 'item' | sort: 'name' %}
 {% assign max_count = sorted_tags | map: 'size' | sort | last | times: 1.0 %}

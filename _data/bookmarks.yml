@@ -385,3 +385,8 @@
   authors: Brandon Smith
   description: "A reasoned argument for, by and large, preferring libraries to frameworks if they aren't called for."
   tags: ['computing', 'programming']
+- url: https://ollef.github.io/blog/posts/query-based-compilers.html
+  title: Query-based compiler architectures
+  authors: Olle Fredriksson
+  description: Why building a compiler around a query system (database?) instead of a pipeline may yield significant advantages for your language tooling.
+  tags: ['compiler', 'computing', 'language', 'programming']

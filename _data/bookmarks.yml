@@ -390,3 +390,8 @@
   authors: Olle Fredriksson
   description: Why building a compiler around a query system (database?) instead of a pipeline may yield significant advantages for your language tooling.
   tags: ['compiler', 'computing', 'language', 'programming']
+- url: https://www.raphkoster.com/games/links/
+  title: Links - Raph's Website
+  authors: Raph Koster
+  description: A collection of links about MUDs and game design in general.
+  tags: ['design', 'game', 'RPG']

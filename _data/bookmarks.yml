@@ -400,3 +400,8 @@
   authors: Eric S. Raymond
   description: Writing documentation should not be seen as a chore, but as an integral part of software design, yielding, among other things, better code more easily shared with less effort.
   tags: ['computing', 'design', 'documentation', 'programming', 'writing']
+- url: http://esr.ibiblio.org/?p=4532
+  title: Ground-truth documents
+  authors: Eric S. Raymond
+  description: Documentation which describes not intent or promises, but simply what is, warts and all, can be valuable when interfacing with other software and hardware, and may evolve to become matter-of-fact specs.
+  tags: ['computing', 'documentation', 'programming']

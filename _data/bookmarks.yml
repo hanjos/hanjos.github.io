@@ -156,7 +156,7 @@
   title: How to write narrative documentation
   authors: Eric S. Raymond
   description: How and why write good documentation for your code.
-  tags: ['computing', 'programming', 'writing']
+  tags: ['computing', 'documentation', 'programming', 'writing']
 - url: https://www.archive.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf
   title: Reflections on Trusting Trust
   authors: Ken Thompson
@@ -399,4 +399,4 @@
   title: Documentation as knowledge capture
   authors: Eric S. Raymond
   description: Writing documentation should not be seen as a chore, but as an integral part of software design, yielding, among other things, better code more easily shared with less effort.
-  tags: ['computing', 'design', 'documentation', 'programming']
+  tags: ['computing', 'design', 'documentation', 'programming', 'writing']

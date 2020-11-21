@@ -395,3 +395,8 @@
   authors: Raph Koster
   description: A collection of links about MUDs and game design in general.
   tags: ['design', 'game', 'RPG']
+- url: http://esr.ibiblio.org/?p=8741
+  title: Documentation as knowledge capture
+  authors: Eric S. Raymond
+  description: Writing documentation should not be seen as a chore, but as an integral part of software design, yielding, among other things, better code more easily shared with less effort.
+  tags: ['computing', 'design', 'documentation', 'programming']

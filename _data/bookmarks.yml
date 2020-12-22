@@ -405,3 +405,8 @@
   authors: Eric S. Raymond
   description: Documentation which describes not intent or promises, but simply what is, warts and all, can be valuable when interfacing with other software and hardware, and may evolve to become matter-of-fact specs.
   tags: ['computing', 'documentation', 'programming']
+- url: http://curtclifton.net/papers/MoseleyMarks06a.pdf
+  title: Out of the Tar Pit
+  authors: ['Ben Moseley', 'Peter Marks']
+  description: "Accidental vs essential complexity, common causes of complexity, and how functional programming and Codd's relational model may help."
+  tags: ['computing', 'complexity', 'paper', 'programming']

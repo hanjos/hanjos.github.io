@@ -410,3 +410,8 @@
   authors: ['Ben Moseley', 'Peter Marks']
   description: "Accidental vs essential complexity, common causes of complexity, and how functional programming and Codd's relational model may help."
   tags: ['computing', 'complexity', 'paper', 'programming']
+- url: https://groups.google.com/g/light-table-discussion/c/2csnnNA1pfo/m/693EWDJVhuwJ?pli=1
+  title: Version 0.8 - status or lack thereof
+  authors: Chris Granger
+  description: A honest assessment of Light Table and the author's BOT architecture. "BOT filled its goals of an architecture that is infinitely extensible and runtime modifiable, but that degree of power came at a cost - despite its simplicity the resulting program is very hard to follow. I've recently come to understand that this is because mixins are fundamentally an anti-pattern and BOT is basically dynamic mixins."
+  tags: [ 'architecture', 'computing', 'ECS', 'programming' ]

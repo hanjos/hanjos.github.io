@@ -20,7 +20,7 @@
   url: https://github.com/hanjos/genericcons
   description: An amusing, Lisp-inspired trick for Java generics to accept an open-ended list of type variables. The possibility occurred to me one day, and I'd messed around with [type tokens](http://gafter.blogspot.com/2006/12/super-type-tokens.html) before, so it was a quick hack :)
   tags: ['favorite', 'generics', 'Java', 'token', 'type']
-  docs: '[Javadoc](https://sbrubbles.org/genericcons/docs/0.4/apidocs/index.html)'
+  docs: '[Javadoc](https://sbrubbles.org/genericcons/docs/0.5/apidocs/index.html)'
 - title: leg
   url: https://github.com/keplerproject/leg
   description: A complete Lua 5.1 grammar in LPeg, along with some functions to use and modify it. I don't maintain it, but I wrote the initial version (holy crap, I'm old...).

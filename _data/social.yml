@@ -8,18 +8,18 @@
   url: mailto:h.anjos@sbrubbles.org
   icon: icons/email.svg
   alt: E-mail
-- network: Github
+- network: GitHub
   profile: hanjos
   url: https://github.com/hanjos
   icon: icons/github-circle.svg
-  alt: Github
+  alt: GitHub
 - network: Steam
   profile: To Punch Garlic
   url: https://steamcommunity.com/id/topunchgarlic
   icon: icons/steam.svg
   alt: Steam
-- network: Wordpress
-  profile: humanjos
-  url: https://patosdoinferno.wordpress.com/author/humanjos/
-  icon: icons/wordpress.svg
-  alt: My posts in a multi-author blog in Portuguese
+- network: LinkedIn
+  profile: humberto-anjos-7b005b95
+  url: https://www.linkedin.com/in/humberto-anjos-7b005b95/
+  icon: icons/linkedin.svg
+  alt: LinkedIn

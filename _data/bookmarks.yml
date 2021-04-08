@@ -420,4 +420,8 @@
   authors: Michael Wittenburg
   description: A short and to-the-point essay about, well, good technical writing :)
   tags: ['documentation', 'writing']
-  
+- url: https://whatever.scalzi.com/2010/06/16/the-failure-state-of-clever/
+  title: The Failure Mode of Clever
+  authors: John Scalzi
+  description: Be careful when trying to sound clever, especially with someone you don't know well.
+  tags: [ 'documentation', 'writing' ]

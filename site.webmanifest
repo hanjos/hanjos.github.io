@@ -1,6 +1,7 @@
 {
     "name": "Humberto's personal site",
     "short_name": "Sbrubbles!",
+    "start_url": "https://sbrubbles.org", 
     "icons": [
         {
             "src": "/assets/images/android-chrome-512x512.png",

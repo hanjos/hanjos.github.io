@@ -8,7 +8,7 @@ Buying this domain has been quite a trip to the past, spurring a desire to rescu
 
 Anyway, my old Go code reminded me of [vanity imports](https://golang.org/cmd/go/#hdr-Remote_import_paths). My Java code already lives under an `org.sbrubbles` package anyway (which is what inspired the purchase of this domain); my Go code should be domain-spaced as well, right? So let's see if I got this...
 
-### Mirror, mirror, on the wall...
+## Mirror, mirror, on the wall...
 
 A common convention to avoid package name collisions is to use the owner's domain as part of the names. This hitches a ride on DNS to help ensure unique naming, and is how [Java does it](https://docs.oracle.com/javase/tutorial/java/package/namingpkgs.html), among others. `go get` uses the same idea, except that the package name, more than just a convention, is assumed to be an URL where Go can find the corresponding code, or at least a pointer to where it actually is. 
 
@@ -49,7 +49,7 @@ For `sbrubbles.org/go/nexus`, here's the `go-source`:
 
 Each subpackage should have an HTML of their own, since that's what `go get` tries to access. But they all use the exact same `<meta>` as the root package, since they're all hosted in the same repository. 
 
-### Matters of great import
+## Matters of great import
 
 IMHO it's quite an elegant and decentralized solution. But this means there may be at least two different import paths to the same code, which may lead to code duplication, `init` hell and eternal shame. 
 
@@ -63,13 +63,13 @@ package nexus // import "sbrubbles.org/go/nexus"
 
 Go will break the build if the code doesn't come from that URL or can't be found in that path.
 
-### "You really scared me, Master Bruce. If you had died... Who employs butlers anymore?"
+## "You really scared me, Master Bruce. If you had died... Who employs butlers anymore?"
 
 All this HTML needs to be served somewhere. One can go old school (subpackages might be a pain), but there's tons of great static site generators out here (this blog is in [Jekyll](https://jekyllrb.com/), but I hear great things about [Nanoc](https://nanoc.ws/) and [Hugo](https://gohugo.io/), for example), so this is the easy part :)
 
 Don't go crazy on the HTML; Go uses an [XML parser](https://github.com/golang/go/blob/1102616/src/cmd/go/internal/get/discovery.go#L32) to extract the `<meta>`, which means it may choke on CSS or JavaScript. The examples I've seen basically just add a redirect to the package's documentation on [GoDoc](https://godoc.org/), in the eventuality of a browser wandering its way there.
 
-### Kurzgesagt
+## Kurzgesagt
 
 Putting everything together, here's the HTML at `sbrubbles.org/go/nexus`:
 
@@ -88,7 +88,7 @@ Nothing to see here; <a href="https://godoc.org/sbrubbles.org/go/nexus">move alo
 </html>
 {% endhighlight %}
 
-### In vain?
+## In vain?
 
 Now, after all of that being said... 
 

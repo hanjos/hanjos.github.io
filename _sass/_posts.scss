@@ -18,20 +18,21 @@ article {
     }
     
     .content {
-      h2::before, h3::before, h4::before {
-          margin-right: 0.5em;
-          color: $orange;
-      }
-      
       h2::before {
+        margin-right: 0.5em;
+        color: $orange;
         content: "#";
       }
       
       h3::before {
+        margin-right: 0.5em;
+        color: $orange;
         content: "*";
       }
       
       h4::before {
+        margin-right: 0.5em;
+        color: $orange;
         content: ".";
       }
     }

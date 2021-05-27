@@ -14,6 +14,25 @@ article {
         vertical-align: bottom; /* lines up images inside links with the surrounding text */
       }
     }
+    
+    .content {
+      h2::before, h3::before, h4::before {
+          margin-right: 0.5em;
+          color: $orange;
+      }
+      
+      h2::before {
+        content: "#";
+      }
+      
+      h3::before {
+        content: "*";
+      }
+      
+      h4::before {
+        content: ".";
+      }
+    }
   }
 
   .subtitle, .meta {

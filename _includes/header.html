@@ -10,7 +10,7 @@
       {% for item in site.data.navigation %}
         <li><a href='{{ item.link }}' class='navigation-link {% if page.url == item.link %}current{% endif %}'>
           <span class='only-md'>{{ item.name }}</span>
-          <span class='only-sm'>{% include {{ item.icon }} %}</span>
+          <span class='only-sm nav-icon'>{% include {{ item.icon }} %}</span>
         </a></li>
       {% endfor %}
       </ul>

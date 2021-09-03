@@ -43,6 +43,7 @@ body {
     nav svg {
       width: 1.5em;
       height: 1.5em;
+      display: block; /* centers to svg in the span */
     }
   }
 

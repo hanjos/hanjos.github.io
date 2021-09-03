@@ -8,6 +8,11 @@
   url: https://github.com/hanjos
   icon: icons/github-circle.svg
   alt: GitHub
+- network: Steam
+  profile: To Punch Garlic
+  url: https://steamcommunity.com/id/topunchgarlic
+  icon: icons/steam.svg
+  alt: Steam
 - network: LinkedIn
   profile: humberto-anjos-7b005b95
   url: https://www.linkedin.com/in/humberto-anjos-7b005b95/

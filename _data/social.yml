@@ -3,21 +3,11 @@
   url: https://sbrubbles.org/feed.xml
   icon: icons/rss.svg
   alt: The site feed
-- network: E-mail
-  profile: h.anjos
-  url: mailto:h.anjos@sbrubbles.org
-  icon: icons/email.svg
-  alt: E-mail
 - network: GitHub
   profile: hanjos
   url: https://github.com/hanjos
   icon: icons/github-circle.svg
   alt: GitHub
-- network: Steam
-  profile: To Punch Garlic
-  url: https://steamcommunity.com/id/topunchgarlic
-  icon: icons/steam.svg
-  alt: Steam
 - network: LinkedIn
   profile: humberto-anjos-7b005b95
   url: https://www.linkedin.com/in/humberto-anjos-7b005b95/

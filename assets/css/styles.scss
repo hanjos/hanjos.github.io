@@ -97,9 +97,13 @@ body {
       border-radius: 1.5em;
     }
 
-    .external_profile svg {
-      width: 48px;
-      height: 48px;
+    .external_profile {
+      padding: 0.25em; 
+      
+      svg {
+        width: 48px;
+        height: 48px;
+      }
     }
 
     li {

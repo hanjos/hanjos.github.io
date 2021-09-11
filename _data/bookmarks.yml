@@ -425,3 +425,9 @@
   authors: John Scalzi
   description: Be careful when trying to sound clever, especially with someone you don't know well.
   tags: [ 'documentation', 'writing' ]
+- url: http://esr.ibiblio.org/?p=8270
+  title: Declarative is greater than imperative
+  authors: Eric S. Raymond
+  description: 'A lesson learned/reinforced while writing a replacement for sloccount: "Simple code plus smart data is better than enough smart code to do the same job."'
+  tags: [ 'computing', 'programming' ]
+  

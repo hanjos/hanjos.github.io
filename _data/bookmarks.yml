@@ -424,10 +424,15 @@
   title: The Failure Mode of Clever
   authors: John Scalzi
   description: Be careful when trying to sound clever, especially with someone you don't know well.
-  tags: [ 'documentation', 'writing' ]
+  tags: ['documentation', 'writing']
 - url: http://esr.ibiblio.org/?p=8270
   title: Declarative is greater than imperative
   authors: Eric S. Raymond
   description: 'A lesson learned/reinforced while writing a replacement for sloccount: "Simple code plus smart data is better than enough smart code to do the same job."'
-  tags: [ 'computing', 'programming' ]
+  tags: ['computing', 'programming']
+- url: http://www.catb.org/~esr/faqs/hacker-howto.html
+  title: How To Become a Hacker
+  authors: Eric S. Raymond
+  description: 'The (old school) hacker mindset and how to adopt it, building on the Jargon File.'
+  tags: ['computing', 'history', 'programming']
   

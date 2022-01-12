@@ -440,3 +440,8 @@
   authors: Martin Fowler
   description: Several observations about the challenges and current practice of software integration. "Integration isn't primarily about connecting systems; it's about putting clean interfaces in front of digital capabilities, emphasizing capabilities over systems."
   tags: ['computing', 'programming']
+- url: https://rangevoting.org/Asset.html
+  title: Asset voting – an interesting and very simple multiwinner voting system
+  authors: Warren D. Smith
+  description: Asset voting is an "unconventional" voting system in which both the voters and the candidates participate. It's designed for situations where several (not just one) "winner" is to be selected from a field of candidates.
+  tags: ['politics', 'voting']

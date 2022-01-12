@@ -445,3 +445,8 @@
   authors: Warren D. Smith
   description: Asset voting is an "unconventional" voting system in which both the voters and the candidates participate. It's designed for situations where several (not just one) "winner" is to be selected from a field of candidates.
   tags: ['politics', 'voting']
+- url: https://astralcodexten.substack.com/p/lewis-carroll-invented-retroactive
+  title: Lewis Carroll Invented Retroactive Public Goods Funding In 1894
+  authors: Scott Alexander
+  description: An oft-reinvented idea to fund public goods.
+  tags: ['economics']

@@ -455,9 +455,14 @@
   authors: Eliezer Yudkowsky
   description: '"Take no pride in your confession that you too are biased; do not glory in your self-awareness of your flaws. This is akin to the principle of not taking pride in confessing your ignorance; for if your ignorance is a source of pride to you, you may become loath to relinquish your ignorance when evidence comes knocking."'
   tags: ['rationality']
+- url: https://www.lesswrong.com/posts/YABJKJ3v97k9sbxwg/what-money-cannot-buy
+  title: What Money Cannot Buy
+  authors: John Wentworth
+  description: Basically, expertise. How can you identify expertise without being an expert yourself?
+  tags: ['economics', 'expertise', 'rationality']
 - url: https://www.lesswrong.com/posts/wEebEiPpEwjYvnyqq/when-money-is-abundant-knowledge-is-the-real-wealth
   title: When Money Is Abundant, Knowledge Is The Real Wealth
-  authors: John S. Wentworth
+  authors: John Wentworth
   description: '"When non-experts cannot distinguish true expertise from noise, money cannot buy expertise. Knowledge cannot be outsourced; we must understand things ourselves."'
   tags: ['economics', 'rationality']
   

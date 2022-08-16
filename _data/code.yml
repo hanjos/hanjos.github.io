@@ -33,6 +33,6 @@
 - title: conditio
   url: https://github.com/hanjos/conditio-java
   description: A simple condition system for Java, somewhat inspired by [Common Lisp](https://gigamonkeys.com/book/beyond-exception-handling-conditions-and-restarts.html), but without dynamic variables or reflection wizardry; `try`-with-resources seems to do the trick :)
-  docs: '[Javadoc](https://sbrubbles.org/conditio-java/docs/0.3.0/apidocs/index.html)'
+  docs: '[Javadoc](https://sbrubbles.org/conditio-java/docs/0.5.0/apidocs/index.html)'
   tags: ['Java', 'conditions', 'favorite']
 

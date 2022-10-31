@@ -18,3 +18,8 @@
   url: https://www.linkedin.com/in/humberto-anjos-7b005b95/
   icon: icons/linkedin.svg
   alt: LinkedIn
+- network: Mastodon
+  profile: hanjos
+  url: https://mastodon.online/@hanjos
+  icon: icons/mastodon.svg
+  alt: Mastodon

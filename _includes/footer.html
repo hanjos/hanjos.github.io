@@ -6,7 +6,7 @@
     <address>
       <ul>
         {% for profile in site.data.social %}
-        <li><a href='{{ profile.url }}' title='{{ profile.alt }}'>
+        <li><a rel='me' href='{{ profile.url }}' title='{{ profile.alt }}'>
           <span class='external_profile'>{% include {{ profile.icon }} %}</span>
         </a></li>
         {% endfor %}

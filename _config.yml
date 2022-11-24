@@ -1,6 +1,8 @@
 name: "Sbrubbles"
+title: "Humberto's personal site"
 description: "My personal site."
-url: https://sbrubbles.org
+url: "https://sbrubbles.org"
+baseurl: ""
 author: "Humberto Anjos"
 profile_image: assets/images/profile.jpg
 
@@ -23,6 +25,15 @@ defaults:
       license: "cc-by"
       image: "assets/images/profile.jpg"
 
+include: [ "/.well-known" ]
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  
 plugins:
   - jekyll-feed
   - jekyll-sitemap

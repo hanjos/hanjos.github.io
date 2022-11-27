@@ -3,7 +3,7 @@ layout: default
 title: Hi!
 ---
 
-My name is **Humberto Anjos**. This is my own cozy little corner of the Internet, a place to pile up any random links, musings and experiments I develop/stumble on along the way. 
+My name is **<a href="https://sbrubbles.org/" class="h-card" rel="me">Humberto Anjos</a>**. This is my own cozy little corner of the Internet, a place to pile up any random links, musings and experiments I develop/stumble on along the way. 
 
 And I've been using `org.sbrubbles` as my Java package root for years, so it's neat to finally own the domain :) 
 

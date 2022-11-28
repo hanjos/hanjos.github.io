@@ -5,6 +5,7 @@ url: "https://sbrubbles.org"
 baseurl: ""
 author: "Humberto Anjos"
 profile_image: assets/images/profile.jpg
+email: h.anjos@sbrubbles.org
 
 permalink: pretty
 highlighter: rouge

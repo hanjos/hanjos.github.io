@@ -1,25 +1,25 @@
 - network: sbrubbles.org
-  profile: sbrubbles.org
+  handle: sbrubbles.org
   url: https://sbrubbles.org/feed.xml
   icon: icons/rss.svg
   alt: The site feed
 - network: GitHub
-  profile: hanjos
+  handle: hanjos
   url: https://github.com/hanjos
   icon: icons/github-circle.svg
   alt: GitHub
 - network: Steam
-  profile: To Punch Garlic
+  handle: To Punch Garlic
   url: https://steamcommunity.com/id/topunchgarlic
   icon: icons/steam.svg
   alt: Steam
 - network: LinkedIn
-  profile: humberto-anjos-7b005b95
+  handle: humberto-anjos-7b005b95
   url: https://www.linkedin.com/in/humberto-anjos-7b005b95/
   icon: icons/linkedin.svg
   alt: LinkedIn
 - network: Mastodon
-  profile: hanjos
-  url: https://sbrubbles.org/@hanjos
+  handle: hanjos
+  url: https://functional.cafe/@hanjos
   icon: icons/mastodon.svg
   alt: Mastodon

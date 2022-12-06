@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/hanjos
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://sbrubbles.org
+  * I am hanjos (https://keybase.io/hanjos) on keybase.
+  * I have a public key with fingerprint F4D8 FC6E F340 9BA7 E0F1  13AA FBCC BB81 FC5A 576C
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010174d36eaf319c8517c4005accdad4bc26099490fd9f9260bf4830e4f5525285f70a",
+      "fingerprint": "f4d8fc6ef3409ba7e0f113aafbccbb81fc5a576c",
+      "host": "keybase.io",
+      "key_id": "fbccbb81fc5a576c",
+      "kid": "010174d36eaf319c8517c4005accdad4bc26099490fd9f9260bf4830e4f5525285f70a",
+      "uid": "9b28475bc29159126e38b5b093fc5619",
+      "username": "hanjos"
+    },
+    "service": {
+      "hostname": "sbrubbles.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1670360896,
+  "expire_in": 157680000,
+  "prev": "a74717dec461b48fbb225d8873bfb38d98949f3b8832e610d021d769a96b3e26",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIiAnicrVJZSBVRGL4ulRmGGBgiaYwZiNuZ/cyFaMWQ6vpUhGiXc2bOuU7azG1m
+ruZSmVAQCZqSRJgtmBGFttKeS1mQPUSBETcoaCV6aCGjHqIzYm89dl4O5z/f8v8f
+/720pEBqQm/vxjUZT7JCCROjPbGA3jG0opnDttHIBZu5WjJ9kTqDuF641jS4IAd4
+wKuSISoEUZHXdCjzqi4BICNdN5AhYV1QgKZJGqCGRjX2wFSCIiASlWVBFqBMVYC4
+Io6aVoQ4Uce0PCZLJQNSXSFUlICGkUoA5XkRIYp1HWPIU11GsqrojFhjuz6DNYeR
+S0pMm9XYIzzd3j/w/7nv2LSchgUoqTJjabys8YJCRIhlDDSROSu85gNd4lhoG2Ho
+GmRttV1uZxHHavWmTvxY/Tlm/l3sxDCuI26J7UQYNerYnq3bdT7V86Ju0Kd6jVEf
+20BweEYljE3LYDEyRj1xXNO2uCDPkLpn+rK8ogJRAVBTijiyI2o6JGz6CJYLBOz4
+PqSeSSJVUnnVILqk8FiCFGNBkA0IVRFTLEJDgywXKmIIRYEoPDCAwBuqoiFNwSIR
+FM6fa7tlc0Hm5KGIP5EZsZAXcwi3c2ykKjmQkBqYPSvRX69A6tz0v0u39kpK4Hjl
+q0hbPvPJPBLfm3t1S/HnN2BxYTz5XcXz1qkUZ2F3xtjtUMP46aY7FzJGCxr33Uq8
+ZsEpLvQs7UN50tsvPV272wrOhqsHNrQEqqxK+vF1zoHSsqnOVcP5MC88vkk8tQg0
+HZDy6ocuZSYMkq8/+g6euz54c3Blrljck/513otjS7ubZlWlF57IuXimdd1w6PGh
+T/GJzeHS1hftseXz727Mv/zz0e6P+/tqE+uSat/3P+7X28TzgPQuSczsKEQtAxte
+dg6j0I3GQHX2N7n9e1rwYVZ5vOzBp3XJ60+t/jUyafy+X2lkV9RUWrtuH5495+ij
+7JZle04+LY0umLxJm4e6/gD/tzi9
+=pnRj
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hanjos
+
+==================================================================

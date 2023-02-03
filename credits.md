@@ -12,7 +12,7 @@ Some projects of mine use assets which require properly crediting the authors. S
 {% assign sorted_projects = site.data.credits | sort: 'title', 'last' %}
 {% for project in sorted_projects %}
   <details>
-  <summary><h2>{{ project.title }}</h2></summary>
+  <summary><h2 id="#{{ project.title | slugify: 'latin' }}">{{ project.title }}</h2></summary>
   {% assign sorted_entries = project.credits | sort: 'title', 'last' %}
 
   {% for entry in sorted_entries %}

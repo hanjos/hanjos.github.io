@@ -10,3 +10,6 @@
 - name: Posts
   link: /posts/
   icon: icons/fountain-pen-tip.svg
+- name: Credits
+  link: /credits/
+  icon: icons/creation.svg

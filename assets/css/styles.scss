@@ -107,11 +107,6 @@ body {
       }
     }
 
-    img.anchor {
-      height: 1em;
-      padding-top: 0.25em;
-    }
-
     li {
       list-style: none;
     }
@@ -137,6 +132,11 @@ img.banner {
   margin: auto;
   height: auto;
   padding: 1em 0;
+}
+
+img.anchor {
+  height: 1em;
+  padding-top: 0.25em;
 }
 
 @media (min-width: $mid-screen-width) {

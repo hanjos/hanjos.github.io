@@ -3,5 +3,5 @@
     - url: https://github.com/tgoorden/pulsar-map
       title: pulsar-map
       authors: Thomas Goorden
-      description: A recreation and modification of the Pioneer/Voyager pulsar map with Coffeescript/PaperJS. End result modified to remove the white background from the text nodes.
+      description: A recreation and modification of the Pioneer/Voyager pulsar map with Coffeescript/PaperJS. I used it to generate an SVG, which I later modified to remove the white background from the text nodes.
       

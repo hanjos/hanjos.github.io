@@ -5,7 +5,9 @@ title: Credits
 
 # Credits
 
-Some projects of mine use assets which require properly crediting the authors. So here it goes:
+Some projects of mine use certain assets, which require properly crediting the authors. In other cases, I'm not _required_ to do so, but I thought it'd be nice :) 
+
+So here it goes:
 
 {% if site.data.credits.size > 0 %}
 <dl>

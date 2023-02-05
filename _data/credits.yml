@@ -1,2 +1,7 @@
 - title: Mondrian tupiniquim nerd
-  credits: []
+  credits: 
+    - url: https://github.com/tgoorden/pulsar-map
+      title: pulsar-map
+      authors: Thomas Goorden
+      description: A recreation and modification of the Pioneer/Voyager pulsar map with Coffeescript/PaperJS. End result modified to remove the white background from the text nodes.
+      

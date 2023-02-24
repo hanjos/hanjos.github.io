@@ -4,4 +4,16 @@
       title: pulsar-map
       authors: Thomas Goorden
       description: A recreation and modification of the Pioneer/Voyager pulsar map with Coffeescript/PaperJS. I used it to generate an SVG, which I later modified to remove the white background from the text nodes.
+    - url: https://commons.wikimedia.org/wiki/File:Palmeiras_logo.svg
+      title: Palmeiras logo
+      authors: Sociedade Esportiva Palmeiras
+      description: Where I got the inner "P", as a shorthand for the whole logo.
+    - url: https://thenounproject.com/icon/katana-974224/
+      title: Katana
+      authors: Michael T (Noun Project)
+      description: Adapted the original icon, as per CC BY 3.0.
+    - url: https://thenounproject.com/icon/lightsaber-lit-957351/
+      title: Lightsaber Lit
+      authors: Joel Wisneski
+      description: Adapted the original icon, as per CC BY 3.0.
       

@@ -20,4 +20,10 @@
       title: rapier
       authors: Michael T
       description: Adapted the original icon, as per CC BY 3.0.
+- title: Maps
+  credits:
+    - url: https://download.geofabrik.de/
+      title: OpenStreetMap Data Extracts
+      authors: GeoFabrik, OpenStreetMap
+      description: Data extracts from OpenStreetMap.
       

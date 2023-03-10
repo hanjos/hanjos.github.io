@@ -26,4 +26,8 @@
       title: OpenStreetMap Data Extracts
       authors: GeoFabrik, OpenStreetMap
       description: Data extracts from OpenStreetMap.
+    - url: https://osmdata.openstreetmap.de/
+      title: Data Derived from OpenStreetMap for Download
+      authors: FOSSGIS
+      description: Where I got the coastlines.
       

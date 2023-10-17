@@ -30,9 +30,14 @@
   url: https://github.com/keplerproject/shake
   description: A simple and transparent test engine for Lua 5.1, which uses [leg](https://github.com/keplerproject/leg). I don't maintain it, but I wrote the initial core (wow, it has been a while...).
   tags: ['Lua', 'test']
-- title: conditio
+- title: conditio-java
   url: https://github.com/hanjos/conditio-java
   description: A simple condition system for Java, somewhat inspired by [Common Lisp](https://gigamonkeys.com/book/beyond-exception-handling-conditions-and-restarts.html), but without dynamic variables or reflection wizardry; `try`-with-resources seems to do the trick :)
   docs: '[Javadoc](https://sbrubbles.org/conditio-java/docs/0.6.0/apidocs/index.html)'
   tags: ['Java', 'conditions', 'favorite']
+- title: conditio-clj
+  url: https://github.com/hanjos/conditio-clj
+  description: A simple condition system for Clojure. I hadn't used Clojure in years, so this seemed as good an excuse as any :)
+  docs: '[Docs](https://sbrubbles.org/conditio-clj/docs/0.1.0/index.html)'
+  tags: ['Clojure', 'conditions', 'favorite']
 

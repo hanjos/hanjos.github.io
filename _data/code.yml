@@ -38,6 +38,6 @@
 - title: conditio-clj
   url: https://github.com/hanjos/conditio-clj
   description: A simple condition system for Clojure. I hadn't used Clojure in years, so this seemed as good an excuse as any :)
-  docs: '[Docs](https://sbrubbles.org/conditio-clj/docs/0.1.0/index.html)'
+  docs: '[Docs](https://sbrubbles.org/conditio-clj/docs/0.2.0/index.html)'
   tags: ['Clojure', 'conditions', 'favorite']
 
